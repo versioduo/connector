@@ -171,7 +171,7 @@
 			(symbol "V2-logo_1_0"
 				(polyline
 					(pts
-						(xy -3.302 2.54) (xy 3.048 2.54) (xy 3.048 -2.54) (xy -3.302 -2.54) (xy -3.302 -1.27)
+						(xy -3.302 2.54) (xy 2.54 2.54) (xy 2.54 -2.54) (xy -3.302 -2.54) (xy -3.302 -1.27)
 					)
 					(stroke
 						(width 0.3)
@@ -181,11 +181,14 @@
 						(type none)
 					)
 				)
+			)
+			(symbol "V2-logo_1_1"
 				(text "V2"
-					(at -0.2055 -0.4053 0)
+					(at -0.508 -0.254 0)
 					(effects
 						(font
 							(size 3 3)
+							(thickness 0.375)
 						)
 					)
 				)
@@ -1500,7 +1503,7 @@
 		(lib_id "V2_Connector_WAGO:2604-1101")
 		(at 129.54 74.93 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -1550,6 +1553,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Enable" "0"
+			(at 129.54 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b5f2d01d-2a39-47a2-9750-f758a1142d78")
 		)
@@ -1566,7 +1578,7 @@
 		(lib_id "V2_Artwork:V2-logo")
 		(at 209.55 166.37 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -1610,6 +1622,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 209.55 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" "0"
 			(at 209.55 166.37 0)
 			(effects
 				(font
@@ -1697,7 +1718,7 @@
 		(lib_id "V2_Artwork:Plus")
 		(at 175.26 170.18 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -1749,6 +1770,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Enable" "0"
+			(at 175.26 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "power-poe"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
@@ -1762,7 +1792,7 @@
 		(lib_id "V2_Connector_WAGO:2604-1101")
 		(at 175.26 74.93 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -1812,6 +1842,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Enable" "0"
+			(at 175.26 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "557cb78a-d43f-4674-a11e-a6a6eee7c78c")
 		)
@@ -1828,7 +1867,7 @@
 		(lib_id "V2_Connector_WAGO:2604-1101")
 		(at 175.26 82.55 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -1870,6 +1909,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 175.26 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" "0"
 			(at 175.26 82.55 0)
 			(effects
 				(font
@@ -2027,7 +2075,7 @@
 		(lib_id "V2_Production:Order_Number")
 		(at 214.63 179.07 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -2076,6 +2124,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Enable" "0"
+			(at 214.63 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "cube-cover"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
@@ -2089,7 +2146,7 @@
 		(lib_id "V2_Mechanical:MountingHole_5mm")
 		(at 125.73 181.61 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -2132,6 +2189,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 125.73 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" "0"
 			(at 125.73 181.61 0)
 			(effects
 				(font
@@ -2285,7 +2351,7 @@
 		(lib_id "V2_Connector_EtherCon:NE8FAV")
 		(at 170.18 118.11 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -2334,6 +2400,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Enable" "0"
+			(at 170.18 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "223fcc3e-8a88-44bb-929b-048188aa5d3b")
 		)
@@ -2374,7 +2449,7 @@
 		(lib_id "V2_Connector_WAGO:2604-1101")
 		(at 129.54 82.55 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -2424,6 +2499,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Enable" "0"
+			(at 129.54 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c7820771-5393-4c6b-9c86-6a8a9ecfc1df")
 		)
@@ -2440,7 +2524,7 @@
 		(lib_id "V2_Artwork:Plus")
 		(at 161.29 170.18 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -2484,6 +2568,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 161.29 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" "0"
 			(at 161.29 170.18 0)
 			(effects
 				(font
@@ -2771,7 +2864,7 @@
 		(lib_id "V2_Connector_EtherCon:NE8FAV")
 		(at 124.46 118.11 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -2820,6 +2913,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Enable" "0"
+			(at 124.46 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2c954686-30ed-45f7-ae6c-9332ea2ac62b")
 		)
@@ -2860,7 +2962,7 @@
 		(lib_id "V2_Mechanical:MountingHole_5mm")
 		(at 125.73 189.23 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -2903,6 +3005,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 125.73 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" "0"
 			(at 125.73 189.23 0)
 			(effects
 				(font
