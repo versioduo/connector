@@ -3934,7 +3934,7 @@
 		(lib_id "V2_Production:Layer_Numbers")
 		(at 228.6 165.1 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -3976,6 +3976,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 228.6 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" "0"
 			(at 228.6 165.1 0)
 			(effects
 				(font
@@ -4132,7 +4141,7 @@
 		(lib_id "V2_PCB_Devices:PCB_Plug_Horizontal")
 		(at 187.96 162.56 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -4175,6 +4184,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 187.96 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" "0"
 			(at 187.96 162.56 0)
 			(effects
 				(font
@@ -4466,7 +4484,7 @@
 		(lib_id "V2_PCB_Devices:PCB_Plug_Horizontal")
 		(at 187.96 148.59 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -4509,6 +4527,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 187.96 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" "0"
 			(at 187.96 148.59 0)
 			(effects
 				(font
@@ -4597,7 +4624,7 @@
 		(lib_id "V2_Connector_USB:JAE_DX07S016JA3")
 		(at 224.79 73.66 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -4638,6 +4665,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 224.79 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" "0"
 			(at 224.79 73.66 0)
 			(effects
 				(font
@@ -4960,7 +4996,7 @@
 		(lib_id "V2_Artwork:Plus")
 		(at 251.46 152.4 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -5003,6 +5039,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 251.46 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" "0"
 			(at 251.46 152.4 0)
 			(effects
 				(font
@@ -5155,7 +5200,7 @@
 		(lib_id "V2_Connector_WAGO:2065")
 		(at 143.51 173.99 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -5204,6 +5249,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Enable" "0"
+			(at 143.51 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3374c576-7cb5-425e-be38-c00801ed5675")
 		)
@@ -5220,7 +5274,7 @@
 		(lib_id "V2_Connector_EtherCon:NE8FAH")
 		(at 54.61 54.61 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -5269,6 +5323,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Enable" "0"
+			(at 54.61 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f5e0d436-e8fb-447b-90ca-fd33017a58a4")
 		)
@@ -5309,7 +5372,7 @@
 		(lib_id "V2_Artwork:Arrow_Out")
 		(at 187.96 179.07 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -5353,6 +5416,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 187.96 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" "0"
 			(at 187.96 179.07 0)
 			(effects
 				(font
@@ -5510,7 +5582,7 @@
 		(lib_id "V2_Connector_Header_1.27mm:2x05_Horizontal")
 		(at 123.19 53.34 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -5550,6 +5622,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 123.19 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" "0"
 			(at 123.19 53.34 0)
 			(effects
 				(font
@@ -5601,7 +5682,7 @@
 		(lib_id "V2_Production:Order_Number")
 		(at 228.6 176.53 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -5642,6 +5723,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 228.6 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" "0"
 			(at 228.6 176.53 0)
 			(effects
 				(font
@@ -5868,7 +5958,7 @@
 		(lib_id "V2_Mechanical:Fiducial_Paste")
 		(at 276.225 152.4 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -5910,6 +6000,15 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
+			(at 276.225 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" "0"
 			(at 276.225 152.4 0)
 			(effects
 				(font
@@ -6131,7 +6230,7 @@
 		(lib_id "V2_Connector_WAGO:2065")
 		(at 143.51 170.18 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -6172,6 +6271,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 143.51 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" "0"
 			(at 143.51 170.18 0)
 			(effects
 				(font
@@ -6263,7 +6371,7 @@
 		(lib_id "V2_Connector_WAGO:2065")
 		(at 88.9 173.99 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -6312,6 +6420,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Enable" "0"
+			(at 88.9 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cd1636de-afdc-4010-be44-dbea5f694bdd")
 		)
@@ -6328,7 +6445,7 @@
 		(lib_id "V2_Connector_Header_1.27mm:2x05_Horizontal")
 		(at 123.19 91.44 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -6368,6 +6485,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 123.19 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" "0"
 			(at 123.19 91.44 0)
 			(effects
 				(font
@@ -6551,7 +6677,7 @@
 		(lib_id "V2_Artwork:24V")
 		(at 251.46 163.83 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -6595,6 +6721,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 251.46 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" "0"
 			(at 251.46 163.83 0)
 			(effects
 				(font
@@ -6747,7 +6882,7 @@
 		(lib_id "V2_Artwork:5V")
 		(at 251.46 147.32 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -6791,6 +6926,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 251.46 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" "0"
 			(at 251.46 147.32 0)
 			(effects
 				(font
@@ -6944,7 +7088,7 @@
 		(lib_id "V2_Mechanical:Fiducial_Paste")
 		(at 276.225 165.1 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -6993,6 +7137,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Enable" "0"
+			(at 276.225 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "power-rj45"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
@@ -7006,7 +7159,7 @@
 		(lib_id "V2_Connector_WAGO:2065")
 		(at 88.9 170.18 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -7047,6 +7200,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 88.9 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" "0"
 			(at 88.9 170.18 0)
 			(effects
 				(font
@@ -7139,7 +7301,7 @@
 		(lib_id "V2_Connector_EtherCon:NE8FAH")
 		(at 54.61 92.71 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -7180,6 +7342,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 54.61 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" "0"
 			(at 54.61 92.71 0)
 			(effects
 				(font
@@ -7294,7 +7465,7 @@
 		(lib_id "V2_Artwork:Plus")
 		(at 251.46 168.91 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -7337,6 +7508,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 251.46 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" "0"
 			(at 251.46 168.91 0)
 			(effects
 				(font
@@ -7424,7 +7604,7 @@
 		(lib_id "V2_Mechanical:Fiducial_Paste")
 		(at 276.225 176.53 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -7466,6 +7646,15 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
+			(at 276.225 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" "0"
 			(at 276.225 176.53 0)
 			(effects
 				(font
@@ -7619,7 +7808,7 @@
 		(lib_id "V2_Artwork:Arrow_In")
 		(at 187.96 173.99 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -7671,6 +7860,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Enable" "0"
+			(at 187.96 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project ""
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
@@ -7684,7 +7882,7 @@
 		(lib_id "V2_Artwork:V2-logo")
 		(at 228.6 148.59 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -7726,6 +7924,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 228.6 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" "0"
 			(at 228.6 148.59 0)
 			(effects
 				(font
