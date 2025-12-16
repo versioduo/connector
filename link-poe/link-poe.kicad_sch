@@ -3624,7 +3624,7 @@
 		)
 		(uuid "1f4776f6-2884-4916-b71f-e7443c7ac514")
 	)
-	(label "+24V-Supply"
+	(label "+24V-Link"
 		(at 78.74 52.07 180)
 		(effects
 			(font
@@ -3684,7 +3684,7 @@
 		)
 		(uuid "554ff3b5-56c2-42f9-9ac8-75d494ff1ebe")
 	)
-	(label "+24V-Supply"
+	(label "+24V-Link"
 		(at 46.99 26.67 0)
 		(effects
 			(font
@@ -3754,7 +3754,7 @@
 		)
 		(uuid "8b95f58c-c2e2-4e5d-bb5d-0e41a10931de")
 	)
-	(label "+24V-Supply"
+	(label "+24V-Link"
 		(at 78.74 90.17 180)
 		(effects
 			(font
@@ -3854,7 +3854,7 @@
 		)
 		(uuid "f87f80e8-36e3-4190-bd29-84f54c178f30")
 	)
-	(label "+24V-Supply"
+	(label "+24V-Link"
 		(at 30.48 158.75 0)
 		(effects
 			(font

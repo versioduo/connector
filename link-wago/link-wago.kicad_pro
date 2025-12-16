@@ -609,7 +609,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "connector-wago-gerber",
+      "plot": "link-wago-gerber",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "connector-wago.step",
