@@ -10,7 +10,7 @@
 
 ## Bill Of Materials
 
-[Interactive BOM](https://htmlpreview.github.io/?https://github.com/versioduo/connector/main/link-poe/link-poe-bom.html)
+[Interactive BOM](https://versioduo.com/view?url=https://raw.githubusercontent.com/versioduo/connector/refs/heads/main/link-poe/link-poe-bom.html)
 
 # Copying
 Anyone can use this public domain work without having to seek authorisation, no one can ever own it.
