@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "V2 Link WAGO")
-		(date "2025-11-17")
+		(date "2026-01-06")
 		(rev "2")
 		(company "Versio Duo")
 		(comment 1 "External Power Supply")
@@ -3169,6 +3169,39 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "PoE Passive +24V\nIEEE 802.3af Mode B"
+		(exclude_from_sim no)
+		(at 46.736 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "107afb20-c612-421a-8e80-bff105ca3b53")
+	)
+	(text "The cables used to connect the device and the power adapter\nreverse the order of the wires."
+		(exclude_from_sim no)
+		(at 95.25 117.094 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(italic yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "43ddef43-7e39-4302-ad02-23e3544fa0f4")
+	)
+	(text "RS-422 3MHz"
+		(exclude_from_sim no)
+		(at 53.594 123.444 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5464ae78-f92d-45e1-b896-f832c4dbbbd5")
+	)
 	(text "Power Input / +5V Power"
 		(exclude_from_sim no)
 		(at 15.24 135.89 0)
@@ -3195,18 +3228,6 @@
 		)
 		(uuid "97bc9137-063a-4fbb-b1a0-c729d31d9ba2")
 	)
-	(text "The cables connecting the device and the power adapter reverse the\norder of the wires. So these connectors are different from the otherwise\nidentical connectors at the device."
-		(exclude_from_sim no)
-		(at 59.69 118.11 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(italic yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "b6844e86-7659-4040-81da-c0a511d97807")
-	)
 	(text "USB"
 		(exclude_from_sim no)
 		(at 179.07 19.05 0)
@@ -3220,7 +3241,7 @@
 		)
 		(uuid "c804688d-ef78-4d0f-9fd5-9e495fb91979")
 	)
-	(text "V2 Link"
+	(text "V2 Link – WAGO"
 		(exclude_from_sim no)
 		(at 15.24 19.05 0)
 		(effects
@@ -3234,7 +3255,7 @@
 		(uuid "d755fbb1-831a-40b0-95d1-e083b6f18b22")
 	)
 	(junction
-		(at 86.36 165.1)
+		(at 77.47 156.21)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "69688e5d-0114-4750-850b-e364ee59203f")
@@ -3371,7 +3392,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 167.64) (xy 104.14 165.1)
+			(xy 95.25 158.75) (xy 95.25 156.21)
 		)
 		(stroke
 			(width 0)
@@ -3521,7 +3542,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 165.1) (xy 86.36 165.1)
+			(xy 95.25 156.21) (xy 77.47 156.21)
 		)
 		(stroke
 			(width 0)
@@ -4079,15 +4100,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 86.36 172.72 0)
+		(at 77.47 163.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "09b12e1c-4dcf-4374-904e-884e738b1c35")
-		(property "Reference" "#PWR0121"
-			(at 86.36 179.07 0)
+		(property "Reference" "#PWR0122"
+			(at 77.47 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4096,7 +4117,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 84.38 178.15 0)
+			(at 75.49 169.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4106,7 +4127,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 86.36 172.72 0)
+			(at 77.47 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4115,7 +4136,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 172.72 0)
+			(at 77.47 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4124,7 +4145,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 86.36 172.72 0)
+			(at 77.47 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4138,7 +4159,7 @@
 		(instances
 			(project "power-rj45"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR0121")
+					(reference "#PWR0122")
 					(unit 1)
 				)
 			)
@@ -4287,7 +4308,7 @@
 	)
 	(symbol
 		(lib_id "V2_Diode:SMAJ36CA")
-		(at 86.36 168.91 90)
+		(at 77.47 160.02 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4296,7 +4317,7 @@
 		(fields_autoplaced yes)
 		(uuid "2222df47-d315-45d7-8daf-e5fc9c19addf")
 		(property "Reference" "TVS101"
-			(at 90.17 168.275 90)
+			(at 81.28 159.385 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4305,7 +4326,7 @@
 			)
 		)
 		(property "Value" "SMAJ36CA"
-			(at 90.17 170.815 90)
+			(at 81.28 161.925 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4314,7 +4335,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 92.075 168.91 0)
+			(at 83.185 160.02 0)
 			(effects
 				(font
 					(size 0.0254 0.0254)
@@ -4323,7 +4344,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 168.91 0)
+			(at 77.47 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4332,7 +4353,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 86.36 168.91 0)
+			(at 77.47 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4424,15 +4445,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 104.14 172.72 0)
+		(at 95.25 163.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "2d2b1203-47b5-49b4-ad5f-bbcb0de8cc62")
-		(property "Reference" "#PWR0122"
-			(at 104.14 179.07 0)
+		(property "Reference" "#PWR0123"
+			(at 95.25 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4441,7 +4462,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 104.14 177.8 0)
+			(at 95.25 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4450,7 +4471,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 104.14 172.72 0)
+			(at 95.25 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4459,7 +4480,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 104.14 172.72 0)
+			(at 95.25 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4468,7 +4489,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 104.14 172.72 0)
+			(at 95.25 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4482,7 +4503,7 @@
 		(instances
 			(project "power-rj45"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR0122")
+					(reference "#PWR0123")
 					(unit 1)
 				)
 			)
@@ -4630,7 +4651,7 @@
 	)
 	(symbol
 		(lib_id "power:+24V")
-		(at 86.36 165.1 0)
+		(at 77.47 156.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4638,8 +4659,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "393b3fc2-29e9-4799-b9a4-7bd6d5fe5ba0")
-		(property "Reference" "#PWR0119"
-			(at 86.36 168.91 0)
+		(property "Reference" "#PWR0118"
+			(at 77.47 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4648,7 +4669,7 @@
 			)
 		)
 		(property "Value" "+24V"
-			(at 86.36 160.02 0)
+			(at 77.47 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4656,7 +4677,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 86.36 165.1 0)
+			(at 77.47 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4665,7 +4686,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 165.1 0)
+			(at 77.47 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4674,7 +4695,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 86.36 165.1 0)
+			(at 77.47 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4688,7 +4709,7 @@
 		(instances
 			(project "link-wago"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR0119")
+					(reference "#PWR0118")
 					(unit 1)
 				)
 			)
@@ -5066,7 +5087,7 @@
 	)
 	(symbol
 		(lib_id "V2_Connector_WAGO:2601-1101")
-		(at 40.64 166.37 0)
+		(at 44.45 175.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5075,7 +5096,7 @@
 		(fields_autoplaced yes)
 		(uuid "4ae79b7c-ee12-42b5-9c61-0d30587fb6a5")
 		(property "Reference" "J106"
-			(at 41.91 166.3699 0)
+			(at 45.72 175.2599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5084,7 +5105,7 @@
 			)
 		)
 		(property "Value" "Conn_01x01"
-			(at 40.64 162.56 0)
+			(at 44.45 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5093,7 +5114,7 @@
 			)
 		)
 		(property "Footprint" "V2_Connector_WAGO:2601-1101"
-			(at 40.386 168.91 0)
+			(at 44.196 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5102,7 +5123,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 40.64 170.18 0)
+			(at 44.45 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5111,7 +5132,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 40.64 166.37 0)
+			(at 44.45 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5120,7 +5141,7 @@
 			)
 		)
 		(property "Sim.Enable" "0"
-			(at 40.64 166.37 0)
+			(at 44.45 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5346,7 +5367,7 @@
 	)
 	(symbol
 		(lib_id "V2_Connector_WAGO:2065")
-		(at 153.67 187.96 0)
+		(at 138.43 179.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5354,7 +5375,7 @@
 		(dnp no)
 		(uuid "59229aee-d785-4427-a2d2-99323f910720")
 		(property "Reference" "J111"
-			(at 156.845 187.96 0)
+			(at 141.605 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5362,7 +5383,7 @@
 			)
 		)
 		(property "Value" "WAGO-2065"
-			(at 153.67 194.31 0)
+			(at 138.43 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5371,7 +5392,7 @@
 			)
 		)
 		(property "Footprint" "V2_Connector_WAGO:2065-100"
-			(at 153.67 191.77 0)
+			(at 138.43 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5380,7 +5401,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 153.67 191.77 0)
+			(at 138.43 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5389,7 +5410,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 153.67 187.96 0)
+			(at 138.43 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5398,7 +5419,7 @@
 			)
 		)
 		(property "Sim.Enable" "0"
-			(at 153.67 187.96 0)
+			(at 138.43 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5592,7 +5613,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 104.14 170.18 0)
+		(at 95.25 161.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5600,7 +5621,7 @@
 		(dnp no)
 		(uuid "65298d35-9787-43b4-a842-021b3924efcc")
 		(property "Reference" "C101"
-			(at 106.68 168.91 0)
+			(at 97.79 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5609,7 +5630,7 @@
 			)
 		)
 		(property "Value" "0u1"
-			(at 106.68 171.45 0)
+			(at 97.79 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5618,7 +5639,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 104.14 170.18 0)
+			(at 95.25 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5627,7 +5648,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 104.14 170.18 0)
+			(at 95.25 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5636,7 +5657,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 104.14 170.18 0)
+			(at 95.25 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6037,7 +6058,7 @@
 	)
 	(symbol
 		(lib_id "V2_Connector_WAGO:2601-1101")
-		(at 40.64 170.18 0)
+		(at 44.45 179.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6046,7 +6067,7 @@
 		(fields_autoplaced yes)
 		(uuid "8973d91d-6718-4770-a6d3-8f5da6c98a8c")
 		(property "Reference" "J107"
-			(at 41.91 170.1799 0)
+			(at 45.72 179.0699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6055,7 +6076,7 @@
 			)
 		)
 		(property "Value" "Conn_01x01"
-			(at 40.64 166.37 0)
+			(at 44.45 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6064,7 +6085,7 @@
 			)
 		)
 		(property "Footprint" "V2_Connector_WAGO:2601-1101"
-			(at 40.386 172.72 0)
+			(at 44.196 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6073,7 +6094,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 40.64 173.99 0)
+			(at 44.45 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6082,7 +6103,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 40.64 170.18 0)
+			(at 44.45 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6091,7 +6112,7 @@
 			)
 		)
 		(property "Sim.Enable" "0"
-			(at 40.64 170.18 0)
+			(at 44.45 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6113,7 +6134,7 @@
 	)
 	(symbol
 		(lib_id "power:+24V")
-		(at 93.98 184.15 90)
+		(at 85.09 175.26 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6122,7 +6143,7 @@
 		(fields_autoplaced yes)
 		(uuid "91445946-1eb7-473b-bb14-54b5d3b14338")
 		(property "Reference" "#PWR0124"
-			(at 97.79 184.15 0)
+			(at 88.9 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6131,7 +6152,7 @@
 			)
 		)
 		(property "Value" "+24V"
-			(at 90.17 184.1499 90)
+			(at 81.28 175.2599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6140,7 +6161,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 93.98 184.15 0)
+			(at 85.09 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6149,7 +6170,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 93.98 184.15 0)
+			(at 85.09 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6158,7 +6179,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 93.98 184.15 0)
+			(at 85.09 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6318,7 +6339,7 @@
 	)
 	(symbol
 		(lib_id "power:+24V")
-		(at 143.51 171.45 90)
+		(at 128.27 162.56 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6326,8 +6347,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a230c320-dbce-46b2-a1d1-08b3366b4a28")
-		(property "Reference" "#PWR0120"
-			(at 147.32 171.45 0)
+		(property "Reference" "#PWR0121"
+			(at 132.08 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6336,7 +6357,7 @@
 			)
 		)
 		(property "Value" "+24V"
-			(at 139.7 171.4499 90)
+			(at 124.46 162.5599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6345,7 +6366,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 143.51 171.45 0)
+			(at 128.27 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6354,7 +6375,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 143.51 171.45 0)
+			(at 128.27 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6363,7 +6384,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 143.51 171.45 0)
+			(at 128.27 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6377,7 +6398,7 @@
 		(instances
 			(project "connector-poe"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR0120")
+					(reference "#PWR0121")
 					(unit 1)
 				)
 			)
@@ -6385,7 +6406,7 @@
 	)
 	(symbol
 		(lib_id "power:+24V")
-		(at 36.83 147.32 270)
+		(at 40.64 162.56 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6394,7 +6415,7 @@
 		(fields_autoplaced yes)
 		(uuid "a54dabbf-3659-4fec-ab6a-ad439de4113b")
 		(property "Reference" "#PWR0117"
-			(at 33.02 147.32 0)
+			(at 36.83 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6403,7 +6424,7 @@
 			)
 		)
 		(property "Value" "+24V"
-			(at 40.64 147.3199 90)
+			(at 44.45 162.5599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6412,7 +6433,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 36.83 147.32 0)
+			(at 40.64 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6421,7 +6442,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 36.83 147.32 0)
+			(at 40.64 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6430,7 +6451,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 36.83 147.32 0)
+			(at 40.64 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6452,7 +6473,7 @@
 	)
 	(symbol
 		(lib_id "V2_Connector_WAGO:2065")
-		(at 153.67 184.15 0)
+		(at 138.43 175.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6460,7 +6481,7 @@
 		(dnp no)
 		(uuid "ab5a52bc-5588-408f-bf77-150d2edf9ad4")
 		(property "Reference" "J109"
-			(at 156.845 184.15 0)
+			(at 141.605 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6468,7 +6489,7 @@
 			)
 		)
 		(property "Value" "WAGO-2065"
-			(at 153.67 190.5 0)
+			(at 138.43 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6477,7 +6498,7 @@
 			)
 		)
 		(property "Footprint" "V2_Connector_WAGO:2065-100"
-			(at 153.67 187.96 0)
+			(at 138.43 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6486,7 +6507,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 153.67 187.96 0)
+			(at 138.43 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6495,7 +6516,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 153.67 184.15 0)
+			(at 138.43 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6504,7 +6525,7 @@
 			)
 		)
 		(property "Sim.Enable" "0"
-			(at 153.67 184.15 0)
+			(at 138.43 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6593,7 +6614,7 @@
 	)
 	(symbol
 		(lib_id "V2_Connector_WAGO:2065")
-		(at 99.06 187.96 0)
+		(at 90.17 179.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6601,7 +6622,7 @@
 		(dnp no)
 		(uuid "b1237348-27fa-47bd-a870-e9fd4fd976c4")
 		(property "Reference" "J110"
-			(at 102.235 187.96 0)
+			(at 93.345 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6609,7 +6630,7 @@
 			)
 		)
 		(property "Value" "WAGO-2065"
-			(at 99.06 194.31 0)
+			(at 90.17 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6618,7 +6639,7 @@
 			)
 		)
 		(property "Footprint" "V2_Connector_WAGO:2065-100"
-			(at 99.06 191.77 0)
+			(at 90.17 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6627,7 +6648,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 191.77 0)
+			(at 90.17 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6636,7 +6657,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 99.06 187.96 0)
+			(at 90.17 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6645,7 +6666,7 @@
 			)
 		)
 		(property "Sim.Enable" "0"
-			(at 99.06 187.96 0)
+			(at 90.17 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6833,7 +6854,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 93.98 187.96 270)
+		(at 85.09 179.07 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6841,7 +6862,7 @@
 		(dnp no)
 		(uuid "b74eaa1d-e401-491b-921d-5e6173cb381f")
 		(property "Reference" "#PWR0126"
-			(at 87.63 187.96 0)
+			(at 78.74 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6850,7 +6871,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 88.9 187.96 90)
+			(at 80.01 179.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6859,7 +6880,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 93.98 187.96 0)
+			(at 85.09 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6868,7 +6889,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 93.98 187.96 0)
+			(at 85.09 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6877,7 +6898,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 93.98 187.96 0)
+			(at 85.09 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7039,7 +7060,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 148.59 184.15 90)
+		(at 133.35 175.26 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7047,7 +7068,7 @@
 		(dnp no)
 		(uuid "c596b77f-3e85-4075-8fba-b23e2132521d")
 		(property "Reference" "#PWR0125"
-			(at 152.4 184.15 0)
+			(at 137.16 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7056,7 +7077,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 143.51 184.15 90)
+			(at 128.27 175.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7064,7 +7085,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 148.59 184.15 0)
+			(at 133.35 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7073,7 +7094,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 148.59 184.15 0)
+			(at 133.35 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7082,7 +7103,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 148.59 184.15 0)
+			(at 133.35 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7245,7 +7266,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 36.83 147.32 90)
+		(at 40.64 162.56 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7253,7 +7274,7 @@
 		(dnp no)
 		(uuid "d5f32978-c184-493b-b9aa-7eb455de601e")
 		(property "Reference" "#FLG0105"
-			(at 34.925 147.32 0)
+			(at 38.735 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7262,7 +7283,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 28.194 147.32 90)
+			(at 32.004 162.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7270,7 +7291,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 36.83 147.32 0)
+			(at 40.64 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7279,7 +7300,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 36.83 147.32 0)
+			(at 40.64 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7288,7 +7309,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 36.83 147.32 0)
+			(at 40.64 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7381,7 +7402,7 @@
 	)
 	(symbol
 		(lib_id "power:+24V")
-		(at 35.56 166.37 90)
+		(at 39.37 175.26 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7389,8 +7410,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d8749acd-d492-41a3-9ed1-612505ed5b5a")
-		(property "Reference" "#PWR0128"
-			(at 39.37 166.37 0)
+		(property "Reference" "#PWR0119"
+			(at 43.18 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7399,7 +7420,7 @@
 			)
 		)
 		(property "Value" "+24V"
-			(at 31.75 166.3699 90)
+			(at 35.56 175.2599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7408,7 +7429,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 35.56 166.37 0)
+			(at 39.37 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7417,7 +7438,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 35.56 166.37 0)
+			(at 39.37 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7426,7 +7447,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 35.56 166.37 0)
+			(at 39.37 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7440,7 +7461,7 @@
 		(instances
 			(project "link-wago"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR0128")
+					(reference "#PWR0119")
 					(unit 1)
 				)
 			)
@@ -7448,7 +7469,7 @@
 	)
 	(symbol
 		(lib_id "V2_Connector_WAGO:2065")
-		(at 99.06 184.15 0)
+		(at 90.17 175.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7456,7 +7477,7 @@
 		(dnp no)
 		(uuid "dc756eaf-03bd-4d2b-909b-98cc2e7767c6")
 		(property "Reference" "J108"
-			(at 102.235 184.15 0)
+			(at 93.345 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7464,7 +7485,7 @@
 			)
 		)
 		(property "Value" "WAGO-2065"
-			(at 99.06 190.5 0)
+			(at 90.17 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7473,7 +7494,7 @@
 			)
 		)
 		(property "Footprint" "V2_Connector_WAGO:2065-100"
-			(at 99.06 187.96 0)
+			(at 90.17 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7482,7 +7503,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 187.96 0)
+			(at 90.17 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7491,7 +7512,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 99.06 184.15 0)
+			(at 90.17 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7500,7 +7521,7 @@
 			)
 		)
 		(property "Sim.Enable" "0"
-			(at 99.06 184.15 0)
+			(at 90.17 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7827,15 +7848,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 35.56 170.18 270)
+		(at 39.37 179.07 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "ede6db82-7171-4017-82e4-b07abf1d5db9")
-		(property "Reference" "#PWR0129"
-			(at 29.21 170.18 0)
+		(property "Reference" "#PWR0120"
+			(at 33.02 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7844,7 +7865,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 30.48 170.18 90)
+			(at 34.29 179.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7853,7 +7874,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 35.56 170.18 0)
+			(at 39.37 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7862,7 +7883,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 35.56 170.18 0)
+			(at 39.37 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7871,7 +7892,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 35.56 170.18 0)
+			(at 39.37 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7885,7 +7906,7 @@
 		(instances
 			(project "link-wago"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR0129")
+					(reference "#PWR0120")
 					(unit 1)
 				)
 			)
@@ -7893,7 +7914,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 148.59 187.96 270)
+		(at 133.35 179.07 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7901,7 +7922,7 @@
 		(dnp no)
 		(uuid "f1271624-be15-4632-8d0a-41415805c5d5")
 		(property "Reference" "#PWR0127"
-			(at 142.24 187.96 0)
+			(at 127 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7910,7 +7931,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 143.51 187.96 90)
+			(at 128.27 179.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7919,7 +7940,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 148.59 187.96 0)
+			(at 133.35 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7928,7 +7949,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 148.59 187.96 0)
+			(at 133.35 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7937,7 +7958,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 148.59 187.96 0)
+			(at 133.35 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8308,7 +8329,7 @@
 		)
 	)
 	(sheet
-		(at 143.51 168.91)
+		(at 128.27 160.02)
 		(size 16.51 5.08)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8324,7 +8345,7 @@
 		)
 		(uuid "24a9dc0c-cb3c-464a-a734-f09bf949d71a")
 		(property "Sheetname" "Power +5V"
-			(at 143.51 168.1984 0)
+			(at 128.27 159.3084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8333,7 +8354,7 @@
 			)
 		)
 		(property "Sheetfile" "PowerSupply.kicad_sch"
-			(at 143.51 174.5746 0)
+			(at 128.27 165.6846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8343,7 +8364,7 @@
 			)
 		)
 		(pin "Input" input
-			(at 143.51 171.45 180)
+			(at 128.27 162.56 180)
 			(uuid "11da30d3-b3aa-4b8a-b22b-61442e3bd0c3")
 			(effects
 				(font

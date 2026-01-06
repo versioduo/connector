@@ -512,9 +512,9 @@
       },
       {
         "name": "Debug",
-        "pcb_color": "rgb(185, 70, 30)",
+        "pcb_color": "rgb(178, 117, 2)",
         "priority": 2,
-        "schematic_color": "rgb(185, 70, 30)"
+        "schematic_color": "rgb(178, 117, 2)"
       },
       {
         "name": "Ground",
@@ -531,9 +531,9 @@
       },
       {
         "name": "Link",
-        "pcb_color": "rgb(189, 159, 28)",
+        "pcb_color": "rgb(163, 163, 12)",
         "priority": 5,
-        "schematic_color": "rgb(189, 159, 28)"
+        "schematic_color": "rgb(163, 163, 12)"
       },
       {
         "name": "PWM",
@@ -545,7 +545,8 @@
         "name": "Power",
         "pcb_color": "rgb(255, 92, 187)",
         "priority": 7,
-        "schematic_color": "rgb(255, 92, 187)"
+        "schematic_color": "rgb(255, 92, 187)",
+        "track_width": 0.45
       },
       {
         "name": "SPI",
@@ -576,7 +577,7 @@
       },
       {
         "netclass": "Power",
-        "pattern": "+*"
+        "pattern": "/?\\+[0-9]*V.*"
       },
       {
         "netclass": "Link",

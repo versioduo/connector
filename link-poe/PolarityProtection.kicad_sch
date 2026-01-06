@@ -956,7 +956,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 86.36) (xy 121.92 86.36)
+			(xy 101.6 86.36) (xy 121.92 86.36)
 		)
 		(stroke
 			(width 0)
@@ -966,7 +966,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 86.36) (xy 194.31 86.36)
+			(xy 176.53 86.36) (xy 195.58 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1099,7 +1099,7 @@
 	)
 	(hierarchical_label "Input"
 		(shape input)
-		(at 102.87 86.36 180)
+		(at 101.6 86.36 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1110,7 +1110,7 @@
 	)
 	(hierarchical_label "Output"
 		(shape output)
-		(at 194.31 86.36 0)
+		(at 195.58 86.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
