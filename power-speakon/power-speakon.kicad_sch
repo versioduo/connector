@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "V2 Power SpeakOn")
-		(date "2025-12-31")
-		(rev "1")
+		(date "2026-01-12")
+		(rev "2")
 		(company "Versio Duo")
 	)
 	(lib_symbols
@@ -245,6 +245,15 @@
 					(hide yes)
 				)
 			)
+			(property "Mouser" "568-NL4MDXXV3"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_keywords" "speakon connector neutrik"
 				(at 0 0 0)
 				(effects
@@ -456,24 +465,23 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at -5.08 6.35 0)
+				(at 2.54 1.778 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Conn_01x01"
-				(at 0 3.81 0)
+			(property "Value" "WAGO 2601-1101"
+				(at 10.922 -2.032 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Footprint" "V2_Connector_WAGO:2601-1101"
-				(at -0.254 -2.54 0)
+				(at 0 -6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -491,15 +499,6 @@
 				)
 			)
 			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Enable" "0"
 				(at 0 0 0)
 				(effects
 					(font
@@ -554,7 +553,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "V2_Diode:SMAJ36CA"
+		(symbol "V2_Diode:SMBJ36CA"
 			(pin_numbers
 				(hide yes)
 			)
@@ -572,7 +571,7 @@
 					)
 				)
 			)
-			(property "Value" "SMAJ24CA"
+			(property "Value" "SMBJ36CA"
 				(at 0 -3.81 0)
 				(effects
 					(font
@@ -580,7 +579,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Diode_SMD:D_SMA"
+			(property "Footprint" "V2_Diode_SMD:D_SMB"
 				(at 0 -5.715 0)
 				(effects
 					(font
@@ -607,7 +606,16 @@
 					(hide yes)
 				)
 			)
-			(symbol "SMAJ36CA_0_1"
+			(property "Mouser" "652-SMBJ36CA-Q"
+				(at 0 -7.366 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SMBJ36CA_0_1"
 				(polyline
 					(pts
 						(xy -2.54 -1.27) (xy -2.54 1.27) (xy 0 0) (xy -2.54 -1.27)
@@ -657,7 +665,7 @@
 					)
 				)
 			)
-			(symbol "SMAJ36CA_1_1"
+			(symbol "SMBJ36CA_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -702,7 +710,7 @@
 			(in_bom no)
 			(on_board yes)
 			(property "Reference" "FID"
-				(at 0 5.08 0)
+				(at 5.08 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -710,15 +718,16 @@
 				)
 			)
 			(property "Value" "Fiducial_Paste"
-				(at 0 3.175 0)
+				(at 0.254 -4.318 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "Footprint" "V2_Fiducial:Fiducial_0.5mm_Mask1mm_Paste"
-				(at 0 -5.08 0)
+				(at 0 -11.43 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -736,16 +745,7 @@
 				)
 			)
 			(property "Description" "Fiducial Marker"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Enable" "0"
-				(at 0 0 0)
+				(at 0 -7.874 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -834,15 +834,6 @@
 					(hide yes)
 				)
 			)
-			(property "Sim.Enable" "0"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
 			(symbol "Order_Number_0_0"
 				(text "ORDER-NUMBER"
 					(at 0 0 0)
@@ -868,7 +859,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+24V"
+		(symbol "V2_power:+24V"
 			(power)
 			(pin_numbers
 				(hide yes)
@@ -881,7 +872,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
+				(at 0 -11.684 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -890,7 +881,7 @@
 				)
 			)
 			(property "Value" "+24V"
-				(at 0 3.556 0)
+				(at 0 4.064 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -916,7 +907,7 @@
 				)
 			)
 			(property "Description" "Power symbol creates a global label with name \"+24V\""
-				(at 0 0 0)
+				(at 0 -14.732 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -993,7 +984,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:GND"
+		(symbol "V2_power:GND"
 			(power)
 			(pin_numbers
 				(hide yes)
@@ -1006,7 +997,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
+				(at 0 -7.112 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1015,11 +1006,12 @@
 				)
 			)
 			(property "Value" "GND"
-				(at 0 -3.81 0)
+				(at 0 -4.064 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "Footprint" ""
@@ -1041,7 +1033,7 @@
 				)
 			)
 			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-				(at 0 0 0)
+				(at -0.254 -10.414 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1094,7 +1086,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:PWR_FLAG"
+		(symbol "V2_power:PWR_FLAG"
 			(power)
 			(pin_numbers
 				(hide yes)
@@ -1107,7 +1099,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "#FLG"
-				(at 0 1.905 0)
+				(at 0 -13.97 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1116,7 +1108,7 @@
 				)
 			)
 			(property "Value" "PWR_FLAG"
-				(at 0 3.81 0)
+				(at 0 4.572 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1132,7 +1124,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -1142,7 +1134,7 @@
 				)
 			)
 			(property "Description" "Special symbol for telling ERC where power comes from"
-				(at 0 0 0)
+				(at 0 -17.272 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1284,7 +1276,7 @@
 		)
 		(uuid "e2f0ac71-4eee-4fad-b17d-3c3d3f42ed1e")
 	)
-	(label "+24V-Socket"
+	(label "+24V-Supply"
 		(at 177.8 44.45 180)
 		(effects
 			(font
@@ -1294,7 +1286,7 @@
 		)
 		(uuid "11272fc9-84a9-430a-8900-1ecdabd7888c")
 	)
-	(label "+24V-Socket"
+	(label "+24V-Supply"
 		(at 118.11 110.49 0)
 		(effects
 			(font
@@ -1305,7 +1297,7 @@
 		(uuid "ce9c8a84-6a4b-4da0-bb93-7859b7a8cb1c")
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "V2_power:GND")
 		(at 153.67 59.69 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1351,7 +1343,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 153.67 59.69 0)
+			(at 143.256 59.436 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1372,7 +1364,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "V2_power:GND")
 		(at 135.89 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1418,7 +1410,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 135.89 118.11 0)
+			(at 135.636 128.524 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1439,7 +1431,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+24V")
+		(lib_id "V2_power:+24V")
 		(at 171.45 110.49 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1485,7 +1477,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 171.45 110.49 0)
+			(at 156.718 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1506,7 +1498,7 @@
 		)
 	)
 	(symbol
-		(lib_id "V2_Diode:SMAJ36CA")
+		(lib_id "V2_Diode:SMBJ36CA")
 		(at 135.89 114.3 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1516,7 +1508,7 @@
 		(fields_autoplaced yes)
 		(uuid "2222df47-d315-45d7-8daf-e5fc9c19addf")
 		(property "Reference" "TVS101"
-			(at 139.7 113.665 90)
+			(at 139.7 113.0299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1524,8 +1516,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "SMAJ36CA"
-			(at 139.7 116.205 90)
+		(property "Value" "SMBJ36CA"
+			(at 139.7 115.5699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1533,7 +1525,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMA"
+		(property "Footprint" "V2_Diode_SMD:D_SMB"
 			(at 141.605 114.3 0)
 			(effects
 				(font
@@ -1560,6 +1552,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser" "652-SMBJ36CA-Q"
+			(at 143.256 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2103d9a7-4bde-4dfb-9f27-26e053f51b95")
 		)
@@ -1576,7 +1577,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "V2_power:GND")
 		(at 151.13 99.06 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1622,7 +1623,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 151.13 99.06 0)
+			(at 161.544 99.314 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1646,7 +1647,7 @@
 		(lib_id "V2_Artwork:V2-logo")
 		(at 209.55 166.37 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -1698,6 +1699,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Enable" "0"
+			(at 209.55 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project ""
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
@@ -1708,7 +1718,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+24V")
+		(lib_id "V2_power:+24V")
 		(at 151.13 95.25 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1726,7 +1736,7 @@
 			)
 		)
 		(property "Value" "+24V"
-			(at 157.988 95.25 90)
+			(at 159.004 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1752,7 +1762,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 151.13 95.25 0)
+			(at 136.398 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1776,7 +1786,7 @@
 		(lib_id "V2_Connector_WAGO:2601-1101")
 		(at 144.78 147.32 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -1791,7 +1801,7 @@
 			)
 		)
 		(property "Value" "WAGO 2601-1101"
-			(at 161.798 147.32 0)
+			(at 154.94 150.368 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1841,7 +1851,7 @@
 		(lib_id "V2_Artwork:Plus")
 		(at 236.22 167.64 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -1863,6 +1873,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "V2_Artwork:Plus_Small"
@@ -1884,6 +1895,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 236.22 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" "0"
 			(at 236.22 167.64 0)
 			(effects
 				(font
@@ -1953,6 +1973,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser" "568-NL4MDXXV3"
+			(at 161.29 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2-"
 			(uuid "bc97e99d-fb65-4963-bc0a-15918a965328")
 		)
@@ -1975,7 +2004,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
+		(lib_id "V2_power:PWR_FLAG")
 		(at 151.13 99.06 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1993,7 +2022,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 140.843 98.933 90)
+			(at 141.986 99.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2009,7 +2038,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 151.13 99.06 0)
 			(effects
 				(font
@@ -2019,7 +2048,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 151.13 99.06 0)
+			(at 168.402 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2043,7 +2072,7 @@
 		(lib_id "V2_Production:Order_Number")
 		(at 214.63 179.07 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -2056,7 +2085,7 @@
 				)
 			)
 		)
-		(property "Value" "ORDER-NUMBER"
+		(property "Value" "Order_Number"
 			(at 214.63 181.61 0)
 			(effects
 				(font
@@ -2103,15 +2132,15 @@
 	)
 	(symbol
 		(lib_id "V2_Connector_WAGO:2601-1101")
-		(at 144.78 151.13 0)
+		(at 144.78 154.94 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "8973d91d-6718-4770-a6d3-8f5da6c98a8c")
 		(property "Reference" "J104"
-			(at 146.05 151.1299 0)
+			(at 146.05 154.9399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2120,7 +2149,7 @@
 			)
 		)
 		(property "Value" "WAGO 2601-1101"
-			(at 162.052 151.13 0)
+			(at 155.194 157.988 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2128,7 +2157,7 @@
 			)
 		)
 		(property "Footprint" "V2_Connector_WAGO:2601-1101"
-			(at 144.526 153.67 0)
+			(at 144.526 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2137,7 +2166,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 144.78 154.94 0)
+			(at 144.78 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2146,7 +2175,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 144.78 151.13 0)
+			(at 144.78 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2168,15 +2197,15 @@
 	)
 	(symbol
 		(lib_id "V2_Mechanical:Fiducial_Paste")
-		(at 257.81 175.26 0)
+		(at 266.7 166.37 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "977377c2-2f87-473b-87b3-55cb2215e7cb")
 		(property "Reference" "FID101"
-			(at 255.27 168.91 0)
+			(at 270.51 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2184,16 +2213,17 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Fiducial"
-			(at 257.81 171.45 0)
+		(property "Value" "Fiducial_Paste"
+			(at 266.7 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "V2_Fiducial:Fiducial_0.5mm_Mask1mm_Paste"
-			(at 257.81 180.34 0)
+			(at 266.7 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2202,7 +2232,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 257.81 175.26 0)
+			(at 266.7 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2211,7 +2241,7 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
-			(at 257.81 175.26 0)
+			(at 266.7 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2229,7 +2259,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
+		(lib_id "V2_power:PWR_FLAG")
 		(at 151.13 95.25 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2247,7 +2277,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 141.097 95.123 90)
+			(at 141.986 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2263,7 +2293,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 151.13 95.25 0)
 			(effects
 				(font
@@ -2273,7 +2303,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 151.13 95.25 0)
+			(at 168.402 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2345,6 +2375,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser" "568-NL4MDXXV3"
+			(at 130.81 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2-"
 			(uuid "f6ca4e60-b85f-4e51-9496-973eb21c582b")
 		)
@@ -2368,15 +2407,15 @@
 	)
 	(symbol
 		(lib_id "V2_Mechanical:Fiducial_Paste")
-		(at 275.59 175.26 0)
+		(at 266.7 179.07 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "d70eefe3-c463-42c7-ad37-0fcb53cb0f3d")
 		(property "Reference" "FID103"
-			(at 273.05 168.91 0)
+			(at 270.51 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2384,16 +2423,17 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Fiducial"
-			(at 276.86 171.45 0)
+		(property "Value" "Fiducial_Paste"
+			(at 267.97 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "V2_Fiducial:Fiducial_0.5mm_Mask1mm_Paste"
-			(at 275.59 180.34 0)
+			(at 266.7 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2402,7 +2442,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 275.59 175.26 0)
+			(at 266.7 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2411,7 +2451,7 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
-			(at 275.59 175.26 0)
+			(at 266.7 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2429,14 +2469,13 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+24V")
+		(lib_id "V2_power:+24V")
 		(at 139.7 147.32 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d8749acd-d492-41a3-9ed1-612505ed5b5a")
 		(property "Reference" "#PWR0107"
 			(at 143.51 147.32 0)
@@ -2448,12 +2487,11 @@
 			)
 		)
 		(property "Value" "+24V"
-			(at 135.89 147.3199 90)
+			(at 132.842 147.066 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -2475,7 +2513,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 139.7 147.32 0)
+			(at 154.432 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2496,8 +2534,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 139.7 151.13 270)
+		(lib_id "V2_power:GND")
+		(at 139.7 154.94 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2505,7 +2543,7 @@
 		(dnp no)
 		(uuid "ede6db82-7171-4017-82e4-b07abf1d5db9")
 		(property "Reference" "#PWR0108"
-			(at 133.35 151.13 0)
+			(at 133.35 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2514,7 +2552,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 134.62 151.13 90)
+			(at 134.62 154.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2523,7 +2561,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 139.7 151.13 0)
+			(at 139.7 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2532,7 +2570,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 139.7 151.13 0)
+			(at 139.7 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2541,7 +2579,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 139.7 151.13 0)
+			(at 129.286 154.686 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2563,15 +2601,15 @@
 	)
 	(symbol
 		(lib_id "V2_Mechanical:Fiducial_Paste")
-		(at 266.7 175.26 0)
+		(at 266.7 172.72 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "f3ebfb05-17be-488d-b5c3-e4a62e3009d2")
 		(property "Reference" "FID102"
-			(at 264.16 168.91 0)
+			(at 270.51 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2579,16 +2617,17 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Fiducial"
-			(at 266.7 171.45 0)
+		(property "Value" "Fiducial_Paste"
+			(at 266.7 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "V2_Fiducial:Fiducial_0.5mm_Mask1mm_Paste"
-			(at 266.7 180.34 0)
+			(at 266.7 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2597,7 +2636,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 266.7 175.26 0)
+			(at 266.7 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2606,7 +2645,7 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
-			(at 266.7 175.26 0)
+			(at 266.7 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2624,7 +2663,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "V2_power:GND")
 		(at 123.19 59.69 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2670,7 +2709,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 123.19 59.69 0)
+			(at 112.776 59.436 0)
 			(effects
 				(font
 					(size 1.27 1.27)

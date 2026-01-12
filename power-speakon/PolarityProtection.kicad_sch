@@ -11,7 +11,7 @@
 		(company "Versio Duo")
 	)
 	(lib_symbols
-		(symbol "Device:C_Small"
+		(symbol "V2_Device:C_0603_0u1"
 			(pin_numbers
 				(hide yes)
 			)
@@ -23,7 +23,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "C"
-				(at 0.254 1.778 0)
+				(at 1.778 1.524 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -31,8 +31,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "C_Small"
-				(at 0.254 -2.032 0)
+			(property "Value" "0u1"
+				(at 1.778 -2.032 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -40,8 +40,8 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" ""
-				(at 0 0 0)
+			(property "Footprint" "V2_Capacitor_SMD:C_0603"
+				(at 0 -17.018 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -49,7 +49,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -59,7 +59,16 @@
 				)
 			)
 			(property "Description" "Unpolarized capacitor, small symbol"
-				(at 0 0 0)
+				(at 0 -13.462 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mouser" "810-CGA3E2X7R1H104MA"
+				(at 0 -17.272 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -85,7 +94,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "C_Small_0_1"
+			(symbol "C_0603_0u1_0_1"
 				(polyline
 					(pts
 						(xy -1.524 0.508) (xy 1.524 0.508)
@@ -111,7 +120,7 @@
 					)
 				)
 			)
-			(symbol "C_Small_1_1"
+			(symbol "C_0603_0u1_1_1"
 				(pin passive line
 					(at 0 2.54 270)
 					(length 2.032)
@@ -151,7 +160,156 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:R_Small"
+		(symbol "V2_Device:C_0603_0u22"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 1.524 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "0u22"
+				(at 1.524 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "V2_Capacitor_SMD:C_0603"
+				(at 0 -17.018 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor, small symbol"
+				(at 0 -13.462 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mouser" "603-CC0603JRX79BB224"
+				(at 0 -17.018 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "capacitor cap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0603_0u22_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_0603_0u22_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "V2_Device:R_0603_100k"
 			(pin_numbers
 				(hide yes)
 			)
@@ -163,23 +321,23 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "R"
-				(at 0 0 90)
+				(at 2.032 1.27 0)
 				(effects
 					(font
 						(size 1.016 1.016)
 					)
 				)
 			)
-			(property "Value" "R_Small"
-				(at 1.778 0 90)
+			(property "Value" "100k"
+				(at 3.81 -1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" ""
-				(at 0 0 0)
+			(property "Footprint" "V2_Resistor_SMD:R_0603"
+				(at 0 -15.748 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -187,7 +345,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -197,7 +355,16 @@
 				)
 			)
 			(property "Description" "Resistor, small symbol"
-				(at 0 0 0)
+				(at 0 -12.192 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mouser" "71-CRCW0603100KFKEAC"
+				(at 0 -15.494 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -223,7 +390,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "R_Small_0_1"
+			(symbol "R_0603_100k_0_1"
 				(rectangle
 					(start -0.762 1.778)
 					(end 0.762 -1.778)
@@ -236,7 +403,141 @@
 					)
 				)
 			)
-			(symbol "R_Small_1_1"
+			(symbol "R_0603_100k_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "V2_Device:R_0603_3k9"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 1.27 0)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+				)
+			)
+			(property "Value" "3k9"
+				(at 3.302 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "V2_Resistor_SMD:R_0603"
+				(at 0 -15.748 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, small symbol"
+				(at 0 -12.192 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mouser" "71-CRCW06033K90FKEAC"
+				(at 0 -16.256 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0603_3k9_0_1"
+				(rectangle
+					(start -0.762 1.778)
+					(end 0.762 -1.778)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_0603_3k9_1_1"
 				(pin passive line
 					(at 0 2.54 270)
 					(length 0.762)
@@ -317,6 +618,15 @@
 				)
 			)
 			(property "Description" "Reverse Polarity Protection Controller"
+				(at 0 -33.528 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mouser" "595-LM74502HQDDFRQ1"
 				(at 0 0 0)
 				(effects
 					(font
@@ -534,6 +844,15 @@
 			)
 			(property "Description" ""
 				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mouser" "726-BSC010N04LS"
+				(at 0 -15.748 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -766,7 +1085,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:GND"
+		(symbol "V2_power:GND"
 			(power)
 			(pin_numbers
 				(hide yes)
@@ -779,7 +1098,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
+				(at 0 -7.112 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -788,11 +1107,12 @@
 				)
 			)
 			(property "Value" "GND"
-				(at 0 -3.81 0)
+				(at 0 -4.064 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "Footprint" ""
@@ -814,7 +1134,7 @@
 				)
 			)
 			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-				(at 0 0 0)
+				(at -0.254 -10.414 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1136,7 +1456,7 @@
 		(uuid "4c64f444-077c-45f1-9244-8354b1af255d")
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "V2_power:GND")
 		(at 111.76 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1181,7 +1501,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 111.76 91.44 0)
+			(at 111.506 101.854 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1248,6 +1568,15 @@
 		)
 		(property "Description" ""
 			(at 156.21 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "726-BSC010N04LS"
+			(at 171.958 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1327,6 +1656,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser" "595-LM74502HQDDFRQ1"
+			(at 156.21 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "585bd1de-66d8-4c24-a494-d2f4098dccc9")
 		)
@@ -1361,7 +1699,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
+		(lib_id "V2_Device:R_0603_100k")
 		(at 127 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1370,7 +1708,7 @@
 		(dnp no)
 		(uuid "611053b4-381e-47a0-82f2-d4ec16886b96")
 		(property "Reference" "R201"
-			(at 119.38 110.49 0)
+			(at 119.38 109.982 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1379,7 +1717,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 119.38 113.03 0)
+			(at 119.38 112.522 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1387,7 +1725,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "V2_Resistor_SMD:R_0603"
 			(at 127 111.76 0)
 			(effects
 				(font
@@ -1396,7 +1734,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 127 111.76 0)
 			(effects
 				(font
@@ -1407,6 +1745,15 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 127 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "71-CRCW0603100KFKEAC"
+			(at 127 127.254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1430,7 +1777,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "V2_Device:C_0603_0u1")
 		(at 111.76 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1439,7 +1786,7 @@
 		(dnp no)
 		(uuid "65298d35-9787-43b4-a842-021b3924efcc")
 		(property "Reference" "C201"
-			(at 114.3 87.63 0)
+			(at 114.046 87.884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1448,7 +1795,7 @@
 			)
 		)
 		(property "Value" "0u1"
-			(at 114.3 90.17 0)
+			(at 113.792 90.932 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1456,8 +1803,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 111.76 88.9 0)
+		(property "Footprint" "V2_Capacitor_SMD:C_0603"
+			(at 111.76 105.918 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1465,7 +1812,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 111.76 88.9 0)
 			(effects
 				(font
@@ -1475,7 +1822,16 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 111.76 88.9 0)
+			(at 111.76 102.362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "810-CGA3E2X7R1H104MA"
+			(at 111.76 105.918 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1499,7 +1855,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "V2_Device:C_0603_0u22")
 		(at 140.97 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1508,7 +1864,7 @@
 		(dnp no)
 		(uuid "85cb2f54-d0ec-4372-a558-bbd2645e0d6e")
 		(property "Reference" "C202"
-			(at 133.35 100.33 0)
+			(at 133.858 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1517,7 +1873,7 @@
 			)
 		)
 		(property "Value" "0u22"
-			(at 133.35 102.87 0)
+			(at 134.112 103.378 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1525,8 +1881,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 140.97 101.6 0)
+		(property "Footprint" "V2_Capacitor_SMD:C_0603"
+			(at 140.97 118.618 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1534,7 +1890,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 140.97 101.6 0)
 			(effects
 				(font
@@ -1544,7 +1900,16 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 140.97 101.6 0)
+			(at 140.97 115.062 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "603-CC0603JRX79BB224"
+			(at 140.97 118.618 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1568,7 +1933,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
+		(lib_id "V2_Device:R_0603_3k9")
 		(at 127 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1577,7 +1942,7 @@
 		(dnp no)
 		(uuid "96b2a52b-3e29-437b-ac70-1d4e87143c1c")
 		(property "Reference" "R202"
-			(at 119.38 115.57 0)
+			(at 119.38 116.078 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1586,7 +1951,7 @@
 			)
 		)
 		(property "Value" "3k9"
-			(at 119.38 118.11 0)
+			(at 119.38 118.618 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1594,7 +1959,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "V2_Resistor_SMD:R_0603"
 			(at 127 116.84 0)
 			(effects
 				(font
@@ -1603,7 +1968,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 127 116.84 0)
 			(effects
 				(font
@@ -1614,6 +1979,15 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 127 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "71-CRCW06033K90FKEAC"
+			(at 127 132.334 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1691,6 +2065,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser" "726-BSC010N04LS"
+			(at 160.782 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1040d0e7-4723-44be-87fb-1bd054751e49")
 		)
@@ -1710,7 +2093,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "V2_power:GND")
 		(at 156.21 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1756,7 +2139,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 156.21 119.38 0)
+			(at 155.956 129.794 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1777,7 +2160,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "V2_power:GND")
 		(at 127 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1822,7 +2205,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 127 119.38 0)
+			(at 126.746 129.794 0)
 			(effects
 				(font
 					(size 1.27 1.27)
