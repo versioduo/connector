@@ -59,7 +59,7 @@
 				)
 			)
 			(property "Description" "Unpolarized capacitor, small symbol"
-				(at 0 -13.462 0)
+				(at 0 -12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -68,7 +68,28 @@
 				)
 			)
 			(property "Mouser" "810-CGA3E2X7R1H104MA"
-				(at 0 -17.272 0)
+				(at 0 -20.32 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "TDK"
+				(at 0 -15.24 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Product" "CGA3E2X7R1H104M080AA"
+				(at 0 -17.78 0)
+				(show_name)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -208,7 +229,7 @@
 				)
 			)
 			(property "Description" "Unpolarized capacitor, small symbol"
-				(at 0 -13.462 0)
+				(at 0 -12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -217,7 +238,28 @@
 				)
 			)
 			(property "Mouser" "603-CC0603JRX79BB224"
-				(at 0 -17.018 0)
+				(at 0 -20.32 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Product" "CC0603JRX7R9BB224"
+				(at 0 -17.78 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "YAGEO"
+				(at 0 -15.24 0)
+				(show_name)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -355,7 +397,7 @@
 				)
 			)
 			(property "Description" "Resistor, small symbol"
-				(at 0 -12.192 0)
+				(at 0 -12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -364,7 +406,38 @@
 				)
 			)
 			(property "Mouser" "71-CRCW0603100KFKEAC"
-				(at 0 -15.494 0)
+				(at 0 -22.86 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Rating" "100mW"
+				(at 0 -20.32 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Vishay"
+				(at 0 -15.24 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Product" "CRCW0603100KFKEAC"
+				(at 0 -17.78 0)
+				(show_name)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -489,7 +562,7 @@
 				)
 			)
 			(property "Description" "Resistor, small symbol"
-				(at 0 -12.192 0)
+				(at 0 -12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -498,7 +571,38 @@
 				)
 			)
 			(property "Mouser" "71-CRCW06033K90FKEAC"
-				(at 0 -16.256 0)
+				(at 0 -22.86 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Product" "CRCW06033K90FKEAC"
+				(at 0 -17.78 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Vishay"
+				(at 0 -15.24 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Rating" "100mW"
+				(at 0 -20.32 0)
+				(show_name)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -600,7 +704,7 @@
 				)
 			)
 			(property "Footprint" "V2_Package_TO_SOT_SMD:SOT-23-8"
-				(at 1.27 -29.21 0)
+				(at 0 -30.734 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -627,7 +731,28 @@
 				)
 			)
 			(property "Mouser" "595-LM74502HQDDFRQ1"
-				(at 0 0 0)
+				(at 0 -40.64 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Product" "LM74502HQDDFRQ1"
+				(at 0 -38.1 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Texas Instruments"
+				(at 0 -35.56 0)
+				(show_name)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -852,7 +977,28 @@
 				)
 			)
 			(property "Mouser" "726-BSC010N04LS"
-				(at 0 -15.748 0)
+				(at 0 -22.86 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Product" "BSC010N04LS"
+				(at 0 -20.32 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Infineon Technologies"
+				(at 0 -17.78 0)
+				(show_name)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1584,6 +1730,33 @@
 				(hide yes)
 			)
 		)
+		(property "Product" "BSC010N04LS"
+			(at 176.53 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Infineon Technologies"
+			(at 173.99 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
+			(at 156.21 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "18fc84bd-c152-4513-bd48-c793784cea28")
 		)
@@ -1657,6 +1830,33 @@
 			)
 		)
 		(property "Mouser" "595-LM74502HQDDFRQ1"
+			(at 156.21 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product" "LM74502HQDDFRQ1"
+			(at 156.21 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 156.21 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
 			(at 156.21 106.68 0)
 			(effects
 				(font
@@ -1761,6 +1961,42 @@
 				(hide yes)
 			)
 		)
+		(property "Rating" "100mW"
+			(at 127 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay"
+			(at 127 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product" "CRCW0603100KFKEAC"
+			(at 127 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
+			(at 127 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b0b2384c-3cf4-491a-ae78-38507fdd7488")
 		)
@@ -1832,6 +2068,33 @@
 		)
 		(property "Mouser" "810-CGA3E2X7R1H104MA"
 			(at 111.76 105.918 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TDK"
+			(at 111.76 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product" "CGA3E2X7R1H104M080AA"
+			(at 111.76 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
+			(at 111.76 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1917,6 +2180,33 @@
 				(hide yes)
 			)
 		)
+		(property "Product" "CC0603JRX7R9BB224"
+			(at 140.97 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 140.97 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
+			(at 140.97 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fe0b35a4-a181-4e1c-9b5a-43f00abc582b")
 		)
@@ -1988,6 +2278,42 @@
 		)
 		(property "Mouser" "71-CRCW06033K90FKEAC"
 			(at 127 132.334 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product" "CRCW06033K90FKEAC"
+			(at 127 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay"
+			(at 127 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "100mW"
+			(at 127 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
+			(at 127 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2067,6 +2393,33 @@
 		)
 		(property "Mouser" "726-BSC010N04LS"
 			(at 160.782 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product" "BSC010N04LS"
+			(at 156.21 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Infineon Technologies"
+			(at 158.75 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
+			(at 176.53 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
