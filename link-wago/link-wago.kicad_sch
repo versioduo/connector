@@ -560,7 +560,7 @@
 				)
 			)
 			(property "Footprint" "V2_Connector_EtherCon:NE8FAH"
-				(at 0 -23.622 0)
+				(at 0 -25.4 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -587,7 +587,28 @@
 				)
 			)
 			(property "Mouser" "568-NE8FAH"
-				(at 0 -27.432 0)
+				(at 0 -33.02 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Neutrik"
+				(at 0 -27.94 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Product" "NE8FAH"
+				(at 0 -30.48 0)
+				(show_name)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -926,7 +947,7 @@
 				)
 			)
 			(property "Description" "Amphenol – Minitek127"
-				(at 0 -16.51 0)
+				(at 0 -15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -935,7 +956,28 @@
 				)
 			)
 			(property "Mouser" "649-200211120001T4LF"
-				(at 0 -20.574 0)
+				(at 0 -22.86 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Amphenol FCI"
+				(at 0 -17.78 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Product" "20021112-00010T4LF"
+				(at 0 -20.32 0)
+				(show_name)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1161,7 +1203,7 @@
 				)
 			)
 			(property "Footprint" "V2_Connector_USB:JAE_DX07S016JA3"
-				(at 0 -32.004 0)
+				(at 0 -35.56 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1188,7 +1230,28 @@
 				)
 			)
 			(property "Mouser" "656-DX07S016JA3R1500"
-				(at 0 -35.306 0)
+				(at 0 -43.18 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Product" "DX07S016JA3R1500"
+				(at -0.254 -40.64 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "JAE Electronics"
+				(at -0.254 -38.1 0)
+				(show_name)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1504,7 +1567,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 2.54 2.032 0)
+				(at 1.524 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1512,7 +1575,7 @@
 				)
 			)
 			(property "Value" "WAGO 2065-100"
-				(at 9.906 -1.778 0)
+				(at 9.144 -2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1520,7 +1583,7 @@
 				)
 			)
 			(property "Footprint" "V2_Connector_WAGO:2065-100"
-				(at 0 -6.35 0)
+				(at 0 -9.906 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1539,6 +1602,26 @@
 			)
 			(property "Description" ""
 				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "WAGO"
+				(at 0 -13.208 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Product" "2065-100/998-403"
+				(at 0 -16.51 0)
+				(show_name)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1604,7 +1687,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 2.54 1.778 0)
+				(at 1.524 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1612,7 +1695,7 @@
 				)
 			)
 			(property "Value" "WAGO 2601-1101"
-				(at 10.922 -2.032 0)
+				(at 9.652 -2.286 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1620,7 +1703,7 @@
 				)
 			)
 			(property "Footprint" "V2_Connector_WAGO:2601-1101"
-				(at 0 -6.35 0)
+				(at 0 -8.128 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1639,6 +1722,26 @@
 			)
 			(property "Description" ""
 				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "WAGO"
+				(at 0 -11.43 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Product" "2601-1101"
+				(at 0 -14.478 0)
+				(show_name)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1740,7 +1843,7 @@
 				)
 			)
 			(property "Description" "Unpolarized capacitor, small symbol"
-				(at 0 -13.462 0)
+				(at 0 -12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1749,7 +1852,28 @@
 				)
 			)
 			(property "Mouser" "810-CGA3E2X7R1H104MA"
-				(at 0 -17.272 0)
+				(at 0 -20.32 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "TDK"
+				(at 0 -15.24 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Product" "CGA3E2X7R1H104M080AA"
+				(at 0 -17.78 0)
+				(show_name)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1887,7 +2011,7 @@
 				)
 			)
 			(property "Description" "Resistor, small symbol"
-				(at 0 -12.192 0)
+				(at 0 -12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1896,7 +2020,38 @@
 				)
 			)
 			(property "Mouser" "71-CRCW06035K10FKEAC"
-				(at 0 -16.256 0)
+				(at 0 -22.86 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Product" "CRCW06035K10FKEAC"
+				(at 0 -15.24 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Vishay"
+				(at 0 -17.78 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Rating" "100mW"
+				(at 0 -20.32 0)
+				(show_name)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2029,7 +2184,38 @@
 				)
 			)
 			(property "Mouser" "652-SMBJ36CA-Q"
-				(at 0 -7.366 0)
+				(at 0 -15.494 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Product" "SMBJ36CA-Q"
+				(at 0 -10.16 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Bourns"
+				(at 0 -7.62 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Rating" "36V"
+				(at 0 -12.7 0)
+				(show_name)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4323,6 +4509,33 @@
 				(hide yes)
 			)
 		)
+		(property "Product" "SMBJ36CA-Q"
+			(at 87.63 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Bourns"
+			(at 85.09 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "36V"
+			(at 90.17 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2103d9a7-4bde-4dfb-9f27-26e053f51b95")
 		)
@@ -4804,6 +5017,24 @@
 				(hide yes)
 			)
 		)
+		(property "Product" "DX07S016JA3R1500"
+			(at 224.536 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "JAE Electronics"
+			(at 224.536 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "A5"
 			(uuid "bc5ba71a-02af-486f-ac99-56529e500eac")
 		)
@@ -5097,6 +5328,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "WAGO"
+			(at 44.45 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product" "2601-1101"
+			(at 44.45 189.738 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e81c113d-1213-41c3-a7a6-654a1491c034")
 		)
@@ -5366,6 +5615,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "WAGO"
+			(at 138.43 196.088 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product" "2065-100/998-403"
+			(at 138.43 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3374c576-7cb5-425e-be38-c00801ed5675")
 		)
@@ -5433,6 +5700,24 @@
 		)
 		(property "Mouser" "568-NE8FAH"
 			(at 54.61 82.042 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Neutrik"
+			(at 54.61 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product" "NE8FAH"
+			(at 54.61 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5613,6 +5898,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "TDK"
+			(at 95.25 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product" "CGA3E2X7R1H104M080AA"
+			(at 95.25 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7ec4c6d1-a550-4a9c-8a35-931df72f02a2")
 		)
@@ -5749,6 +6052,24 @@
 		)
 		(property "Mouser" "649-200211120001T4LF"
 			(at 123.19 73.914 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Amphenol FCI"
+			(at 123.19 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product" "20021112-00010T4LF"
+			(at 123.19 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5919,6 +6240,33 @@
 				(hide yes)
 			)
 		)
+		(property "Product" "CRCW06035K10FKEAC"
+			(at 267.97 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay"
+			(at 270.51 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "100mW"
+			(at 273.05 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a6bd0adc-43a8-411b-91cb-a4229636ad28")
 		)
@@ -5996,6 +6344,33 @@
 				(hide yes)
 			)
 		)
+		(property "Product" "CRCW06035K10FKEAC"
+			(at 267.97 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay"
+			(at 270.51 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "100mW"
+			(at 273.05 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bc0ee5f0-6a26-43d7-93d5-36370f8616b8")
 		)
@@ -6057,6 +6432,24 @@
 		)
 		(property "Description" ""
 			(at 44.45 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "WAGO"
+			(at 44.45 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product" "2601-1101"
+			(at 44.45 197.358 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6456,6 +6849,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "WAGO"
+			(at 138.43 188.468 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product" "2065-100/998-403"
+			(at 138.43 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "35fb1a86-2e95-4cd8-85af-00c72378a872")
 		)
@@ -6585,6 +6996,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "WAGO"
+			(at 90.17 196.088 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product" "2065-100/998-403"
+			(at 90.17 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cd1636de-afdc-4010-be44-dbea5f694bdd")
 		)
@@ -6651,6 +7080,24 @@
 		)
 		(property "Mouser" "649-200211120001T4LF"
 			(at 123.19 112.014 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Amphenol FCI"
+			(at 123.19 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product" "20021112-00010T4LF"
+			(at 123.19 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7418,6 +7865,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "WAGO"
+			(at 90.17 188.468 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product" "2065-100/998-403"
+			(at 90.17 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "244f3eeb-9f6b-4eb3-a492-7c5ee5bc845f")
 		)
@@ -7552,6 +8017,24 @@
 		)
 		(property "Mouser" "568-NE8FAH"
 			(at 54.61 120.142 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Neutrik"
+			(at 54.61 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product" "NE8FAH"
+			(at 54.61 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)

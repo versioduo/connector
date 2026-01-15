@@ -221,7 +221,7 @@
 				)
 			)
 			(property "Footprint" "V2_Connector_EtherCon:NE8FAV"
-				(at 0 -21.336 0)
+				(at 0 -22.86 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -248,7 +248,28 @@
 				)
 			)
 			(property "Mouser" "568-NE8FAV-SD"
-				(at 0 -24.892 0)
+				(at 0 -30.48 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Neutrik"
+				(at 0 -25.4 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Product" "NE8FAV-SD"
+				(at 0 -27.94 0)
+				(show_name)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -557,7 +578,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 2.54 1.778 0)
+				(at 1.524 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -565,7 +586,7 @@
 				)
 			)
 			(property "Value" "WAGO 2601-1101"
-				(at 10.922 -2.032 0)
+				(at 9.652 -2.286 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -573,7 +594,7 @@
 				)
 			)
 			(property "Footprint" "V2_Connector_WAGO:2601-1101"
-				(at 0 -6.35 0)
+				(at 0 -8.128 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -592,6 +613,26 @@
 			)
 			(property "Description" ""
 				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "WAGO"
+				(at 0 -11.43 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Product" "2601-1101"
+				(at 0 -14.478 0)
+				(show_name)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1794,6 +1835,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "WAGO"
+			(at 128.27 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product" "2601-1101"
+			(at 128.27 150.368 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b5f2d01d-2a39-47a2-9750-f758a1142d78")
 		)
@@ -2072,6 +2131,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "WAGO"
+			(at 163.83 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product" "2601-1101"
+			(at 163.83 150.368 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "557cb78a-d43f-4674-a11e-a6a6eee7c78c")
 		)
@@ -2130,6 +2207,24 @@
 		)
 		(property "Description" ""
 			(at 163.83 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "WAGO"
+			(at 163.83 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product" "2601-1101"
+			(at 163.83 157.988 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2609,6 +2704,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Neutrik"
+			(at 165.1 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product" "NE8FAV-SD"
+			(at 165.1 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "223fcc3e-8a88-44bb-929b-048188aa5d3b")
 		)
@@ -2757,6 +2870,24 @@
 		)
 		(property "Description" ""
 			(at 128.27 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "WAGO"
+			(at 128.27 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product" "2601-1101"
+			(at 128.27 157.988 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3171,6 +3302,24 @@
 		)
 		(property "Mouser" "568-NE8FAV-SD"
 			(at 119.38 104.902 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Neutrik"
+			(at 119.38 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product" "NE8FAV-SD"
+			(at 119.38 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
