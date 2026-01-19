@@ -484,7 +484,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "power-poe.kicad_pro",
+    "filename": "power-link-wago.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -616,7 +616,7 @@
       "plot": "power-poe-gerber",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "power-poe.step",
+      "step": "power-link-wago.step",
       "svg": "",
       "vrml": ""
     },

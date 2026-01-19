@@ -5,7 +5,7 @@
 	(uuid "6c8448b4-b04d-47e1-934e-e40cbe27a7be")
 	(paper "A4")
 	(title_block
-		(title "V2 Power PoE")
+		(title "V2 Power Link WAGO")
 		(date "2026-01-12")
 		(rev "3")
 		(company "Versio Duo")
@@ -1707,7 +1707,7 @@
 			(uuid "1f047a5f-b7ff-4e0d-9c32-15d8264ae7fa")
 		)
 		(instances
-			(project "power-poe"
+			(project "power-link-wago"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
 					(reference "#FLG0103")
 					(unit 1)
@@ -1857,7 +1857,7 @@
 			(uuid "b5f2d01d-2a39-47a2-9750-f758a1142d78")
 		)
 		(instances
-			(project "power-poe"
+			(project "power-link-wago"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
 					(reference "J103")
 					(unit 1)
@@ -2070,7 +2070,7 @@
 			)
 		)
 		(instances
-			(project "power-poe"
+			(project "power-link-wago"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
 					(reference "ICON103")
 					(unit 1)
@@ -2236,7 +2236,7 @@
 			(uuid "17a19ea5-2f82-42ec-8195-a8dde4f4aa75")
 		)
 		(instances
-			(project "power-poe"
+			(project "power-link-wago"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
 					(reference "J106")
 					(unit 1)
@@ -2303,7 +2303,7 @@
 			(uuid "72f566f3-a395-4967-bbda-178121168671")
 		)
 		(instances
-			(project "power-poe"
+			(project "power-link-wago"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
 					(reference "#PWR0108")
 					(unit 1)
@@ -2569,7 +2569,7 @@
 			(uuid "fc26265c-60b7-4d32-8684-229f7facfeea")
 		)
 		(instances
-			(project "power-poe"
+			(project "power-link-wago"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
 					(reference "#PWR0107")
 					(unit 1)
@@ -2816,7 +2816,7 @@
 			(uuid "9b86d9b2-6ea9-436a-a6f6-7122ff5764a1")
 		)
 		(instances
-			(project "power-poe"
+			(project "power-link-wago"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
 					(reference "#PWR0110")
 					(unit 1)
@@ -2899,7 +2899,7 @@
 			(uuid "c7820771-5393-4c6b-9c86-6a8a9ecfc1df")
 		)
 		(instances
-			(project "power-poe"
+			(project "power-link-wago"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
 					(reference "J105")
 					(unit 1)
@@ -3422,7 +3422,7 @@
 			(uuid "9fc3dcbd-de74-4f66-9e73-34a8c4d053e5")
 		)
 		(instances
-			(project "power-poe"
+			(project "power-link-wago"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
 					(reference "#PWR0111")
 					(unit 1)
@@ -3495,7 +3495,7 @@
 			)
 		)
 		(instances
-			(project "power-poe"
+			(project "power-link-wago"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
 					(reference "H102")
 					(unit 1)
