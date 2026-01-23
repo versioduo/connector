@@ -576,7 +576,7 @@
       },
       {
         "netclass": "Ground",
-        "pattern": "GND"
+        "pattern": "PGN|GND"
       },
       {
         "netclass": "Power",
@@ -616,7 +616,7 @@
       "plot": "power-poe-gerber",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "../../../../Desktop/power-link-speakon.step",
+      "step": "../../../../Desktop/power-link-usb.step",
       "svg": "",
       "vrml": ""
     },

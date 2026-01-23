@@ -851,7 +851,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "V2_power:+24V"
+		(symbol "V2_power:+VLINK"
 			(power)
 			(pin_numbers
 				(hide yes)
@@ -864,7 +864,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "#PWR"
-				(at 0 -11.684 0)
+				(at 0 -12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -872,7 +872,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "+24V"
+			(property "Value" "+VLINK"
 				(at 0 4.064 0)
 				(effects
 					(font
@@ -898,8 +898,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+24V\""
-				(at 0 -14.732 0)
+			(property "Description" "Power symbol creates a global label with name \"+VLINK\""
+				(at 0 -15.494 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -916,31 +916,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "+24V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
+			(symbol "+VLINK_0_1"
 				(polyline
 					(pts
 						(xy 0 0) (xy 0 2.54)
@@ -953,8 +929,20 @@
 						(type none)
 					)
 				)
+				(polyline
+					(pts
+						(xy 0.762 1.27) (xy -0.762 1.27) (xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
 			)
-			(symbol "+24V_1_1"
+			(symbol "+VLINK_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -989,7 +977,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "#PWR"
-				(at 0 -7.112 0)
+				(at 0 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -998,7 +986,7 @@
 				)
 			)
 			(property "Value" "GND"
-				(at 0 -4.064 0)
+				(at 0 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1025,7 +1013,7 @@
 				)
 			)
 			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-				(at -0.254 -10.414 0)
+				(at 0 -12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1201,7 +1189,7 @@
 				)
 			)
 			(property "Value" "Shield"
-				(at 0 -4.572 0)
+				(at 0 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1209,7 +1197,7 @@
 				)
 			)
 			(property "Footprint" ""
-				(at 0 0 0)
+				(at 0 -1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1218,7 +1206,7 @@
 				)
 			)
 			(property "Datasheet" ""
-				(at 0 0 0)
+				(at 0 -1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1226,8 +1214,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"Earth\""
-				(at 0 -10.922 0)
+			(property "Description" "Power symbol creates a global label with name \"Shield\""
+				(at 0 -10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1235,7 +1223,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "global ground gnd"
+			(property "ki_keywords" "global ground"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1247,10 +1235,10 @@
 			(symbol "Shield_0_1"
 				(polyline
 					(pts
-						(xy -0.635 -1.905) (xy 0.635 -1.905)
+						(xy -1.016 -1.27) (xy -1.27 -2.032) (xy -1.27 -2.032)
 					)
 					(stroke
-						(width 0)
+						(width 0.2032)
 						(type default)
 					)
 					(fill
@@ -1259,10 +1247,10 @@
 				)
 				(polyline
 					(pts
-						(xy -0.127 -2.54) (xy 0.127 -2.54)
+						(xy -0.508 -1.27) (xy -0.762 -2.032) (xy -0.762 -2.032)
 					)
 					(stroke
-						(width 0)
+						(width 0.2032)
 						(type default)
 					)
 					(fill
@@ -1283,10 +1271,46 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 -1.27) (xy -1.27 -1.27)
+						(xy 0 -1.27) (xy -0.254 -2.032) (xy -0.254 -2.032)
 					)
 					(stroke
-						(width 0)
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 -1.27) (xy 0.254 -2.032) (xy 0.254 -2.032)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 -1.27) (xy -1.016 -1.27) (xy -1.016 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 -1.27) (xy 0.762 -2.032) (xy 0.762 -2.032) (xy 0.762 -2.032)
+					)
+					(stroke
+						(width 0.2032)
 						(type default)
 					)
 					(fill
@@ -1629,7 +1653,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"Earth\""
+		(property "Description" "Power symbol creates a global label with name \"Shield\""
 			(at 119.38 103.632 0)
 			(effects
 				(font
@@ -1652,7 +1676,7 @@
 	)
 	(symbol
 		(lib_id "V2_power:PWR_FLAG")
-		(at 149.86 55.88 90)
+		(at 149.86 54.61 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1660,7 +1684,7 @@
 		(dnp no)
 		(uuid "20ffe212-22a9-4919-a025-704b80513197")
 		(property "Reference" "#FLG0103"
-			(at 147.955 55.88 0)
+			(at 147.955 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1669,7 +1693,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 138.938 55.88 90)
+			(at 138.938 54.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1677,7 +1701,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 149.86 55.88 0)
+			(at 149.86 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1686,7 +1710,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 149.86 55.88 0)
+			(at 149.86 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1695,7 +1719,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 167.132 55.88 0)
+			(at 167.132 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1940,7 +1964,7 @@
 		)
 	)
 	(symbol
-		(lib_id "V2_power:+24V")
+		(lib_id "V2_power:+VLINK")
 		(at 149.86 44.45 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1957,7 +1981,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+24V"
+		(property "Value" "+VLINK"
 			(at 156.972 44.45 90)
 			(effects
 				(font
@@ -1983,7 +2007,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+24V\""
+		(property "Description" "Power symbol creates a global label with name \"+VLINK\""
 			(at 135.128 44.45 0)
 			(effects
 				(font
@@ -2512,7 +2536,7 @@
 		)
 	)
 	(symbol
-		(lib_id "V2_power:+24V")
+		(lib_id "V2_power:+VLINK")
 		(at 158.75 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2529,7 +2553,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+24V"
+		(property "Value" "+VLINK"
 			(at 156.464 130.81 0)
 			(effects
 				(font
@@ -2556,7 +2580,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+24V\""
+		(property "Description" "Power symbol creates a global label with name \"+VLINK\""
 			(at 158.75 150.622 0)
 			(effects
 				(font
@@ -2803,7 +2827,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"Earth\""
+		(property "Description" "Power symbol creates a global label with name \"Shield\""
 			(at 165.1 103.632 0)
 			(effects
 				(font
@@ -2982,7 +3006,7 @@
 		)
 	)
 	(symbol
-		(lib_id "V2_power:+24V")
+		(lib_id "V2_power:+VLINK")
 		(at 129.54 77.47 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3000,7 +3024,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+24V"
+		(property "Value" "+VLINK"
 			(at 133.35 77.4699 90)
 			(effects
 				(font
@@ -3027,7 +3051,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+24V\""
+		(property "Description" "Power symbol creates a global label with name \"+VLINK\""
 			(at 114.808 77.47 0)
 			(effects
 				(font
@@ -3181,7 +3205,7 @@
 		)
 	)
 	(symbol
-		(lib_id "V2_power:+24V")
+		(lib_id "V2_power:+VLINK")
 		(at 175.26 77.47 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3199,7 +3223,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+24V"
+		(property "Value" "+VLINK"
 			(at 179.07 77.4699 90)
 			(effects
 				(font
@@ -3226,7 +3250,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+24V\""
+		(property "Description" "Power symbol creates a global label with name \"+VLINK\""
 			(at 160.528 77.47 0)
 			(effects
 				(font
@@ -3365,7 +3389,7 @@
 	)
 	(symbol
 		(lib_id "V2_power:Shield")
-		(at 149.86 55.88 90)
+		(at 149.86 54.61 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3374,7 +3398,7 @@
 		(fields_autoplaced yes)
 		(uuid "faeb8ecc-66a8-459f-9a6a-8face7153780")
 		(property "Reference" "#PWR0111"
-			(at 157.48 55.88 0)
+			(at 157.48 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3383,7 +3407,7 @@
 			)
 		)
 		(property "Value" "Shield"
-			(at 153.67 55.8799 90)
+			(at 153.67 54.6099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3392,7 +3416,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 149.86 55.88 0)
+			(at 149.86 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3401,7 +3425,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 149.86 55.88 0)
+			(at 149.86 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3409,8 +3433,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 160.782 55.88 0)
+		(property "Description" "Power symbol creates a global label with name \"Shield\""
+			(at 160.782 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
