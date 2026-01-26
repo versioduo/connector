@@ -97,6 +97,16 @@
 					(hide yes)
 				)
 			)
+			(property "Rating" "50V"
+				(at 0 -22.86 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_keywords" "capacitor cap"
 				(at 0 0 0)
 				(effects
@@ -948,12 +958,11 @@
 				)
 			)
 			(property "Footprint" "V2_Package_TO_SOT_SMD:TDSON-8-FL"
-				(at 5.08 -1.905 0)
+				(at 0 -17.78 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 					(hide yes)
 				)
 			)
@@ -977,7 +986,7 @@
 				)
 			)
 			(property "Mouser" "726-BSC010N04LS"
-				(at 0 -22.86 0)
+				(at 0 -27.94 0)
 				(show_name)
 				(effects
 					(font
@@ -987,7 +996,7 @@
 				)
 			)
 			(property "Product" "BSC010N04LS"
-				(at 0 -20.32 0)
+				(at 0 -25.4 0)
 				(show_name)
 				(effects
 					(font
@@ -997,6 +1006,26 @@
 				)
 			)
 			(property "Manufacturer" "Infineon Technologies"
+				(at 0 -22.86 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Rating" "40V"
+				(at 0 -20.32 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Polarity" "N"
 				(at 0 -17.78 0)
 				(show_name)
 				(effects
@@ -1244,7 +1273,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "#PWR"
-				(at 0 -7.112 0)
+				(at 0 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1253,7 +1282,7 @@
 				)
 			)
 			(property "Value" "GND"
-				(at 0 -4.064 0)
+				(at 0 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1280,7 +1309,7 @@
 				)
 			)
 			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-				(at -0.254 -10.414 0)
+				(at 0 -12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1748,8 +1777,17 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" ""
-			(at 156.21 88.9 90)
+		(property "Rating" "40V"
+			(at 176.53 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Polarity" "N"
+			(at 173.99 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1849,15 +1887,6 @@
 		)
 		(property "Manufacturer" "Texas Instruments"
 			(at 156.21 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" ""
-			(at 156.21 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1988,15 +2017,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" ""
-			(at 127 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "b0b2384c-3cf4-491a-ae78-38507fdd7488")
 		)
@@ -2093,8 +2113,8 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" ""
-			(at 111.76 88.9 0)
+		(property "Rating" "50V"
+			(at 111.76 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2191,15 +2211,6 @@
 		)
 		(property "Manufacturer" "YAGEO"
 			(at 140.97 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" ""
-			(at 140.97 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2312,15 +2323,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" ""
-			(at 127 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "51f9f405-723d-4c16-90c1-f931e4d1ba74")
 		)
@@ -2418,8 +2420,17 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" ""
-			(at 176.53 88.9 90)
+		(property "Rating" "40V"
+			(at 156.21 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Polarity" "N"
+			(at 158.75 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)

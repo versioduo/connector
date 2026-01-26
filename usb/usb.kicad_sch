@@ -834,6 +834,16 @@
 					(hide yes)
 				)
 			)
+			(property "Rating" "50V"
+				(at 0 -22.86 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_keywords" "capacitor cap"
 				(at 0 0 0)
 				(effects
@@ -2509,7 +2519,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+		(property "Description" "Power symbol creates a global label with name \"+VBUS\""
 			(at 218.694 106.68 0)
 			(effects
 				(font
@@ -2534,7 +2544,7 @@
 		(lib_id "V2_Mechanical:MountingHole_2mm")
 		(at 246.38 157.48 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -2669,7 +2679,7 @@
 		(lib_id "V2_Mechanical:MountingHole_2mm")
 		(at 246.38 171.45 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -2780,7 +2790,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+		(property "Description" "Power symbol creates a global label with name \"+VBUS\""
 			(at 154.94 114.554 0)
 			(effects
 				(font
@@ -2912,7 +2922,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+		(property "Description" "Power symbol creates a global label with name \"+VBUS\""
 			(at 97.536 86.36 0)
 			(effects
 				(font
@@ -3046,7 +3056,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+		(property "Description" "Power symbol creates a global label with name \"+VBUS\""
 			(at 200.406 101.6 0)
 			(effects
 				(font
@@ -3270,7 +3280,7 @@
 		(lib_id "V2_PCB_Devices:PCB_Plug_Horizontal")
 		(at 227.33 173.99 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -3446,7 +3456,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+		(property "Description" "Power symbol creates a global label with name \"+VBUS\""
 			(at 87.376 58.42 0)
 			(effects
 				(font
@@ -3672,6 +3682,15 @@
 		)
 		(property "Product" "CGA3E2X7R1H104M080AA"
 			(at 154.94 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "50V"
+			(at 154.94 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4367,7 +4386,7 @@
 		(lib_id "V2_Artwork:V2-logo")
 		(at 205.74 154.94 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)

@@ -695,6 +695,24 @@
           "label": "Sim.Enable",
           "name": "Sim.Enable",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Rating",
+          "name": "Rating",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer",
+          "name": "Manufacturer",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Product",
+          "name": "Product",
+          "show": false
         }
       ],
       "filter_string": "",
