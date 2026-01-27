@@ -679,12 +679,6 @@
           "show": false
         },
         {
-          "group_by": true,
-          "label": "Mouser",
-          "name": "Mouser",
-          "show": true
-        },
-        {
           "group_by": false,
           "label": "Description",
           "name": "Description",
@@ -712,7 +706,13 @@
           "group_by": false,
           "label": "Product",
           "name": "Product",
-          "show": false
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "Mouser",
+          "name": "Mouser",
+          "show": true
         }
       ],
       "filter_string": "",

@@ -1851,23 +1851,25 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "TVS"
-				(at -1.27 3.81 0)
+				(at -2.54 6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Value" "SMBJ36CA"
-				(at 0 -3.81 0)
+				(at -2.54 3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Footprint" "V2_Diode_SMD:D_SMB"
-				(at 0 -5.715 0)
+				(at 0 -9.271 0)
 				(effects
 					(font
 						(size 0.0254 0.0254)
@@ -1876,7 +1878,7 @@
 				)
 			)
 			(property "Datasheet" ""
-				(at 0 0 0)
+				(at 0 -10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1884,8 +1886,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
-				(at 0 0 0)
+			(property "Description" "Transient Voltage Suppressor Diode, Bidirectional, 40-44.2V"
+				(at 0 -8.89 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1894,7 +1896,7 @@
 				)
 			)
 			(property "Mouser" "652-SMBJ36CA-Q"
-				(at 0 -15.494 0)
+				(at 0 -19.05 0)
 				(show_name)
 				(effects
 					(font
@@ -1904,7 +1906,7 @@
 				)
 			)
 			(property "Product" "SMBJ36CA-Q"
-				(at 0 -10.16 0)
+				(at 0 -13.716 0)
 				(show_name)
 				(effects
 					(font
@@ -1914,7 +1916,7 @@
 				)
 			)
 			(property "Manufacturer" "Bourns"
-				(at 0 -7.62 0)
+				(at 0 -11.176 0)
 				(show_name)
 				(effects
 					(font
@@ -1924,7 +1926,7 @@
 				)
 			)
 			(property "Rating" "36V"
-				(at 0 -12.7 0)
+				(at 0 -16.256 0)
 				(show_name)
 				(effects
 					(font
@@ -4355,7 +4357,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Transient Voltage Suppressor Diode, Bidirectional, 40-44.2V"
 			(at 55.88 166.37 0)
 			(effects
 				(font

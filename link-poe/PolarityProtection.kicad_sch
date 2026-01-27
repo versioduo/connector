@@ -97,6 +97,16 @@
 					(hide yes)
 				)
 			)
+			(property "Rating" "50V"
+				(at 0 -22.86 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_keywords" "capacitor cap"
 				(at 0 0 0)
 				(effects
@@ -948,12 +958,11 @@
 				)
 			)
 			(property "Footprint" "V2_Package_TO_SOT_SMD:TDSON-8-FL"
-				(at 5.08 -1.905 0)
+				(at 0 -17.78 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 					(hide yes)
 				)
 			)
@@ -977,7 +986,7 @@
 				)
 			)
 			(property "Mouser" "726-BSC010N04LS"
-				(at 0 -22.86 0)
+				(at 0 -27.94 0)
 				(show_name)
 				(effects
 					(font
@@ -987,7 +996,7 @@
 				)
 			)
 			(property "Product" "BSC010N04LS"
-				(at 0 -20.32 0)
+				(at 0 -25.4 0)
 				(show_name)
 				(effects
 					(font
@@ -997,6 +1006,26 @@
 				)
 			)
 			(property "Manufacturer" "Infineon Technologies"
+				(at 0 -22.86 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Rating" "40V"
+				(at 0 -20.32 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Polarity" "N"
 				(at 0 -17.78 0)
 				(show_name)
 				(effects
@@ -1748,6 +1777,24 @@
 				(hide yes)
 			)
 		)
+		(property "Rating" "40V"
+			(at 171.45 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Polarity" "N"
+			(at 168.91 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "18fc84bd-c152-4513-bd48-c793784cea28")
 		)
@@ -2065,6 +2112,15 @@
 				(hide yes)
 			)
 		)
+		(property "Rating" "50V"
+			(at 109.22 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7ec4c6d1-a550-4a9c-8a35-931df72f02a2")
 		)
@@ -2354,6 +2410,24 @@
 			)
 		)
 		(property "Manufacturer" "Infineon Technologies"
+			(at 153.67 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "40V"
+			(at 151.13 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Polarity" "N"
 			(at 153.67 88.9 0)
 			(effects
 				(font
