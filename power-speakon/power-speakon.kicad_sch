@@ -220,7 +220,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "V2_Connector_SpeakOn:Jack_speakON_Neutrik_NL4MDXX-V-3_Vertical"
+			(property "Footprint" "V2_Connector_SpeakOn:NL4MDXX-V-3"
 				(at 0 -20.32 0)
 				(effects
 					(font
@@ -596,7 +596,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "V2_Diode:SMBJ36CA"
+		(symbol "V2_Diode:SMBJ33CA"
 			(pin_numbers
 				(hide yes)
 			)
@@ -607,19 +607,21 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "TVS"
-				(at -1.27 3.81 0)
+				(at -2.54 6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Value" "SMBJ36CA"
-				(at 0 -3.81 0)
+			(property "Value" "SMBJ33CA"
+				(at -2.54 3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Footprint" "V2_Diode_SMD:D_SMB"
@@ -632,7 +634,7 @@
 				)
 			)
 			(property "Datasheet" ""
-				(at 0 0 0)
+				(at 0 -10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -640,8 +642,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
-				(at 0 0 0)
+			(property "Description" "Transient Voltage Suppressor Diode, Bidirectional, 36.7-40.6V"
+				(at 0 -12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -649,8 +651,8 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser" "652-SMBJ36CA-Q"
-				(at 0 -15.494 0)
+			(property "Mouser" "652-SMBJ33CA-Q"
+				(at 0 -23.114 0)
 				(show_name)
 				(effects
 					(font
@@ -659,8 +661,8 @@
 					(hide yes)
 				)
 			)
-			(property "Product" "SMBJ36CA-Q"
-				(at 0 -10.16 0)
+			(property "Product" "SMBJ33CA-Q"
+				(at 0 -17.78 0)
 				(show_name)
 				(effects
 					(font
@@ -670,7 +672,7 @@
 				)
 			)
 			(property "Manufacturer" "Bourns"
-				(at 0 -7.62 0)
+				(at 0 -15.24 0)
 				(show_name)
 				(effects
 					(font
@@ -679,8 +681,8 @@
 					(hide yes)
 				)
 			)
-			(property "Rating" "36V"
-				(at 0 -12.7 0)
+			(property "Rating" "33V"
+				(at 0 -20.32 0)
 				(show_name)
 				(effects
 					(font
@@ -689,7 +691,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "SMBJ36CA_0_1"
+			(symbol "SMBJ33CA_0_1"
 				(polyline
 					(pts
 						(xy -2.54 -1.27) (xy -2.54 1.27) (xy 0 0) (xy -2.54 -1.27)
@@ -739,7 +741,7 @@
 					)
 				)
 			)
-			(symbol "SMBJ36CA_1_1"
+			(symbol "SMBJ33CA_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -933,7 +935,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "V2_power:+24V"
+		(symbol "V2_power:+28V"
 			(power)
 			(pin_numbers
 				(hide yes)
@@ -954,8 +956,8 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "+24V"
-				(at 0 4.064 0)
+			(property "Value" "+28V"
+				(at 0 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -980,7 +982,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+24V\""
+			(property "Description" ""
 				(at 0 -14.732 0)
 				(effects
 					(font
@@ -998,7 +1000,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "+24V_0_1"
+			(symbol "+28V_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -1036,7 +1038,7 @@
 					)
 				)
 			)
-			(symbol "+24V_1_1"
+			(symbol "+28V_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -1106,7 +1108,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(property "Description" ""
 				(at 0 -12.7 0)
 				(effects
 					(font
@@ -1173,7 +1175,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "#FLG"
-				(at 0 -13.97 0)
+				(at 0 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1182,7 +1184,7 @@
 				)
 			)
 			(property "Value" "PWR_FLAG"
-				(at 0 4.572 0)
+				(at -8.89 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1208,7 +1210,7 @@
 				)
 			)
 			(property "Description" "Special symbol for telling ERC where power comes from"
-				(at 0 -17.272 0)
+				(at 0 -10.922 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1227,7 +1229,7 @@
 			)
 			(symbol "PWR_FLAG_0_0"
 				(pin power_out line
-					(at 0 0 90)
+					(at 0 0 180)
 					(length 0)
 					(name "~"
 						(effects
@@ -1248,7 +1250,7 @@
 			(symbol "PWR_FLAG_0_1"
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+						(xy 0 0) (xy -1.27 0) (xy -1.905 -1.016) (xy -2.54 0) (xy -1.905 1.016) (xy -1.27 0)
 					)
 					(stroke
 						(width 0)
@@ -1350,7 +1352,7 @@
 		)
 		(uuid "e2f0ac71-4eee-4fad-b17d-3c3d3f42ed1e")
 	)
-	(label "+24V-Supply"
+	(label "+28V-Supply"
 		(at 177.8 44.45 180)
 		(effects
 			(font
@@ -1360,7 +1362,7 @@
 		)
 		(uuid "11272fc9-84a9-430a-8900-1ecdabd7888c")
 	)
-	(label "+24V-Supply"
+	(label "+28V-Supply"
 		(at 118.11 110.49 0)
 		(effects
 			(font
@@ -1416,7 +1418,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+		(property "Description" ""
 			(at 143.256 59.436 0)
 			(effects
 				(font
@@ -1483,7 +1485,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+		(property "Description" ""
 			(at 135.636 128.524 0)
 			(effects
 				(font
@@ -1505,7 +1507,7 @@
 		)
 	)
 	(symbol
-		(lib_id "V2_power:+24V")
+		(lib_id "V2_power:+28V")
 		(at 171.45 110.49 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1523,7 +1525,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+24V"
+		(property "Value" "+28V"
 			(at 175.26 110.4899 90)
 			(effects
 				(font
@@ -1550,7 +1552,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+24V\""
+		(property "Description" ""
 			(at 156.718 110.49 0)
 			(effects
 				(font
@@ -1572,7 +1574,7 @@
 		)
 	)
 	(symbol
-		(lib_id "V2_Diode:SMBJ36CA")
+		(lib_id "V2_Diode:SMBJ33CA")
 		(at 135.89 114.3 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1590,7 +1592,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "SMBJ36CA"
+		(property "Value" "SMBJ33CA"
 			(at 139.7 115.5699 90)
 			(effects
 				(font
@@ -1609,33 +1611,6 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 135.89 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 135.89 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "652-SMBJ36CA-Q"
-			(at 143.256 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Product" "SMBJ36CA-Q"
 			(at 146.05 114.3 0)
 			(effects
 				(font
@@ -1644,8 +1619,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Bourns"
-			(at 143.51 114.3 0)
+		(property "Description" "Transient Voltage Suppressor Diode, Bidirectional, 36.7-40.6V"
+			(at 148.59 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1653,8 +1628,39 @@
 				(hide yes)
 			)
 		)
-		(property "Rating" "36V"
-			(at 148.59 114.3 0)
+		(property "Mouser" "652-SMBJ33CA-Q"
+			(at 159.004 114.3 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product" "SMBJ33CA-Q"
+			(at 153.67 114.3 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Bourns"
+			(at 151.13 114.3 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "33V"
+			(at 156.21 114.3 0)
+			(show_name yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1723,7 +1729,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+		(property "Description" ""
 			(at 161.544 99.314 0)
 			(effects
 				(font
@@ -1748,7 +1754,7 @@
 		(lib_id "V2_Artwork:V2-logo")
 		(at 209.55 166.37 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -1819,7 +1825,7 @@
 		)
 	)
 	(symbol
-		(lib_id "V2_power:+24V")
+		(lib_id "V2_power:+28V")
 		(at 151.13 95.25 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1836,7 +1842,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+24V"
+		(property "Value" "+28V"
 			(at 159.004 95.25 90)
 			(effects
 				(font
@@ -1862,7 +1868,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+24V\""
+		(property "Description" ""
 			(at 136.398 95.25 0)
 			(effects
 				(font
@@ -1970,7 +1976,7 @@
 		(lib_id "V2_Artwork:Plus")
 		(at 236.22 167.64 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -2065,7 +2071,7 @@
 				)
 			)
 		)
-		(property "Footprint" "V2_Connector_SpeakOn:Jack_speakON_Neutrik_NL4MDXX-V-3_Vertical"
+		(property "Footprint" "V2_Connector_SpeakOn:NL4MDXX-V-3"
 			(at 161.29 59.69 0)
 			(effects
 				(font
@@ -2142,7 +2148,7 @@
 	)
 	(symbol
 		(lib_id "V2_power:PWR_FLAG")
-		(at 151.13 99.06 90)
+		(at 151.13 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2150,7 +2156,7 @@
 		(dnp no)
 		(uuid "6c2e60bc-71fc-4105-aaeb-272201cddfa7")
 		(property "Reference" "#FLG0102"
-			(at 149.225 99.06 0)
+			(at 151.13 97.155 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2159,7 +2165,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 141.986 99.06 90)
+			(at 141.224 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2185,7 +2191,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 168.402 99.06 0)
+			(at 151.13 116.332 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2415,7 +2421,7 @@
 	)
 	(symbol
 		(lib_id "V2_power:PWR_FLAG")
-		(at 151.13 95.25 90)
+		(at 151.13 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2423,7 +2429,7 @@
 		(dnp no)
 		(uuid "ad1d27bf-9bb9-4a40-8cf0-36be2db527cb")
 		(property "Reference" "#FLG0101"
-			(at 149.225 95.25 0)
+			(at 151.13 93.345 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2432,7 +2438,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 141.986 95.25 90)
+			(at 140.97 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2458,7 +2464,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 168.402 95.25 0)
+			(at 151.13 112.522 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2503,7 +2509,7 @@
 				)
 			)
 		)
-		(property "Footprint" "V2_Connector_SpeakOn:Jack_speakON_Neutrik_NL4MDXX-V-3_Vertical"
+		(property "Footprint" "V2_Connector_SpeakOn:NL4MDXX-V-3"
 			(at 130.81 59.69 0)
 			(effects
 				(font
@@ -2642,7 +2648,7 @@
 		)
 	)
 	(symbol
-		(lib_id "V2_power:+24V")
+		(lib_id "V2_power:+28V")
 		(at 139.7 147.32 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2659,7 +2665,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+24V"
+		(property "Value" "+28V"
 			(at 132.842 147.066 90)
 			(effects
 				(font
@@ -2685,7 +2691,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+24V\""
+		(property "Description" ""
 			(at 154.432 147.32 0)
 			(effects
 				(font
@@ -2751,7 +2757,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+		(property "Description" ""
 			(at 129.286 154.686 0)
 			(effects
 				(font
@@ -2881,7 +2887,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+		(property "Description" ""
 			(at 112.776 59.436 0)
 			(effects
 				(font
@@ -2909,7 +2915,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -2919,7 +2924,7 @@
 		)
 		(uuid "d58e122d-3dfd-484c-8dd2-db8f39216d59")
 		(property "Sheetname" "Polarity Protection"
-			(at 153.67 107.2384 0)
+			(at 153.416 106.7304 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -1,4 +1,4 @@
-219409963628452
+210579765228184
 V2_Artwork
 5V
 
@@ -189,13 +189,6 @@ CUI_SJ2-25404B-SMT-TR
 24
 5
 V2_Connector_Audio
-CUI_SJ2-25504B-SMT-TR
-
-
-0
-6
-6
-V2_Connector_Audio
 CUI_SJ2-35464B-SMT-TR
 
 
@@ -273,16 +266,16 @@ Amphenol_G85D1171012HHR
 11
 11
 V2_Connector_SpeakOn
-Jack_speakON_Neutrik_NL4MDXX-V-3_Vertical
-speakON Chassis Connectors, 4 pole chassis connector, grey D-size flange, self tapping screw holes (A-screw), vertical PCB mount, replaces NL4MD-V-1, https://www.neutrik.com/en/product/nl4mdxx-v-3
-neutrik speakon
+NL4MDXX-H-3
+speakON Chassis Connectors
+
 0
 4
 4
 V2_Connector_SpeakOn
-NL4MDXX-H-3
-speakON Chassis Connectors
-
+NL4MDXX-V-3
+speakON Chassis Connectors, 4 pole chassis connector, grey D-size flange, self tapping screw holes (A-screw), vertical PCB mount, replaces NL4MD-V-1, https://www.neutrik.com/en/product/nl4mdxx-v-3
+neutrik speakon
 0
 4
 4
@@ -315,26 +308,12 @@ V2_Connector_WAGO
 2
 1
 V2_Converter_DCDC
-TPSM33625
+QFN-11
 
-TPSM33625RDNR 
+
 0
 29
 11
-V2_Converter_DCDC
-TPSM63610
-
-TPSM33625RDNR 
-0
-38
-22
-V2_Converter_DCDC
-TPSM84209
-
-
-0
-34
-9
 V2_Cortex_Debug
 Cortex_Debug_Pad
 SMT pogo pads
@@ -353,13 +332,6 @@ V2_Diode_SMD
 D_0603
 Diode SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
 diode
-0
-2
-2
-V2_Diode_SMD
-D_SMA
-Diode SMA (DO-214AC)
-Diode SMA (DO-214AC)
 0
 2
 2
@@ -405,13 +377,6 @@ VQC10
 0
 24
 24
-V2_Driver_Stepper
-QFN36-5X6
-
-
-0
-59
-37
 V2_ESD_Suppressor
 SLP1210N6
  
@@ -433,13 +398,6 @@ fiducial
 0
 1
 0
-V2_Inductor_SMD
-L_3.1x5.1
-
-inductor
-0
-2
-2
 V2_LED
 LED_0603
 LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
@@ -664,6 +622,13 @@ QFN NoLead
 0
 106
 65
+V2_Package_DFN_QFN
+QFN36-5X6
+
+
+0
+59
+37
 V2_Package_DFN_QFN
 WQFN-16-1EP_4x4mm_P0.65mm_EP2.7x2.7mm_ThermalVias
 WQFN, 16 Pin (http://www.ti.com/lit/ds/symlink/ldc1312.pdf#page=59), generated with kicad-footprint-generator ipc_noLead_generator.py
