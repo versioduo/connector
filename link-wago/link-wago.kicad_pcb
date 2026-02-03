@@ -769,7 +769,7 @@
 			(net 1 "GND")
 			(pinfunction "GND")
 			(pintype "passive")
-			(uuid "cbee211c-d95c-43b8-bf02-fed5314fcbee")
+			(uuid "4c434734-7f82-4371-aba2-2239f9ec1382")
 		)
 		(pad "S" thru_hole oval
 			(at -4.32 -2.675)
@@ -799,7 +799,7 @@
 			(pintype "passive")
 			(solder_paste_margin_ratio 0.06)
 			(zone_connect 2)
-			(uuid "7aca7cd0-db30-4bec-83c9-f00e799152b9")
+			(uuid "4d453901-543d-443c-8402-2e8c5d053814")
 		)
 		(pad "S" smd roundrect
 			(at -1.4 1.15)
@@ -810,7 +810,7 @@
 			(pinfunction "SHIELD")
 			(pintype "passive")
 			(zone_connect 2)
-			(uuid "7aca7cd0-db30-4bec-83c9-f00e799152b9")
+			(uuid "422d6525-63b7-42de-8b8b-d1a10f2d2192")
 		)
 		(pad "S" smd roundrect
 			(at 1.4 1.15)
@@ -821,7 +821,7 @@
 			(pinfunction "SHIELD")
 			(pintype "passive")
 			(zone_connect 2)
-			(uuid "7aca7cd0-db30-4bec-83c9-f00e799152b9")
+			(uuid "787f83f5-6af5-4051-8b60-70085a068ea3")
 		)
 		(pad "S" thru_hole oval
 			(at 4.32 -2.675)
@@ -836,7 +836,7 @@
 			(pintype "passive")
 			(solder_paste_margin_ratio 0.06)
 			(zone_connect 2)
-			(uuid "7aca7cd0-db30-4bec-83c9-f00e799152b9")
+			(uuid "2b1ca3bd-d18d-4cdb-a2df-6a59e1aacaa3")
 		)
 		(pad "S" thru_hole oval
 			(at 4.32 1.15)
@@ -851,7 +851,7 @@
 			(pintype "passive")
 			(solder_paste_margin_ratio 0.06)
 			(zone_connect 2)
-			(uuid "7aca7cd0-db30-4bec-83c9-f00e799152b9")
+			(uuid "370be11a-fd29-45ba-9828-a40d36171284")
 		)
 		(pad "V" smd roundrect
 			(at -2.35 -3.05)
@@ -871,7 +871,7 @@
 			(net 31 "+VBUS")
 			(pinfunction "VBUS")
 			(pintype "passive")
-			(uuid "8ecaea72-d9d0-4e10-bbeb-e3020e31a0ed")
+			(uuid "17b5d1b0-de29-4784-bedd-d74b50d6d913")
 		)
 		(embedded_fonts no)
 		(model "../../3dmodels/V2_Connector_USB.3dshapes/DX07S016JA1R1500.step"
@@ -6649,7 +6649,7 @@
 			(net 1 "GND")
 			(pinfunction "GND")
 			(pintype "power_in")
-			(uuid "386bcc9c-be25-43ce-9e29-5d189e4ce3d0")
+			(uuid "6fdadef6-90b6-4f27-9a90-c11d5dc1aeff")
 		)
 		(pad "10" smd roundrect
 			(at 0 -0.85 180)
@@ -6659,7 +6659,7 @@
 			(net 1 "GND")
 			(pinfunction "GND")
 			(pintype "power_in")
-			(uuid "386bcc9c-be25-43ce-9e29-5d189e4ce3d0")
+			(uuid "2718b6c5-b9ed-45d5-874f-c5beb833e140")
 		)
 		(pad "10" thru_hole circle
 			(at 0.4 -0.9 180)
@@ -6674,7 +6674,7 @@
 			(pinfunction "GND")
 			(pintype "power_in")
 			(zone_connect 2)
-			(uuid "386bcc9c-be25-43ce-9e29-5d189e4ce3d0")
+			(uuid "25a05948-3e18-4f4e-beac-3838508daf0a")
 		)
 		(pad "11" smd roundrect
 			(at -0.5 -2.06 270)
@@ -7175,7 +7175,7 @@
 			(zone_layer_connections "In1.Cu" "In2.Cu")
 			(net 1 "GND")
 			(pintype "passive")
-			(uuid "f499fe96-b429-4e1d-85f8-b761e136dc38")
+			(uuid "144000d4-2057-4606-bbec-9babf918bc08")
 		)
 		(embedded_fonts no)
 		(model "../../3dmodels/V2_Connector_WAGO.3dshapes/2601-1101.stp"
@@ -7318,7 +7318,7 @@
 			(zone_layer_connections)
 			(net 4 "+28V")
 			(pintype "passive")
-			(uuid "c3f88b2f-b8df-4e63-b758-5d361607dc48")
+			(uuid "2b0e877e-eca1-4a05-a4ea-995d171da67e")
 		)
 		(embedded_fonts no)
 		(model "../../3dmodels/V2_Connector_WAGO.3dshapes/2601-1101.stp"
@@ -7960,6 +7960,18 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "db2e5211-7e6a-42a9-b2df-00728afba574")
+	)
+	(gr_text "Move WAGOs further in"
+		(at 116.25 75.5 0)
+		(layer "F.Fab")
+		(uuid "3301e9b3-a8e0-4d2f-baa8-b4bbc38afc2e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
 	)
 	(segment
 		(start 134.55 97.85)
