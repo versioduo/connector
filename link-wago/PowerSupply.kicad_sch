@@ -105,15 +105,6 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "TPSM33625"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
 			(symbol "TPSM33625RDNR_0_1"
 				(rectangle
 					(start -10.16 10.16)

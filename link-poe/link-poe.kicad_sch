@@ -6,13 +6,13 @@
 	(paper "A4")
 	(title_block
 		(title "V2 Link PoE")
-		(date "2026-01-12")
-		(rev "7")
+		(date "2026-02-10")
+		(rev "2026-01-12")
 		(company "Versio Duo")
 		(comment 1 "CAT Cable Power Supply")
 	)
 	(lib_symbols
-		(symbol "V2_Artwork:24V"
+		(symbol "V2_Artwork:28V"
 			(exclude_from_sim no)
 			(in_bom no)
 			(on_board yes)
@@ -25,18 +25,17 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "24V"
+			(property "Value" ""
 				(at 0 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "Footprint" "V2_Artwork:24V"
-				(at 0 -7.62 0)
+			(property "Footprint" "V2_Artwork:28V"
+				(at 0 -8.89 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -62,17 +61,8 @@
 					(hide yes)
 				)
 			)
-			(property "Sim.Enable" "0"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "24V_1_1"
-				(text "24V"
+			(symbol "28V_1_1"
+				(text "28V"
 					(at 0 0 0)
 					(effects
 						(font
@@ -1840,7 +1830,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "V2_Diode:SMBJ36CA"
+		(symbol "V2_Diode:SMBJ33CA"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1859,7 +1849,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "SMBJ36CA"
+			(property "Value" "SMBJ33CA"
 				(at -2.54 3.81 0)
 				(effects
 					(font
@@ -1869,7 +1859,7 @@
 				)
 			)
 			(property "Footprint" "V2_Diode_SMD:D_SMB"
-				(at 0 -9.271 0)
+				(at 0 -5.715 0)
 				(effects
 					(font
 						(size 0.0254 0.0254)
@@ -1886,8 +1876,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Transient Voltage Suppressor Diode, Bidirectional, 40-44.2V"
-				(at 0 -8.89 0)
+			(property "Description" "Transient Voltage Suppressor Diode, Bidirectional, 36.7-40.6V"
+				(at 0 -12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1895,8 +1885,8 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser" "652-SMBJ36CA-Q"
-				(at 0 -19.05 0)
+			(property "Mouser" "652-SMBJ33CA-Q"
+				(at 0 -23.114 0)
 				(show_name)
 				(effects
 					(font
@@ -1905,8 +1895,8 @@
 					(hide yes)
 				)
 			)
-			(property "Product" "SMBJ36CA-Q"
-				(at 0 -13.716 0)
+			(property "Product" "SMBJ33CA-Q"
+				(at 0 -17.78 0)
 				(show_name)
 				(effects
 					(font
@@ -1916,7 +1906,7 @@
 				)
 			)
 			(property "Manufacturer" "Bourns"
-				(at 0 -11.176 0)
+				(at 0 -15.24 0)
 				(show_name)
 				(effects
 					(font
@@ -1925,8 +1915,8 @@
 					(hide yes)
 				)
 			)
-			(property "Rating" "36V"
-				(at 0 -16.256 0)
+			(property "Rating" "33V"
+				(at 0 -20.32 0)
 				(show_name)
 				(effects
 					(font
@@ -1935,7 +1925,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "SMBJ36CA_0_1"
+			(symbol "SMBJ33CA_0_1"
 				(polyline
 					(pts
 						(xy -2.54 -1.27) (xy -2.54 1.27) (xy 0 0) (xy -2.54 -1.27)
@@ -1985,7 +1975,7 @@
 					)
 				)
 			)
-			(symbol "SMBJ36CA_1_1"
+			(symbol "SMBJ33CA_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -2334,7 +2324,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "V2_power:+24V"
+		(symbol "V2_power:+28V"
 			(power)
 			(pin_numbers
 				(hide yes)
@@ -2355,8 +2345,8 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "+24V"
-				(at 0 4.064 0)
+			(property "Value" "+28V"
+				(at 0 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2381,7 +2371,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+24V\""
+			(property "Description" ""
 				(at 0 -14.732 0)
 				(effects
 					(font
@@ -2399,7 +2389,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "+24V_0_1"
+			(symbol "+28V_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -2437,7 +2427,7 @@
 					)
 				)
 			)
-			(symbol "+24V_1_1"
+			(symbol "+28V_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -2481,7 +2471,7 @@
 				)
 			)
 			(property "Value" "+5V"
-				(at 0 4.064 0)
+				(at 0 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2506,7 +2496,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(property "Description" ""
 				(at 0 -14.478 0)
 				(effects
 					(font
@@ -2606,7 +2596,7 @@
 				)
 			)
 			(property "Value" "+VBUS"
-				(at 0 4.064 0)
+				(at 0 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2631,7 +2621,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+VBUS\""
+			(property "Description" "USB Power Delivery"
 				(at 0 -15.494 0)
 				(effects
 					(font
@@ -2719,7 +2709,7 @@
 				)
 			)
 			(property "Value" "+VLINK"
-				(at 0 4.064 0)
+				(at 0 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2744,7 +2734,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+VLINK\""
+			(property "Description" "Power Over CAT Cable"
 				(at 0 -15.494 0)
 				(effects
 					(font
@@ -2858,7 +2848,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(property "Description" ""
 				(at 0 -12.7 0)
 				(effects
 					(font
@@ -2925,7 +2915,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "#FLG"
-				(at 0 -13.97 0)
+				(at 0 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2934,7 +2924,7 @@
 				)
 			)
 			(property "Value" "PWR_FLAG"
-				(at 0 4.572 0)
+				(at -8.89 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2960,7 +2950,7 @@
 				)
 			)
 			(property "Description" "Special symbol for telling ERC where power comes from"
-				(at 0 -17.272 0)
+				(at 0 -10.922 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2979,7 +2969,7 @@
 			)
 			(symbol "PWR_FLAG_0_0"
 				(pin power_out line
-					(at 0 0 90)
+					(at 0 0 180)
 					(length 0)
 					(name "~"
 						(effects
@@ -3000,7 +2990,7 @@
 			(symbol "PWR_FLAG_0_1"
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+						(xy 0 0) (xy -1.27 0) (xy -1.905 -1.016) (xy -2.54 0) (xy -1.905 1.016) (xy -1.27 0)
 					)
 					(stroke
 						(width 0)
@@ -3052,7 +3042,7 @@
 				)
 			)
 			(property "Datasheet" ""
-				(at 0 -1.27 0)
+				(at 0 -12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3060,7 +3050,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"Shield\""
+			(property "Description" ""
 				(at 0 -10.16 0)
 				(effects
 					(font
@@ -3954,7 +3944,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+VLINK\""
+		(property "Description" "Power Over CAT Cable"
 			(at 49.276 83.82 0)
 			(effects
 				(font
@@ -4020,7 +4010,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+		(property "Description" ""
 			(at 106.426 82.296 0)
 			(effects
 				(font
@@ -4150,7 +4140,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+		(property "Description" ""
 			(at 55.626 180.594 0)
 			(effects
 				(font
@@ -4217,7 +4207,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+		(property "Description" ""
 			(at 265.684 75.184 0)
 			(effects
 				(font
@@ -4312,7 +4302,7 @@
 		)
 	)
 	(symbol
-		(lib_id "V2_Diode:SMBJ36CA")
+		(lib_id "V2_Diode:SMBJ33CA")
 		(at 55.88 166.37 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4330,7 +4320,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "SMBJ36CA"
+		(property "Value" "SMBJ33CA"
 			(at 59.69 167.6399 90)
 			(effects
 				(font
@@ -4357,7 +4347,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Transient Voltage Suppressor Diode, Bidirectional, 40-44.2V"
+		(property "Description" "Transient Voltage Suppressor Diode, Bidirectional, 36.7-40.6V"
 			(at 55.88 166.37 0)
 			(effects
 				(font
@@ -4366,7 +4356,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "652-SMBJ36CA-Q"
+		(property "Mouser" "652-SMBJ33CA-Q"
 			(at 63.246 166.37 0)
 			(effects
 				(font
@@ -4375,7 +4365,7 @@
 				(hide yes)
 			)
 		)
-		(property "Product" "SMBJ36CA-Q"
+		(property "Product" "SMBJ33CA-Q"
 			(at 66.04 166.37 0)
 			(effects
 				(font
@@ -4393,7 +4383,7 @@
 				(hide yes)
 			)
 		)
-		(property "Rating" "36V"
+		(property "Rating" "33V"
 			(at 68.58 166.37 0)
 			(effects
 				(font
@@ -4419,7 +4409,7 @@
 	)
 	(symbol
 		(lib_id "V2_power:PWR_FLAG")
-		(at 227.33 38.1 90)
+		(at 227.33 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4427,7 +4417,7 @@
 		(dnp no)
 		(uuid "2910f391-48b2-4532-85db-b28389593910")
 		(property "Reference" "#FLG0102"
-			(at 225.425 38.1 0)
+			(at 227.33 36.195 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4436,7 +4426,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 217.17 38.1 90)
+			(at 218.186 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4462,7 +4452,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 244.602 38.1 0)
+			(at 227.33 55.372 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4528,7 +4518,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+VBUS\""
+		(property "Description" "USB Power Delivery"
 			(at 221.996 67.31 0)
 			(effects
 				(font
@@ -4668,7 +4658,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"Shield\""
+		(property "Description" ""
 			(at 238.252 48.26 0)
 			(effects
 				(font
@@ -4856,7 +4846,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+		(property "Description" ""
 			(at 106.426 46.736 0)
 			(effects
 				(font
@@ -4923,7 +4913,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+		(property "Description" ""
 			(at 265.684 72.644 0)
 			(effects
 				(font
@@ -4945,7 +4935,7 @@
 		)
 	)
 	(symbol
-		(lib_id "V2_power:+24V")
+		(lib_id "V2_power:+28V")
 		(at 93.98 162.56 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4963,7 +4953,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+24V"
+		(property "Value" "+28V"
 			(at 97.79 162.5599 90)
 			(effects
 				(font
@@ -4990,7 +4980,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+24V\""
+		(property "Description" ""
 			(at 79.248 162.56 0)
 			(effects
 				(font
@@ -5055,7 +5045,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"Shield\""
+		(property "Description" ""
 			(at 217.17 113.792 0)
 			(effects
 				(font
@@ -5195,7 +5185,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+		(property "Description" ""
 			(at 139.954 87.884 0)
 			(effects
 				(font
@@ -5260,7 +5250,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
+		(property "Description" ""
 			(at 115.062 46.99 0)
 			(effects
 				(font
@@ -5327,7 +5317,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+VLINK\""
+		(property "Description" "Power Over CAT Cable"
 			(at 49.276 48.26 0)
 			(effects
 				(font
@@ -5666,7 +5656,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+VBUS\""
+		(property "Description" "USB Power Delivery"
 			(at 211.836 38.1 0)
 			(effects
 				(font
@@ -6122,7 +6112,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+VLINK\""
+		(property "Description" "Power Over CAT Cable"
 			(at 55.88 178.054 0)
 			(effects
 				(font
@@ -6144,7 +6134,7 @@
 		)
 	)
 	(symbol
-		(lib_id "V2_power:+24V")
+		(lib_id "V2_power:+28V")
 		(at 83.82 173.99 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6161,7 +6151,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+24V"
+		(property "Value" "+28V"
 			(at 76.962 173.99 90)
 			(effects
 				(font
@@ -6187,7 +6177,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+24V\""
+		(property "Description" ""
 			(at 98.552 173.99 0)
 			(effects
 				(font
@@ -6317,7 +6307,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+		(property "Description" ""
 			(at 75.184 40.894 0)
 			(effects
 				(font
@@ -6339,7 +6329,7 @@
 		)
 	)
 	(symbol
-		(lib_id "V2_power:+24V")
+		(lib_id "V2_power:+28V")
 		(at 130.81 162.56 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6356,7 +6346,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+24V"
+		(property "Value" "+28V"
 			(at 123.19 162.56 90)
 			(effects
 				(font
@@ -6382,7 +6372,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+24V\""
+		(property "Description" ""
 			(at 145.542 162.56 0)
 			(effects
 				(font
@@ -6404,7 +6394,7 @@
 		)
 	)
 	(symbol
-		(lib_id "V2_power:+24V")
+		(lib_id "V2_power:+28V")
 		(at 87.63 151.13 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6422,7 +6412,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+24V"
+		(property "Value" "+28V"
 			(at 91.44 151.1299 90)
 			(effects
 				(font
@@ -6449,7 +6439,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+24V\""
+		(property "Description" ""
 			(at 72.898 151.13 0)
 			(effects
 				(font
@@ -6554,7 +6544,7 @@
 	)
 	(symbol
 		(lib_id "V2_power:PWR_FLAG")
-		(at 227.33 43.18 90)
+		(at 227.33 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6562,7 +6552,7 @@
 		(dnp no)
 		(uuid "ac967660-8d4f-4d6d-89ee-0e54dc4d747b")
 		(property "Reference" "#FLG0103"
-			(at 225.425 43.18 0)
+			(at 227.33 41.275 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6571,7 +6561,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 217.17 43.18 90)
+			(at 218.186 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6597,7 +6587,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 244.602 43.18 0)
+			(at 227.33 60.452 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6663,7 +6653,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+VLINK\""
+		(property "Description" "Power Over CAT Cable"
 			(at 44.196 25.4 0)
 			(effects
 				(font
@@ -6929,7 +6919,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+		(property "Description" ""
 			(at 224.536 113.284 0)
 			(effects
 				(font
@@ -6995,7 +6985,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+		(property "Description" ""
 			(at 73.406 182.626 0)
 			(effects
 				(font
@@ -7017,7 +7007,7 @@
 		)
 	)
 	(symbol
-		(lib_id "V2_Artwork:24V")
+		(lib_id "V2_Artwork:28V")
 		(at 243.84 167.64 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7035,7 +7025,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "24V"
+		(property "Value" "28V"
 			(at 243.84 172.72 0)
 			(effects
 				(font
@@ -7045,7 +7035,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "V2_Artwork:24V"
+		(property "Footprint" "V2_Artwork:28V"
 			(at 243.84 175.26 0)
 			(effects
 				(font
@@ -7064,15 +7054,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 243.84 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" "0"
 			(at 243.84 167.64 0)
 			(effects
 				(font
@@ -7135,7 +7116,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+		(property "Description" ""
 			(at 139.954 52.324 0)
 			(effects
 				(font
@@ -7200,7 +7181,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
+		(property "Description" ""
 			(at 152.908 173.99 0)
 			(effects
 				(font
@@ -7297,7 +7278,7 @@
 	)
 	(symbol
 		(lib_id "V2_power:PWR_FLAG")
-		(at 227.33 48.26 90)
+		(at 227.33 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7305,7 +7286,7 @@
 		(dnp no)
 		(uuid "d522f5b4-330e-4884-ac32-b93397a0270c")
 		(property "Reference" "#FLG0104"
-			(at 225.425 48.26 0)
+			(at 227.33 46.355 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7314,7 +7295,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 217.17 48.26 90)
+			(at 218.186 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7340,7 +7321,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 244.602 48.26 0)
+			(at 227.33 65.532 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7362,7 +7343,7 @@
 	)
 	(symbol
 		(lib_id "V2_power:PWR_FLAG")
-		(at 87.63 151.13 90)
+		(at 87.63 151.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7370,7 +7351,7 @@
 		(dnp no)
 		(uuid "d5f32978-c184-493b-b9aa-7eb455de601e")
 		(property "Reference" "#FLG0105"
-			(at 85.725 151.13 0)
+			(at 87.63 149.225 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7379,7 +7360,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 78.994 151.13 90)
+			(at 77.978 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7405,7 +7386,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 104.902 151.13 0)
+			(at 87.63 168.402 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7616,7 +7597,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+		(property "Description" ""
 			(at 237.744 43.434 0)
 			(effects
 				(font
@@ -7798,7 +7779,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+		(property "Description" ""
 			(at 75.184 76.454 0)
 			(effects
 				(font
@@ -7938,7 +7919,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+		(property "Description" ""
 			(at 128.016 182.626 0)
 			(effects
 				(font
@@ -8067,7 +8048,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
+		(property "Description" ""
 			(at 131.318 52.07 0)
 			(effects
 				(font
@@ -8090,16 +8071,15 @@
 	)
 	(symbol
 		(lib_id "V2_power:PWR_FLAG")
-		(at 59.69 25.4 90)
+		(at 59.69 25.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "fb2e5526-be2f-4a1a-a0c9-28dcfa3e5b83")
 		(property "Reference" "#FLG0101"
-			(at 57.785 25.4 0)
+			(at 59.69 23.495 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8108,12 +8088,11 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 55.88 25.4001 90)
+			(at 49.53 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -8135,7 +8114,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 76.962 25.4 0)
+			(at 59.69 42.672 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8423,4 +8402,22 @@
 		)
 	)
 	(embedded_fonts no)
+	(embedded_files
+		(file
+			(name "V2_A4.kicad_wks")
+			(type worksheet)
+			(data |KLUv/WBhBk0QALbYTiEQtRsmZc5q276ayLS71D6kxbkmoTeIJM7lAHtEAMAAxQFGAD8ARQCbvIHa
+				a/wrVHSazXnPhvzar1BNtH1kxRf5EwCAQPh5F+e0kJq0nmtfKDvj37Jf3xQUlFKqztoXWzE7iAAI
+				iJ6Q5m2d9RAC9jcPPWe/GXf/9ewpPR3+uPbv7bdzvr37wXlr2X8dBHFXu7Z3HUG7Kvrz9qKU7eB2
+				v/MM4n/Mhfg5G5sn7WsDTS2mA1WyssZDsy4YdpEGzfD8Ny+85JzH7H+961FjX/x0qtq0MdaqJ8dx
+				k1KAwF+soV3VFnEoqewX+XNfTaqqPatRlLsbgcKhzs5+29sEzSaWRPZ4txDEjpmZNCoSiiMhaUwy
+				y4Jg3oe5pmhPRSS7MtJAerbfnYNNgaEkuCg6oVzYhbEsF1vRgtxS55zTIVig4URjFFJTI1qYFNIB
+				YESmRusYYvaiF0uSUdhu1Q2lFiOgdmN7VvaH2oWyw9MQXRuZtQQQoIsxFn2ldtnpQiUNa0HvDQCK
+				f/XTisCgEJQEXe/if4EJsakkqj8BMmGAU+ZM/AG8LSEJMfgkOKfSKPhw4rD3ZHfmNZYNfDMigEPJ
+				EBoIDghtm1kJ8BAQ8xyGdkOuFQy33sishFt8DZNX4uNRXJZ5hBy746RJaNtgbfyB613d0dov6Cdg
+				iUQT9BXkf9EiYDuODpB6gKkC|
+			)
+			(checksum "0A61268C685EAF945CA2EA8187370BD3")
+		)
+	)
 )

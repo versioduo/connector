@@ -8,8 +8,8 @@
 	)
 	(paper "A4")
 	(title_block
-		(date "2025-11-17")
-		(rev "2")
+		(date "2026-02-10")
+		(rev "2026-01-12")
 	)
 	(layers
 		(0 "F.Cu" signal "Front")
@@ -196,6 +196,19 @@
 				)
 			)
 		)
+		(property "Sim.Enable" "0"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "da9c8192-492d-4807-bdfc-0b136edd2303")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "MountingHole*")
 		(path "/8b8c7b66-eb3d-4371-aeff-e0d06a2cf0dd")
 		(sheetname "/")
@@ -206,7 +219,7 @@
 			(size 5 5)
 			(drill 5)
 			(layers "*.Mask")
-			(uuid "e12193e9-42f0-470e-80f4-c3c1a02dc3e9")
+			(uuid "85756a44-1bdd-4578-acd5-4c87b9357071")
 		)
 		(embedded_fonts no)
 	)
@@ -264,6 +277,19 @@
 				)
 			)
 		)
+		(property "Sim.Enable" "0"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1aa72884-f803-4feb-9950-1d6549bb92d2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "MountingHole*")
 		(path "/fe7de203-6eda-4253-85db-fcc5d6880117")
 		(sheetname "/")
@@ -274,7 +300,7 @@
 			(size 5 5)
 			(drill 5)
 			(layers "*.Mask")
-			(uuid "41196d13-da80-4eca-b4cf-710376e06ce5")
+			(uuid "1afa51e6-19e3-4c9a-bb19-8e60d7b1907d")
 		)
 		(embedded_fonts no)
 	)
@@ -332,6 +358,32 @@
 				)
 			)
 		)
+		(property "Manufacturer" "WAGO"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b304c617-0938-44ed-8982-d682b2bb4a66")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Product" "2601-1101"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3d26f720-6750-4301-bb23-84f3012d693f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/5f5aa370-d43b-4561-b650-49e1e4be2cdf")
 		(sheetname "/")
 		(sheetfile "power-link-wago.kicad_sch")
@@ -344,7 +396,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "148a010c-0e4c-4e7c-8592-66a9df5497a8")
+			(uuid "47c87a02-a6f2-40bd-be98-286eaeb7927e")
 		)
 		(fp_line
 			(start -2.95 1.75)
@@ -354,7 +406,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "70862f37-6c49-473b-98e9-3a7de1511998")
+			(uuid "b2ff543a-cc68-4591-a7c5-124c4ca4f591")
 		)
 		(fp_rect
 			(start -2.2 -7.25)
@@ -365,7 +417,7 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "8094df01-915b-4910-b27a-4f80735f2846")
+			(uuid "52426255-fdcc-4972-9489-0c7f0fe4eec3")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 180)
@@ -373,7 +425,7 @@
 			(uuid "4cdc3b79-be97-42f2-a122-740966b46e68")
 			(effects
 				(font
-					(size 0.75 0.75)
+					(size 0.5 0.5)
 					(thickness 0.1)
 					(bold yes)
 				)
@@ -401,10 +453,10 @@
 			(zone_layer_connections "In1.Cu" "In2.Cu")
 			(net 2 "+VLINK")
 			(pintype "passive")
-			(uuid "61153597-979c-4f0f-82ea-ffce3050ad00")
+			(uuid "7c89264d-6145-4e16-9705-9a86d44a386d")
 		)
 		(embedded_fonts no)
-		(model "/Users/kay/Documents/KiCad/9.0/versioduo.kicad/3dmodels/V2_Connector_WAGO.3dshapes/2601-1101.stp"
+		(model "../../3dmodels/V2_Connector_WAGO.3dshapes/2601-1101.stp"
 			(offset
 				(xyz 1.36 -1.9 0)
 			)
@@ -472,6 +524,19 @@
 				)
 			)
 		)
+		(property "Sim.Enable" "0"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f48d975a-e552-45b2-a0de-ba27dfb39beb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/db7c7133-e487-4e99-9427-eddf108883c0")
 		(sheetname "/")
 		(sheetfile "power-link-wago.kicad_sch")
@@ -485,7 +550,7 @@
 			)
 			(fill no)
 			(layer "F.Cu")
-			(uuid "574122e0-e62a-4c04-8c36-819df2dc8ecc")
+			(uuid "53e1fbb0-d886-43dd-b935-09cd3ca2235a")
 		)
 		(fp_poly
 			(pts
@@ -498,7 +563,7 @@
 			)
 			(fill yes)
 			(layer "F.Cu")
-			(uuid "fbca194d-4b58-43af-a595-28481a7bd7bf")
+			(uuid "8cbf2570-3edd-4461-977d-88fe522ae495")
 		)
 		(fp_circle
 			(center 0 0)
@@ -509,7 +574,7 @@
 			)
 			(fill no)
 			(layer "F.Mask")
-			(uuid "3a0c5748-300f-4fb6-953b-eb9ebff0bc0c")
+			(uuid "77a0b3a8-5d7b-4f61-b115-00f0528b5daa")
 		)
 		(fp_poly
 			(pts
@@ -522,7 +587,7 @@
 			)
 			(fill yes)
 			(layer "F.Mask")
-			(uuid "727efa50-ff49-406c-b5fc-768dc56bf413")
+			(uuid "f3fa1073-cb8b-4b7a-b264-82b59a2bf2a2")
 		)
 		(embedded_fonts no)
 	)
@@ -582,6 +647,45 @@
 				)
 			)
 		)
+		(property "Mouser" "568-NE8FAV-SD"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6273a2a1-aae7-41f6-934a-71a796c01200")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Neutrik"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "75868aed-8c7e-44c0-b2f2-72569fcb32cb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Product" "NE8FAV-SD"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1c1897c7-b8de-47f1-99d6-0d6e85a470a5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/ad716ec9-c63e-4bde-9a41-0a62e211f7e1")
 		(sheetname "/")
 		(sheetfile "power-link-wago.kicad_sch")
@@ -595,7 +699,7 @@
 			)
 			(fill no)
 			(layer "B.Cu")
-			(uuid "3b059253-c379-445a-b667-866444579db6")
+			(uuid "2c379b6f-fee4-48c0-82cb-86f684b2133b")
 		)
 		(fp_circle
 			(center 8.425 0)
@@ -606,7 +710,7 @@
 			)
 			(fill no)
 			(layer "B.Cu")
-			(uuid "1accdbc7-c694-45a1-bd5c-2829781feec8")
+			(uuid "7a04963a-8463-4d8b-a7bd-0599d7e9e078")
 		)
 		(fp_line
 			(start -3.25 -11)
@@ -616,7 +720,7 @@
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "12910360-e545-44d0-b57e-d7e1cd7c3d04")
+			(uuid "1329742a-3c8e-4845-8cce-ff47b28e404d")
 		)
 		(fp_line
 			(start 3.25 -9)
@@ -626,7 +730,7 @@
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "e0b4e372-c441-488a-82d7-ee9443db17e4")
+			(uuid "8da8b023-41a3-47ba-ae40-f7669e415a76")
 		)
 		(fp_arc
 			(start -4.25 -10)
@@ -637,7 +741,7 @@
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "b45b556b-15fa-4c4a-b506-cadf707742f3")
+			(uuid "24e61a12-435d-4500-83fd-b8931ea83208")
 		)
 		(fp_arc
 			(start -3.25 -9)
@@ -648,7 +752,7 @@
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "54958ca1-ae71-452d-93b7-08ee7b74645c")
+			(uuid "3cac7b20-c94b-4300-9b86-1df7052fe8a6")
 		)
 		(fp_arc
 			(start 3.25 -11)
@@ -659,7 +763,7 @@
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "4e03bb33-46bf-4edd-b12f-eff5e008b62d")
+			(uuid "8c115279-d4ef-427f-a1b7-3347d296a818")
 		)
 		(fp_arc
 			(start 4.25 -10)
@@ -670,7 +774,7 @@
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "62b523ba-a3e1-4935-b450-819dbdffd006")
+			(uuid "6a79766e-b3f3-4945-a7f7-6ec3dee080fa")
 		)
 		(fp_line
 			(start -12.5 -12.5)
@@ -680,7 +784,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "7a705b55-6eed-440c-8585-7443a72d6434")
+			(uuid "b73645fc-bc1f-40f0-a90c-7dfa2afaf27d")
 		)
 		(fp_line
 			(start -12.5 14)
@@ -690,7 +794,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "8db1b4c0-9a14-4385-b274-437ec8d3d9ac")
+			(uuid "43067177-9059-4c68-a621-34f2e3d82ae1")
 		)
 		(fp_line
 			(start -11.5 -12.5)
@@ -700,7 +804,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "576236a5-9144-4c9c-9e58-5c97e242da61")
+			(uuid "2c11ade5-e28f-4d62-a292-b88491318038")
 		)
 		(fp_line
 			(start -11.5 14)
@@ -710,7 +814,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "3a20dea8-c1ba-4109-97db-aafb301b6501")
+			(uuid "3f6d6830-6923-4235-b7e4-3fd224988d6f")
 		)
 		(fp_line
 			(start 12.5 -12.5)
@@ -720,7 +824,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "37790a09-2fed-4cf8-b769-2ac6669adddb")
+			(uuid "2d6d78f0-dc58-4770-8c97-136f45954eab")
 		)
 		(fp_line
 			(start 12.5 -11.5)
@@ -730,7 +834,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "fc4d7f2f-bad9-4b28-8c39-7202e77db081")
+			(uuid "95aa6a44-1f6b-4827-81b6-89fe5f668bd3")
 		)
 		(fp_line
 			(start 12.5 13)
@@ -740,7 +844,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "8bc0b314-8d9e-4691-838d-5bb62596f4a5")
+			(uuid "cd5709ee-6359-480b-b630-be57e712d16e")
 		)
 		(fp_line
 			(start 12.5 14)
@@ -750,7 +854,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "d3960d0c-c45c-469b-9f0b-03fd74d836ae")
+			(uuid "a13203fe-f397-4b6d-939f-4308e28b36b0")
 		)
 		(fp_rect
 			(start -13 -15.5)
@@ -761,7 +865,7 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "ff3be281-d730-4553-a678-ee7b143f0d11")
+			(uuid "eb00e125-81ff-469f-bba3-419b0753bf3b")
 		)
 		(fp_circle
 			(center 0 0)
@@ -772,7 +876,7 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "73175602-2fa1-4004-8364-69b2d41e56bc")
+			(uuid "c6063525-77fc-448f-b910-7ad1b0c45bd5")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
@@ -780,7 +884,7 @@
 			(uuid "6331c55c-57ba-477c-8974-8ad17c232b45")
 			(effects
 				(font
-					(size 0.75 0.75)
+					(size 0.5 0.5)
 					(thickness 0.1)
 				)
 			)
@@ -790,28 +894,28 @@
 			(size 2 2)
 			(drill 2)
 			(layers "*.Mask")
-			(uuid "29fe33f0-eebd-48de-8c67-a1751810148f")
+			(uuid "093d7a01-843d-4568-b39e-bb95571027a4")
 		)
 		(pad "" np_thru_hole circle
 			(at -5.8 -11.5)
 			(size 1.7 1.7)
 			(drill 1.7)
 			(layers "*.Cu" "*.Mask")
-			(uuid "a7314367-5c2a-4bfb-88ae-8c940778ab72")
+			(uuid "e161e4d6-3252-4226-ab57-3b7a48d816fd")
 		)
 		(pad "" np_thru_hole circle
 			(at 5.8 -11.5)
 			(size 1.7 1.7)
 			(drill 1.7)
 			(layers "*.Cu" "*.Mask")
-			(uuid "c684695e-82c8-4538-9e98-325b80fb88e5")
+			(uuid "82d5b443-a656-452d-a371-c157502ab516")
 		)
 		(pad "" np_thru_hole circle
 			(at 8.425 0)
 			(size 2 2)
 			(drill 2)
 			(layers "*.Mask")
-			(uuid "b14a2abb-8c2e-4a8e-b2c1-8b46623c80bc")
+			(uuid "da8ad9e6-ae55-45fd-88d5-4c2ba2fbbdaf")
 		)
 		(pad "1" thru_hole circle
 			(at -4.493288 -2.11 180)
@@ -988,6 +1092,32 @@
 				)
 			)
 		)
+		(property "Manufacturer" "WAGO"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d55a55f8-3625-4829-9ba9-199abc96a8db")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Product" "2601-1101"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "40ecbab6-f318-4f29-ae99-dd511648fdfc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/d0a48f0e-14bd-42c3-9e3e-01867e4dc262")
 		(sheetname "/")
 		(sheetfile "power-link-wago.kicad_sch")
@@ -1000,7 +1130,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "3f9ae77e-a19e-444c-93bb-c72cc6c38f17")
+			(uuid "e2f438cb-c8c6-474b-8988-a61481c73ad5")
 		)
 		(fp_line
 			(start -2.95 1.75)
@@ -1010,7 +1140,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "b9e14858-0145-4432-b9e8-b3e0e1aeb6d2")
+			(uuid "32f3641f-0ba5-44f5-9dd0-430f7281b8ce")
 		)
 		(fp_rect
 			(start -2.2 -7.25)
@@ -1021,7 +1151,7 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "dc1336c1-19cf-41ad-b8b4-e31e53db7270")
+			(uuid "417879c7-43d9-4181-9526-d390cd975603")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 180)
@@ -1029,7 +1159,7 @@
 			(uuid "2c67a8d7-5dcb-42ee-a568-a95ef4a37666")
 			(effects
 				(font
-					(size 0.75 0.75)
+					(size 0.5 0.5)
 					(thickness 0.1)
 					(bold yes)
 				)
@@ -1057,10 +1187,10 @@
 			(zone_layer_connections "In1.Cu" "In2.Cu")
 			(net 1 "GND")
 			(pintype "passive")
-			(uuid "93741ecd-b977-47b7-bbc8-ab43eae9144c")
+			(uuid "3ca4e174-f902-4fbe-90a5-7be2f7b32965")
 		)
 		(embedded_fonts no)
-		(model "/Users/kay/Documents/KiCad/9.0/versioduo.kicad/3dmodels/V2_Connector_WAGO.3dshapes/2601-1101.stp"
+		(model "../../3dmodels/V2_Connector_WAGO.3dshapes/2601-1101.stp"
 			(offset
 				(xyz 1.36 -1.9 0)
 			)
@@ -1128,6 +1258,45 @@
 				)
 			)
 		)
+		(property "Mouser" "568-NE8FAV-SD"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d234de9e-2897-499f-b6d4-19d9e6c6a0aa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Neutrik"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "002e87cb-246b-49e5-970f-0532170068b5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Product" "NE8FAV-SD"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3abf9679-1597-47ea-a583-1c6e4318a3a3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/f53024c6-fa8a-4370-b1cb-e787398626f0")
 		(sheetname "/")
 		(sheetfile "power-link-wago.kicad_sch")
@@ -1141,7 +1310,7 @@
 			)
 			(fill no)
 			(layer "B.Cu")
-			(uuid "bfd98d93-d318-44df-aad8-c932b6b171b5")
+			(uuid "18c34d5f-cd04-4fd6-a780-438bdd6da5f0")
 		)
 		(fp_circle
 			(center 8.425 0)
@@ -1152,7 +1321,7 @@
 			)
 			(fill no)
 			(layer "B.Cu")
-			(uuid "456cf44e-7355-4fd8-89e5-432e139651a4")
+			(uuid "0b34e6d1-2bae-4900-b16f-c26bf74d53ad")
 		)
 		(fp_line
 			(start -3.25 -11)
@@ -1162,7 +1331,7 @@
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "561f06ac-5709-4223-ba05-c614dd594099")
+			(uuid "cba1c070-3fa3-49f8-8f54-c430e78511ee")
 		)
 		(fp_line
 			(start 3.25 -9)
@@ -1172,7 +1341,7 @@
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "a53bd9a0-7862-445f-88bb-f33a5c5a0bc6")
+			(uuid "d9541c78-9477-44f3-8a1d-11ae471f6396")
 		)
 		(fp_arc
 			(start -4.25 -10)
@@ -1183,7 +1352,7 @@
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "d7154c74-a3c0-4d56-b291-a9c40f4badc0")
+			(uuid "c3d6577b-f592-4e6a-8c8f-d59b48412110")
 		)
 		(fp_arc
 			(start -3.25 -9)
@@ -1194,7 +1363,7 @@
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "9681130b-6543-45e3-b6a6-cf15d8ef318d")
+			(uuid "7ed92a3f-83f0-4ae6-9e78-a6f7dc111c80")
 		)
 		(fp_arc
 			(start 3.25 -11)
@@ -1205,7 +1374,7 @@
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "3fe28aad-cf1f-4411-8cc2-fddaa5e7a088")
+			(uuid "16ee31d6-d61a-4633-83b0-72b2dcc99930")
 		)
 		(fp_arc
 			(start 4.25 -10)
@@ -1216,7 +1385,7 @@
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "09467742-b805-4428-a18d-0bc9ed90af1a")
+			(uuid "efb6ab2a-ea46-4b9f-a016-3621c0e2ab65")
 		)
 		(fp_line
 			(start -12.5 -12.5)
@@ -1226,7 +1395,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "4d6d8981-e309-4230-8563-35bba43402a9")
+			(uuid "787c296c-5eb2-4f37-81cf-2270874fb285")
 		)
 		(fp_line
 			(start -12.5 14)
@@ -1236,7 +1405,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "03e2d82d-fd80-45ca-af2c-2733249a2592")
+			(uuid "3a766a78-0104-4ba8-8a59-0c489685e566")
 		)
 		(fp_line
 			(start -11.5 -12.5)
@@ -1246,7 +1415,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "7d76b32a-9075-4e87-941a-ce80385cbd54")
+			(uuid "a5760250-6019-4f48-bcc1-132aa9b3ae5a")
 		)
 		(fp_line
 			(start -11.5 14)
@@ -1256,7 +1425,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "772144b3-7bbc-4fca-970c-47f7cd546c0d")
+			(uuid "3de74a03-ecfe-4f64-b70e-c09f124bed7f")
 		)
 		(fp_line
 			(start 12.5 -12.5)
@@ -1266,7 +1435,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "97c852ca-0f90-4409-b697-dea3f7c0ab57")
+			(uuid "051770d5-aba4-4be7-a9d4-0eebc887e2f4")
 		)
 		(fp_line
 			(start 12.5 -11.5)
@@ -1276,7 +1445,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "378dfcba-7179-4f9f-857b-1397ac870b7c")
+			(uuid "5e04d357-3a27-4406-815d-902abbe25352")
 		)
 		(fp_line
 			(start 12.5 13)
@@ -1286,7 +1455,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "2ce412a0-0bad-4f66-8012-18906a102802")
+			(uuid "5ecc3fe4-528c-4002-90ab-cd086af36478")
 		)
 		(fp_line
 			(start 12.5 14)
@@ -1296,7 +1465,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "2724d7ed-99bc-42e5-8c1e-bc25c53833c9")
+			(uuid "5e15f97d-2afd-4a77-a512-710156cd867b")
 		)
 		(fp_rect
 			(start -13 -15.5)
@@ -1307,7 +1476,7 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "8d2eaba1-d006-49b5-8b0e-13841723e4a4")
+			(uuid "de14fcb7-6173-439d-8c41-34aa818df985")
 		)
 		(fp_circle
 			(center 0 0)
@@ -1318,7 +1487,7 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "cbc8c76e-0ec7-4943-b66c-5993206753fe")
+			(uuid "8b029eb3-20f8-4390-b02d-fbb1eae50377")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
@@ -1326,7 +1495,7 @@
 			(uuid "5fa9f62b-db05-4b83-85d1-74344f19c9a5")
 			(effects
 				(font
-					(size 0.75 0.75)
+					(size 0.5 0.5)
 					(thickness 0.1)
 				)
 			)
@@ -1336,28 +1505,28 @@
 			(size 2 2)
 			(drill 2)
 			(layers "*.Mask")
-			(uuid "f670e780-e4c6-4de7-822f-bc9006668ac0")
+			(uuid "b50918e1-d69f-4ced-8307-b2ccf692844a")
 		)
 		(pad "" np_thru_hole circle
 			(at -5.8 -11.5)
 			(size 1.7 1.7)
 			(drill 1.7)
 			(layers "*.Cu" "*.Mask")
-			(uuid "5da15845-7906-449c-b2c3-4c3c9c23abff")
+			(uuid "646a7b85-bc43-4d63-bef7-89a6e66cfc72")
 		)
 		(pad "" np_thru_hole circle
 			(at 5.8 -11.5)
 			(size 1.7 1.7)
 			(drill 1.7)
 			(layers "*.Cu" "*.Mask")
-			(uuid "7663f05a-bba7-4881-a06a-d82b1408a68a")
+			(uuid "cbd086de-879a-4a9b-a067-c0d03090e90b")
 		)
 		(pad "" np_thru_hole circle
 			(at 8.425 0)
 			(size 2 2)
 			(drill 2)
 			(layers "*.Mask")
-			(uuid "e6461283-680a-4aa4-b592-249cb851f7be")
+			(uuid "3e495dc7-6452-4669-866d-d37b268b09b8")
 		)
 		(pad "1" thru_hole circle
 			(at -4.493288 -2.11 180)
@@ -1534,6 +1703,32 @@
 				)
 			)
 		)
+		(property "Manufacturer" "WAGO"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "43e0622c-2a6a-43fa-b5a6-a8ba2681cf2e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Product" "2601-1101"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "26bea1a4-270e-45e1-bc57-d7bbf51caffa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/3cb5ea99-18b8-4916-999e-d3b65206680d")
 		(sheetname "/")
 		(sheetfile "power-link-wago.kicad_sch")
@@ -1546,7 +1741,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "5cf6ea52-61c0-4762-88e9-ec3cfb723a7d")
+			(uuid "754f1332-e5f1-49e2-8fd0-d85a57f4eb4b")
 		)
 		(fp_line
 			(start 2.8 -7.25)
@@ -1556,7 +1751,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "282b58f3-e3dd-4cc4-b41a-fae5b52f58d3")
+			(uuid "7cb6eed9-a95b-4c85-8578-14cf2d8d920d")
 		)
 		(fp_rect
 			(start -2.2 -7.25)
@@ -1567,7 +1762,7 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "95c664d4-e9dc-4d62-a39d-9fcd1e9e86c2")
+			(uuid "5293bdae-9570-4114-b78b-25af39315039")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
@@ -1575,7 +1770,7 @@
 			(uuid "f0129ce9-5a80-45db-b9da-46d699193c34")
 			(effects
 				(font
-					(size 0.75 0.75)
+					(size 0.5 0.5)
 					(thickness 0.1)
 					(bold yes)
 				)
@@ -1603,10 +1798,10 @@
 			(zone_layer_connections "In1.Cu" "In2.Cu")
 			(net 1 "GND")
 			(pintype "passive")
-			(uuid "7b0a9351-6994-48ed-9058-973e71c38806")
+			(uuid "8edc8d19-4bfd-4a48-bca3-9fd7a6f00691")
 		)
 		(embedded_fonts no)
-		(model "/Users/kay/Documents/KiCad/9.0/versioduo.kicad/3dmodels/V2_Connector_WAGO.3dshapes/2601-1101.stp"
+		(model "../../3dmodels/V2_Connector_WAGO.3dshapes/2601-1101.stp"
 			(offset
 				(xyz 1.36 -1.9 0)
 			)
@@ -1672,6 +1867,32 @@
 				)
 			)
 		)
+		(property "Manufacturer" "WAGO"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1525e744-3138-4903-8794-9442719177e9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Product" "2601-1101"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "46690ddc-880a-4d7d-beb4-b108b80084df")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/5d408944-348e-4bb8-bb9d-b5f4b01ba534")
 		(sheetname "/")
 		(sheetfile "power-link-wago.kicad_sch")
@@ -1684,7 +1905,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "b572131d-b054-477c-9a50-22c1f3fe4a8e")
+			(uuid "ece42a9d-f76f-4bf9-b989-87ff081ed245")
 		)
 		(fp_line
 			(start 2.8 -7.25)
@@ -1694,7 +1915,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "03fd6de5-32fc-4d72-94f1-1b60c46f8405")
+			(uuid "c884031a-6849-4d61-b5f9-531e62040446")
 		)
 		(fp_rect
 			(start -2.2 -7.25)
@@ -1705,7 +1926,7 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "723b93a1-4794-40a8-9f7d-76b02258b6ea")
+			(uuid "4734eb73-547f-4d0c-974f-0b98e8f0f66c")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
@@ -1713,7 +1934,7 @@
 			(uuid "1df3d407-8ed2-46b7-a1e1-182a11bc19e3")
 			(effects
 				(font
-					(size 0.75 0.75)
+					(size 0.5 0.5)
 					(thickness 0.1)
 					(bold yes)
 				)
@@ -1741,10 +1962,10 @@
 			(zone_layer_connections "In1.Cu" "In2.Cu")
 			(net 2 "+VLINK")
 			(pintype "passive")
-			(uuid "f312dbdb-4ef6-4010-ba58-d6dfd31c2aae")
+			(uuid "478fb3d2-ff51-4d12-87c1-46467aa82c91")
 		)
 		(embedded_fonts no)
-		(model "/Users/kay/Documents/KiCad/9.0/versioduo.kicad/3dmodels/V2_Connector_WAGO.3dshapes/2601-1101.stp"
+		(model "../../3dmodels/V2_Connector_WAGO.3dshapes/2601-1101.stp"
 			(offset
 				(xyz 1.36 -1.9 0)
 			)
@@ -1810,6 +2031,19 @@
 				)
 			)
 		)
+		(property "Sim.Enable" "0"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b3f71265-9e57-451d-bf72-2b185c551088")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/42c324ad-c8b6-4b1e-83a4-df2244deef0c")
 		(sheetname "/")
 		(sheetfile "power-link-wago.kicad_sch")
@@ -1826,7 +2060,7 @@
 			)
 			(fill yes)
 			(layer "F.Cu")
-			(uuid "11e448d4-f483-43bc-bbce-d397536cb557")
+			(uuid "afd9b3b5-6229-4d12-820e-3a63cee22cea")
 		)
 		(fp_poly
 			(pts
@@ -1841,7 +2075,7 @@
 			)
 			(fill yes)
 			(layer "F.Cu")
-			(uuid "ce973d5c-b647-4f70-ad46-22216e67d071")
+			(uuid "a4081a3e-ece5-472e-8571-5a082da351d9")
 		)
 		(fp_poly
 			(pts
@@ -1864,7 +2098,7 @@
 			)
 			(fill yes)
 			(layer "F.Cu")
-			(uuid "c831538c-bba2-40f3-bf71-a6fd6b39905f")
+			(uuid "30d2f323-0ac7-479d-aa99-c0623b4e2652")
 		)
 		(fp_poly
 			(pts
@@ -1878,7 +2112,7 @@
 			)
 			(fill yes)
 			(layer "F.Mask")
-			(uuid "9a9b6281-6d39-473c-85b1-56f26838ba77")
+			(uuid "0ec3a97c-5627-4ada-a097-e6c71db5ecdc")
 		)
 		(fp_poly
 			(pts
@@ -1893,7 +2127,7 @@
 			)
 			(fill yes)
 			(layer "F.Mask")
-			(uuid "a8075445-e595-4f5a-90f9-581f5ed5a20b")
+			(uuid "49134eb1-9573-4a4c-868e-3866044dbdf1")
 		)
 		(fp_poly
 			(pts
@@ -1916,13 +2150,13 @@
 			)
 			(fill yes)
 			(layer "F.Mask")
-			(uuid "2714b0d8-c050-4d44-82ac-dad32b0b4718")
+			(uuid "bfb684bc-33e6-4f67-b954-85f546736dce")
 		)
 		(zone
 			(net 0)
 			(net_name "")
 			(layer "F.Cu")
-			(uuid "52173a83-bb8e-4ca8-83bb-93a64fa9c407")
+			(uuid "cbba96cd-911c-4527-bdb9-affd15b2de7b")
 			(hatch edge 0.508)
 			(connect_pads
 				(clearance 0)
@@ -2009,6 +2243,19 @@
 				)
 			)
 		)
+		(property "Sim.Enable" "0"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "268a7043-8cdb-46d9-baeb-51ba49724d49")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/5c7210b8-8878-49dd-99d6-01023d9892b7")
 		(sheetname "/")
 		(sheetfile "power-link-wago.kicad_sch")
@@ -2022,7 +2269,7 @@
 			)
 			(fill no)
 			(layer "F.Cu")
-			(uuid "e342c72a-ff8b-4f2d-997a-8cbbb28da41e")
+			(uuid "abdc4745-3e1a-4b25-b211-a7ec176104e0")
 		)
 		(fp_poly
 			(pts
@@ -2035,7 +2282,7 @@
 			)
 			(fill yes)
 			(layer "F.Cu")
-			(uuid "274afc30-ac17-4c25-85c7-76deb4d3bdc5")
+			(uuid "53383489-8a8a-47c6-a4b6-1df1739e30f5")
 		)
 		(fp_circle
 			(center 0 0)
@@ -2046,7 +2293,7 @@
 			)
 			(fill no)
 			(layer "F.Mask")
-			(uuid "c6749024-b66e-41c7-b9a4-e07fb6a410f4")
+			(uuid "27e148a4-b516-4d06-bc71-cd36065287a1")
 		)
 		(fp_poly
 			(pts
@@ -2059,7 +2306,7 @@
 			)
 			(fill yes)
 			(layer "F.Mask")
-			(uuid "6f6773fe-2f08-4d0e-8257-72d3b3a619e2")
+			(uuid "5e9f83b9-a23f-41ad-afe4-7a15947466e9")
 		)
 		(embedded_fonts no)
 	)
@@ -2136,7 +2383,7 @@
 			)
 			(fill no)
 			(layer "B.CrtYd")
-			(uuid "c514ef0a-cf41-46b0-a0aa-2240dc64e76e")
+			(uuid "d2ac0f8d-1dac-4b4c-8f2e-4f3b2e8ba3ae")
 		)
 		(fp_text user "${Order-Number}"
 			(at 0 0 0)
@@ -2163,6 +2410,17 @@
 		(layer "Edge.Cuts")
 		(uuid "5f5b5c74-4538-4ce6-9877-e6051dd1e9e5")
 	)
+	(gr_arc
+		(start 117 74)
+		(mid 117.292893 73.292893)
+		(end 118 73)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "ea7611d1-a8fc-4a96-a4f9-68f051a76626")
+	)
 	(gr_line
 		(start 118 73)
 		(end 168 73)
@@ -2172,16 +2430,6 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "781e9210-fb78-4c74-8009-42614b626542")
-	)
-	(gr_line
-		(start 169 74)
-		(end 169 116)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "Edge.Cuts")
-		(uuid "bcc6de3c-9438-4f23-a9db-04070d3d2f8a")
 	)
 	(gr_arc
 		(start 118 117)
@@ -2194,27 +2442,15 @@
 		(layer "Edge.Cuts")
 		(uuid "d35ceb07-996f-436a-8bdf-75d18216a73c")
 	)
-	(gr_arc
-		(start 169 116)
-		(mid 168.707107 116.707107)
+	(gr_line
+		(start 118 117)
 		(end 168 117)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(layer "Edge.Cuts")
-		(uuid "db2e5211-7e6a-42a9-b2df-00728afba574")
-	)
-	(gr_arc
-		(start 117 74)
-		(mid 117.292893 73.292893)
-		(end 118 73)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "Edge.Cuts")
-		(uuid "ea7611d1-a8fc-4a96-a4f9-68f051a76626")
+		(uuid "f5a4bab0-e4db-44b9-b196-4e680a91cf47")
 	)
 	(gr_arc
 		(start 168 73)
@@ -2228,14 +2464,25 @@
 		(uuid "f02c980d-a3c1-4ba1-a448-fb3e14753a73")
 	)
 	(gr_line
-		(start 118 117)
+		(start 169 74)
+		(end 169 116)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "bcc6de3c-9438-4f23-a9db-04070d3d2f8a")
+	)
+	(gr_arc
+		(start 169 116)
+		(mid 168.707107 116.707107)
 		(end 168 117)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(layer "Edge.Cuts")
-		(uuid "f5a4bab0-e4db-44b9-b196-4e680a91cf47")
+		(uuid "db2e5211-7e6a-42a9-b2df-00728afba574")
 	)
 	(segment
 		(start 160.396712 96.85)
@@ -4282,4 +4529,15 @@
 		)
 	)
 	(embedded_fonts no)
+	(embedded_files
+		(file
+			(name "V2_A4_Empty.kicad_wks")
+			(type worksheet)
+			(data |KLUv/SDtTQQA8kcaGHDNA0DI0YHeJkZJsFFVHWPECK8T+nf7Ruut19T/Wjj1lcRtZEY9sbORjzTz
+				BIaRKX941NSZJ0BmPfl9qd8ptZzn+0ZINNlsfT9aMk5jtv60TTtxar2BmQMgAoxWv7Yhp9ZdInlM
+				wxcXCyAQIoF8eJTajUPCXqolYFHFD/FgziWduMYHggI=|
+			)
+			(checksum "00BCE598336E5951A5D0C187D2E96FE2")
+		)
+	)
 )
