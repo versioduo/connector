@@ -8,7 +8,7 @@
 	)
 	(paper "A4")
 	(title_block
-		(date "2026-02-10")
+		(date "2026-02-12")
 		(rev "2026-01-12")
 	)
 	(layers
@@ -135,7 +135,6 @@
 			(outputdirectory "link-wago-gerber")
 		)
 	)
-	(property "Order-Number" "JLCJLCJLCJLC")
 	(net 0 "")
 	(net 1 "GND")
 	(net 2 "/Power +5V/Feedback")
@@ -210,7 +209,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1038,7 +1037,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Fiducial Marker"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1132,7 +1131,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Fiducial Marker"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1183,7 +1182,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "V2_Production:Order_Number"
+	(footprint "V2_Production:Revision"
 		(layer "F.Cu")
 		(uuid "4f161d4a-2553-461f-ba70-e111e78e2d2b")
 		(at 166.75 113.75)
@@ -1200,7 +1199,7 @@
 				)
 			)
 		)
-		(property "Value" "Order_Number"
+		(property "Value" "~"
 			(at 0 2.27 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1242,27 +1241,28 @@
 		(path "/7eb06b9d-d894-478a-bc35-8590f2ab48d6")
 		(sheetname "/")
 		(sheetfile "link-wago.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
-		(fp_rect
-			(start -7 -0.75)
-			(end 7 0.75)
-			(stroke
-				(width 0.05)
-				(type default)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "9a5856c6-23fa-4c12-b769-2d1ec34667df")
-		)
-		(fp_text user "${Order-Number}"
+		(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+		(fp_text user "${REVISION} (${ISSUE_DATE})"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "7e61f3b3-82fc-49df-a5cd-46d03abdcfcf")
+			(uuid "92719501-0da8-40ce-bf7c-f8bf14e1b293")
 			(effects
 				(font
-					(size 0.8 0.8)
-					(thickness 0.12)
+					(size 0.75 0.75)
+					(thickness 0.1)
+				)
+			)
+		)
+		(fp_text user "${REVISION} (${ISSUE_DATE})"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "02db84f1-7826-4193-85d4-79d96c66828e")
+			(effects
+				(font
+					(size 0.75 0.75)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -1926,7 +1926,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Amphenol – Minitek127"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2823,7 +2823,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Transient Voltage Suppressor Diode, Bidirectional, 36.7-40.6V"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3060,7 +3060,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3273,7 +3273,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -3487,7 +3487,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -4159,7 +4159,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -4472,7 +4472,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Amphenol – Minitek127"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5408,7 +5408,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -6026,7 +6026,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -6805,7 +6805,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -7018,7 +7018,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7786,7 +7786,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Fiducial Marker"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7879,7 +7879,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)

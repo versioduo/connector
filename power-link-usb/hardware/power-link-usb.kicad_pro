@@ -796,7 +796,5 @@
       "Root"
     ]
   ],
-  "text_variables": {
-    "Order-Number": "JLCJLCJLCJLC"
-  }
+  "text_variables": {}
 }

@@ -26,17 +26,16 @@
 				)
 			)
 			(property "Value" "V2-logo"
-				(at -4.572 -5.588 0)
+				(at 0 -6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
 					(hide yes)
 				)
 			)
 			(property "Footprint" "V2_Artwork:Logo_Small"
-				(at 0 -8.128 0)
+				(at 0 -8.89 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -54,15 +53,6 @@
 				)
 			)
 			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Enable" "0"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1189,7 +1179,7 @@
 					)
 				)
 			)
-			(property "Value" "MountingHole_2mm"
+			(property "Value" "2mm"
 				(at 0 3.175 0)
 				(effects
 					(font
@@ -1216,15 +1206,6 @@
 				)
 			)
 			(property "Description" "Mounting Hole without connection"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Enable" "0"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1421,7 +1402,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "V2_Production:Order_Number"
+		(symbol "V2_Production:Revision"
 			(exclude_from_sim no)
 			(in_bom no)
 			(on_board yes)
@@ -1433,7 +1414,7 @@
 					)
 				)
 			)
-			(property "Value" "Order_Number"
+			(property "Value" ""
 				(at 0 -2.54 0)
 				(effects
 					(font
@@ -1442,7 +1423,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "V2_Production:Order_Number"
+			(property "Footprint" "V2_Production:Revision"
 				(at 0 -5.08 0)
 				(effects
 					(font
@@ -1469,26 +1450,26 @@
 					(hide yes)
 				)
 			)
-			(symbol "Order_Number_0_0"
-				(text "ORDER-NUMBER"
-					(at 0 0 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(symbol "Order_Number_0_1"
+			(symbol "Revision_0_1"
 				(rectangle
-					(start -8.89 1.27)
-					(end 8.89 -1.27)
+					(start -5.08 1.27)
+					(end 5.08 -1.27)
 					(stroke
 						(width 0)
 						(type default)
 					)
 					(fill
 						(type none)
+					)
+				)
+			)
+			(symbol "Revision_1_1"
+				(text "Revision"
+					(at 0 0 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
 					)
 				)
 			)
@@ -2550,15 +2531,15 @@
 		(dnp no)
 		(uuid "222c737c-cb0c-4293-9fc2-0cc6cc7a6e02")
 		(property "Reference" "H101"
-			(at 246.888 162.052 0)
+			(at 252.984 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "MountingHole_2mm"
-			(at 253.492 164.592 0)
+		(property "Value" "2mm"
+			(at 252.476 158.496 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2592,15 +2573,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" "0"
-			(at 246.38 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(instances
 			(project "usb"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
@@ -2612,7 +2584,7 @@
 	)
 	(symbol
 		(lib_id "V2_power:PWR_FLAG")
-		(at 102.87 68.58 90)
+		(at 102.87 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2620,7 +2592,7 @@
 		(dnp no)
 		(uuid "2652d4d2-113a-4bc8-ba8e-162000ccfe7d")
 		(property "Reference" "#FLG0103"
-			(at 100.965 68.58 0)
+			(at 102.87 66.675 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2629,7 +2601,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 93.472 68.58 90)
+			(at 93.218 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2655,7 +2627,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 120.142 68.58 0)
+			(at 102.87 85.852 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2677,7 +2649,7 @@
 	)
 	(symbol
 		(lib_id "V2_Mechanical:MountingHole_2mm")
-		(at 246.38 171.45 0)
+		(at 246.38 165.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -2685,15 +2657,15 @@
 		(dnp no)
 		(uuid "2875c914-6606-432e-8aee-c3eeef169a26")
 		(property "Reference" "H102"
-			(at 246.888 176.022 0)
+			(at 252.984 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "MountingHole_2mm"
-			(at 253.492 178.562 0)
+		(property "Value" "2mm"
+			(at 252.476 166.116 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2701,7 +2673,7 @@
 			)
 		)
 		(property "Footprint" "V2_Mechanical:MountingHole_2mm"
-			(at 246.38 176.53 0)
+			(at 246.38 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2710,7 +2682,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 246.38 171.45 0)
+			(at 246.38 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2719,16 +2691,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 246.38 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" "0"
-			(at 246.38 171.45 0)
+			(at 246.38 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3079,7 +3042,7 @@
 	)
 	(symbol
 		(lib_id "V2_power:PWR_FLAG")
-		(at 102.87 63.5 90)
+		(at 102.87 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3087,7 +3050,7 @@
 		(dnp no)
 		(uuid "55ddf568-4b2a-4a62-8b75-b36a60c6436d")
 		(property "Reference" "#FLG0102"
-			(at 100.965 63.5 0)
+			(at 102.87 61.595 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3096,7 +3059,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 93.472 63.5 90)
+			(at 93.218 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3122,7 +3085,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 120.142 63.5 0)
+			(at 102.87 80.772 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3280,7 +3243,7 @@
 		(lib_id "V2_PCB_Devices:PCB_Plug_Horizontal")
 		(at 227.33 173.99 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -3330,15 +3293,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" "0"
-			(at 227.33 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(instances
 			(project "usb"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
@@ -3349,7 +3303,7 @@
 		)
 	)
 	(symbol
-		(lib_id "V2_Production:Order_Number")
+		(lib_id "V2_Production:Revision")
 		(at 205.74 175.26 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3365,7 +3319,7 @@
 				)
 			)
 		)
-		(property "Value" "Order_Number"
+		(property "Value" "~"
 			(at 205.74 177.8 0)
 			(effects
 				(font
@@ -3374,7 +3328,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "V2_Production:Order_Number"
+		(property "Footprint" "V2_Production:Revision"
 			(at 205.74 180.34 0)
 			(effects
 				(font
@@ -3479,7 +3433,7 @@
 	)
 	(symbol
 		(lib_id "V2_Mechanical:Fiducial_Paste")
-		(at 270.51 157.48 0)
+		(at 266.7 157.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -3487,7 +3441,7 @@
 		(dnp no)
 		(uuid "977377c2-2f87-473b-87b3-55cb2215e7cb")
 		(property "Reference" "FID101"
-			(at 274.32 157.48 0)
+			(at 270.51 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3496,7 +3450,7 @@
 			)
 		)
 		(property "Value" "Fiducial_Paste"
-			(at 267.97 153.67 0)
+			(at 264.16 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3506,7 +3460,7 @@
 			)
 		)
 		(property "Footprint" "V2_Fiducial:Fiducial_0.5mm_Mask1mm_Paste"
-			(at 270.51 162.56 0)
+			(at 266.7 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3515,7 +3469,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 270.51 157.48 0)
+			(at 266.7 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3524,7 +3478,7 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
-			(at 270.51 157.48 0)
+			(at 266.7 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3848,7 +3802,7 @@
 	)
 	(symbol
 		(lib_id "V2_Mechanical:Fiducial_Paste")
-		(at 270.51 165.1 0)
+		(at 266.7 165.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -3856,7 +3810,7 @@
 		(dnp no)
 		(uuid "d70eefe3-c463-42c7-ad37-0fcb53cb0f3d")
 		(property "Reference" "FID102"
-			(at 274.32 165.1 0)
+			(at 270.51 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3865,7 +3819,7 @@
 			)
 		)
 		(property "Value" "Fiducial_Paste"
-			(at 271.78 161.29 0)
+			(at 267.97 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3874,7 +3828,7 @@
 			)
 		)
 		(property "Footprint" "V2_Fiducial:Fiducial_0.5mm_Mask1mm_Paste"
-			(at 270.51 170.18 0)
+			(at 266.7 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3883,7 +3837,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 270.51 165.1 0)
+			(at 266.7 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3892,7 +3846,7 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
-			(at 270.51 165.1 0)
+			(at 266.7 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4137,7 +4091,7 @@
 	)
 	(symbol
 		(lib_id "V2_power:PWR_FLAG")
-		(at 102.87 58.42 90)
+		(at 102.87 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4145,7 +4099,7 @@
 		(dnp no)
 		(uuid "e438aad8-4e22-40dc-b550-780d0d41c45c")
 		(property "Reference" "#FLG0101"
-			(at 100.965 58.42 0)
+			(at 102.87 56.515 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4154,7 +4108,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 93.472 58.42 90)
+			(at 93.218 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4180,7 +4134,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 120.142 58.42 0)
+			(at 102.87 75.692 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4320,7 +4274,7 @@
 	)
 	(symbol
 		(lib_id "V2_Mechanical:Fiducial_Paste")
-		(at 270.51 172.72 0)
+		(at 266.7 172.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -4328,7 +4282,7 @@
 		(dnp no)
 		(uuid "f3ebfb05-17be-488d-b5c3-e4a62e3009d2")
 		(property "Reference" "FID103"
-			(at 274.32 172.72 0)
+			(at 270.51 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4337,7 +4291,7 @@
 			)
 		)
 		(property "Value" "Fiducial_Paste"
-			(at 267.97 168.91 0)
+			(at 264.16 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4347,7 +4301,7 @@
 			)
 		)
 		(property "Footprint" "V2_Fiducial:Fiducial_0.5mm_Mask1mm_Paste"
-			(at 270.51 177.8 0)
+			(at 266.7 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4356,7 +4310,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 270.51 172.72 0)
+			(at 266.7 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4365,7 +4319,7 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
-			(at 270.51 172.72 0)
+			(at 266.7 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4429,15 +4383,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 205.74 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" "0"
 			(at 205.74 154.94 0)
 			(effects
 				(font

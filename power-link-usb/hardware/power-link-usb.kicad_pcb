@@ -136,7 +136,6 @@
 			(outputdirectory "power-link-usb-gerber")
 		)
 	)
-	(property "Order-Number" "JLCJLCJLCJLC")
 	(net 0 "")
 	(net 1 "GND")
 	(net 2 "+VLINK")
@@ -3061,7 +3060,7 @@
 			)
 		)
 	)
-	(footprint "V2_Production:Order_Number"
+	(footprint "V2_Production:Revision"
 		(layer "F.Cu")
 		(uuid "4f161d4a-2553-461f-ba70-e111e78e2d2b")
 		(at 142 115.5)
@@ -3078,7 +3077,7 @@
 				)
 			)
 		)
-		(property "Value" "Order_Number"
+		(property "Value" "~"
 			(at 0 2.27 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3120,27 +3119,28 @@
 		(path "/7eb06b9d-d894-478a-bc35-8590f2ab48d6")
 		(sheetname "/")
 		(sheetfile "power-link-usb.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
-		(fp_rect
-			(start -7 -0.75)
-			(end 7 0.75)
-			(stroke
-				(width 0.05)
-				(type default)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "5fb2b0c7-48e5-486f-933d-b55dbbda8af6")
-		)
-		(fp_text user "${Order-Number}"
+		(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+		(fp_text user "${REVISION} (${ISSUE_DATE})"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "adca4690-e730-4a07-9b59-0aef925b860c")
+			(uuid "c910c3fd-9311-4e5e-accd-07fbcce8d71f")
 			(effects
 				(font
-					(size 0.8 0.8)
-					(thickness 0.12)
+					(size 0.75 0.75)
+					(thickness 0.1)
+				)
+			)
+		)
+		(fp_text user "${REVISION} (${ISSUE_DATE})"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "82dfd403-d80c-476d-909d-08d68dda2d93")
+			(effects
+				(font
+					(size 0.75 0.75)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -8640,19 +8640,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Enable" "0"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f7786b4e-b58c-4595-b420-3a6948a07e40")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)

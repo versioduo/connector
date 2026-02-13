@@ -1853,7 +1853,7 @@
 				)
 			)
 		)
-		(property "Value" "TPSM33625RDNR"
+		(property "Value" "TPSM33625"
 			(at 144.78 90.17 0)
 			(effects
 				(font
