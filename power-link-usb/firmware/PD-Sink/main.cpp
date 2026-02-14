@@ -37,6 +37,9 @@ namespace {
       if (!pdStackContext.dpmConfig.contractExist)
         return Contract::Failed;
 
+      if (pdStackContext.dpmStat.contract.minVolt < 9 * 1000)
+        return Contract::Failed;
+
       return Contract::Established;
     }
 
