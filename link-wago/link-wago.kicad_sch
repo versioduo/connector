@@ -1785,7 +1785,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "V2_Device:C_0603_0u1"
+		(symbol "V2_Capacitor:0603_0u1"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1890,7 +1890,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "C_*"
+			(property "ki_fp_filters" "*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1899,7 +1899,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "C_0603_0u1_0_1"
+			(symbol "0603_0u1_0_1"
 				(polyline
 					(pts
 						(xy -1.524 0.508) (xy 1.524 0.508)
@@ -1925,7 +1925,7 @@
 					)
 				)
 			)
-			(symbol "C_0603_0u1_1_1"
+			(symbol "0603_0u1_1_1"
 				(pin passive line
 					(at 0 2.54 270)
 					(length 2.032)
@@ -1965,7 +1965,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "V2_Device:R_0603_5k1"
+		(symbol "V2_Resistor:0603_5k1"
 			(pin_numbers
 				(hide yes)
 			)
@@ -2068,7 +2068,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "R_*"
+			(property "ki_fp_filters" "*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2077,7 +2077,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "R_0603_5k1_0_1"
+			(symbol "0603_5k1_0_1"
 				(rectangle
 					(start -0.762 1.778)
 					(end 0.762 -1.778)
@@ -2090,7 +2090,7 @@
 					)
 				)
 			)
-			(symbol "R_0603_5k1_1_1"
+			(symbol "0603_5k1_1_1"
 				(pin passive line
 					(at 0 2.54 270)
 					(length 0.762)
@@ -6036,7 +6036,7 @@
 		)
 	)
 	(symbol
-		(lib_id "V2_Device:C_0603_0u1")
+		(lib_id "V2_Capacitor:0603_0u1")
 		(at 95.25 157.48 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6388,7 +6388,7 @@
 		)
 	)
 	(symbol
-		(lib_id "V2_Device:R_0603_5k1")
+		(lib_id "V2_Resistor:0603_5k1")
 		(at 252.73 63.5 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6492,7 +6492,7 @@
 		)
 	)
 	(symbol
-		(lib_id "V2_Device:R_0603_5k1")
+		(lib_id "V2_Resistor:0603_5k1")
 		(at 252.73 66.04 90)
 		(unit 1)
 		(exclude_from_sim no)
