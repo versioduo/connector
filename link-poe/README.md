@@ -1,5 +1,5 @@
 # V2 Link PoE
-PoE Passive +24V
+PoE Passive +28V
 IEEE 802.3af Mode B
 
 ## Board
