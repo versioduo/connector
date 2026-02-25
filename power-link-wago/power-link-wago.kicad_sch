@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "V2 Power Link WAGO")
-		(date "2026-02-10")
+		(date "2026-02-25")
 		(rev "2026-01-12")
 		(company "Versio Duo")
 	)
@@ -858,6 +858,7 @@
 				(effects
 					(font
 						(size 1.27 1.27)
+						(color 255 92 187 1)
 					)
 				)
 			)
@@ -2004,7 +2005,7 @@
 		(lib_id "V2_Artwork:Plus")
 		(at 232.41 172.72 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -2048,6 +2049,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 232.41 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" "0"
 			(at 232.41 172.72 0)
 			(effects
 				(font
@@ -2380,7 +2390,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" ""
 			(at 208.28 181.61 0)
 			(effects
 				(font
@@ -2889,7 +2899,7 @@
 		(lib_id "V2_Artwork:Plus")
 		(at 232.41 166.37 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -2933,6 +2943,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 232.41 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" "0"
 			(at 232.41 166.37 0)
 			(effects
 				(font
