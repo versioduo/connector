@@ -3,6 +3,8 @@
     "3dviewports": [],
     "design_settings": {
       "defaults": {
+        "apply_defaults_to_fp_barcodes": false,
+        "apply_defaults_to_fp_dimensions": false,
         "apply_defaults_to_fp_fields": false,
         "apply_defaults_to_fp_shapes": false,
         "apply_defaults_to_fp_text": false,
@@ -78,6 +80,7 @@
         "extra_footprint": "error",
         "footprint": "error",
         "footprint_filters_mismatch": "error",
+        "footprint_symbol_field_mismatch": "error",
         "footprint_symbol_mismatch": "error",
         "footprint_type_mismatch": "error",
         "hole_clearance": "error",
@@ -96,6 +99,7 @@
         "mirrored_text_on_front_layer": "error",
         "missing_courtyard": "error",
         "missing_footprint": "error",
+        "missing_tuning_profile": "error",
         "net_conflict": "error",
         "nonmirrored_text_on_back_layer": "error",
         "npth_inside_courtyard": "error",
@@ -115,9 +119,12 @@
         "too_many_vias": "error",
         "track_angle": "error",
         "track_dangling": "error",
+        "track_not_centered_on_via": "error",
+        "track_on_post_machined_layer": "error",
         "track_segment_length": "error",
         "track_width": "error",
         "tracks_crossing": "error",
+        "tuning_profile_track_geometries": "error",
         "unconnected_items": "error",
         "unresolved_variable": "error",
         "via_dangling": "error",
@@ -452,14 +459,14 @@
       "duplicate_sheet_names": "error",
       "endpoint_off_grid": "error",
       "extra_units": "error",
-      "field_name_whitespace": "warning",
+      "field_name_whitespace": "error",
       "footprint_filter": "error",
       "footprint_link_issues": "error",
       "four_way_junction": "error",
       "global_label_dangling": "error",
-      "ground_pin_not_ground": "warning",
+      "ground_pin_not_ground": "error",
       "hier_label_mismatch": "error",
-      "isolated_pin_label": "warning",
+      "isolated_pin_label": "error",
       "label_dangling": "error",
       "label_multiple_wires": "error",
       "lib_symbol_issues": "error",
@@ -482,7 +489,7 @@
       "similar_power": "error",
       "simulation_model_issue": "error",
       "single_global_label": "error",
-      "stacked_pin_name": "warning",
+      "stacked_pin_name": "error",
       "unannotated": "error",
       "unconnected_wire_endpoint": "error",
       "undefined_netclass": "error",
@@ -673,6 +680,12 @@
         },
         {
           "group_by": true,
+          "label": "Id",
+          "name": "Id",
+          "show": true
+        },
+        {
+          "group_by": true,
           "label": "Value",
           "name": "Value",
           "show": true
@@ -687,7 +700,7 @@
           "group_by": false,
           "label": "Footprint",
           "name": "Footprint",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -767,7 +780,7 @@
       "include_excluded_from_bom": false,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "Polarity"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,
