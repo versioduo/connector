@@ -26,7 +26,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "C"
-				(at 1.778 1.524 0)
+				(at 2.54 1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -37,7 +37,7 @@
 				)
 			)
 			(property "Value" "0u1"
-				(at 1.778 -2.032 0)
+				(at 2.54 -1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -237,7 +237,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "C"
-				(at 1.524 1.778 0)
+				(at 2.54 1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -248,7 +248,7 @@
 				)
 			)
 			(property "Value" "10u"
-				(at 1.524 -2.032 0)
+				(at 2.54 -1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -448,7 +448,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "C"
-				(at 1.524 1.778 0)
+				(at 2.54 1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -459,7 +459,7 @@
 				)
 			)
 			(property "Value" "1u"
-				(at 1.524 -2.032 0)
+				(at 2.54 -1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -659,7 +659,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "C"
-				(at 1.524 1.778 0)
+				(at 2.54 1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -670,7 +670,7 @@
 				)
 			)
 			(property "Value" "390p"
-				(at 1.524 -2.032 0)
+				(at 2.54 -1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -870,7 +870,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "C"
-				(at 1.524 1.778 0)
+				(at 2.54 1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -881,7 +881,7 @@
 				)
 			)
 			(property "Value" "10u"
-				(at 1.524 -2.032 0)
+				(at 2.54 -1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1888,7 +1888,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "TVS"
-				(at -2.54 6.35 0)
+				(at -2.54 -3.81 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1899,7 +1899,7 @@
 				)
 			)
 			(property "Value" "SMBJ33CA"
-				(at -2.54 3.81 0)
+				(at -2.54 -6.35 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1954,7 +1954,7 @@
 				)
 			)
 			(property "Id" "Diode:${SYMBOL_NAME}"
-				(at 0 -6.35 0)
+				(at 0 -11.43 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -3125,27 +3125,29 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "D"
-				(at 0 5.588 0)
+				(at -2.54 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Value" "Orange"
-				(at 0 3.556 0)
+				(at -2.54 -5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Footprint" "V2_LED:LED_0603"
-				(at 0 -9.906 0)
+				(at 0 -14.986 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -3178,7 +3180,7 @@
 				)
 			)
 			(property "Sim.Pins" "1=K 2=A"
-				(at 0 -15.24 0)
+				(at 0 -22.86 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -3189,7 +3191,7 @@
 				)
 			)
 			(property "Mouser" "755-SML-D12D1WT86"
-				(at 0 -7.62 0)
+				(at 0 -15.24 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -3200,7 +3202,7 @@
 				)
 			)
 			(property "Product" "SML-D12D1WT86"
-				(at 0 -12.7 0)
+				(at 0 -20.32 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -3211,7 +3213,7 @@
 				)
 			)
 			(property "Manufacturer" "ROHM Semiconductor "
-				(at 0 -10.16 0)
+				(at 0 -17.78 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -3222,7 +3224,7 @@
 				)
 			)
 			(property "Id" "LED:${SYMBOL_NAME}"
-				(at 0 -5.08 0)
+				(at 0 -12.7 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -3233,7 +3235,7 @@
 				)
 			)
 			(property "Rating" "605nm"
-				(at 0 -17.78 0)
+				(at 0 -25.4 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -3381,27 +3383,29 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "D"
-				(at 0 5.588 0)
+				(at -2.54 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Value" "Red"
-				(at 0 3.556 0)
+				(at -2.54 -5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Footprint" "V2_LED:LED_0603"
-				(at 0 -9.906 0)
+				(at 0 -14.986 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -3434,7 +3438,7 @@
 				)
 			)
 			(property "Sim.Pins" "1=K 2=A"
-				(at 0 -15.24 0)
+				(at 0 -20.32 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -3445,17 +3449,6 @@
 				)
 			)
 			(property "Mouser" "755-SML-D12V1WT86"
-				(at 0 -7.62 0)
-				(show_name yes)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Product" "SML-D12V1WT86"
 				(at 0 -12.7 0)
 				(show_name yes)
 				(do_not_autoplace no)
@@ -3466,8 +3459,19 @@
 					)
 				)
 			)
+			(property "Product" "SML-D12V1WT86"
+				(at 0 -17.78 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(property "Manufacturer" "ROHM Semiconductor "
-				(at 0 -10.16 0)
+				(at 0 -15.24 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -3478,7 +3482,7 @@
 				)
 			)
 			(property "Id" "LED:${SYMBOL_NAME}"
-				(at 0 -5.08 0)
+				(at 0 -10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -3489,7 +3493,7 @@
 				)
 			)
 			(property "Rating" "630nm "
-				(at 0 -17.78 0)
+				(at 0 -22.86 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -3637,23 +3641,25 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "R"
-				(at 2.032 1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.016 1.016)
-					)
-				)
-			)
-			(property "Value" "10k"
-				(at 3.302 -1.27 0)
+				(at 1.27 1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
+				)
+			)
+			(property "Value" "10k"
+				(at 1.27 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
 				)
 			)
 			(property "Footprint" "V2_Resistor_SMD:R_0603"
@@ -3833,23 +3839,25 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "R"
-				(at 2.032 1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.016 1.016)
-					)
-				)
-			)
-			(property "Value" "330R"
-				(at 4.064 -1.27 0)
+				(at 1.27 1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
+				)
+			)
+			(property "Value" "330R"
+				(at 1.27 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
 				)
 			)
 			(property "Footprint" "V2_Resistor_SMD:R_0603"
@@ -4029,23 +4037,25 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "R"
-				(at 2.032 1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.016 1.016)
-					)
-				)
-			)
-			(property "Value" "3k9"
-				(at 3.302 -1.27 0)
+				(at 1.27 1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
+				)
+			)
+			(property "Value" "3k9"
+				(at 1.27 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
 				)
 			)
 			(property "Footprint" "V2_Resistor_SMD:R_0603"
@@ -5253,6 +5263,17 @@
 			(type none)
 		)
 		(uuid "99451099-973d-4013-87d9-cc09bde2a0c8")
+	)
+	(text "VDDD supply output\nVBUS powered\n2.7 - 3.6V\n"
+		(exclude_from_sim no)
+		(at 123.444 78.232 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "ba607195-c26a-4546-91f3-bd3efdecc96c")
 	)
 	(junction
 		(at 129.54 30.48)
@@ -6513,7 +6534,7 @@
 		(in_pos_files no)
 		(dnp no)
 		(uuid "06b1e09b-e5d9-484d-ad29-0ce184686cf2")
-		(property "Reference" "#PWR0210"
+		(property "Reference" "#PWR210"
 			(at 113.03 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -6574,7 +6595,7 @@
 		(instances
 			(project "power-link-usb"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/c407889f-d00a-4a47-8608-26350f8ea54f"
-					(reference "#PWR0210")
+					(reference "#PWR210")
 					(unit 1)
 				)
 			)
@@ -6757,7 +6778,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.0254 0.0254)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -6864,7 +6885,7 @@
 		(in_pos_files no)
 		(dnp no)
 		(uuid "1a3e7cd4-3fc9-42e1-a228-f82b4430630a")
-		(property "Reference" "#PWR0218"
+		(property "Reference" "#PWR218"
 			(at 165.1 146.558 0)
 			(hide yes)
 			(show_name no)
@@ -6925,7 +6946,7 @@
 		(instances
 			(project "power-link-usb"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/c407889f-d00a-4a47-8608-26350f8ea54f"
-					(reference "#PWR0218")
+					(reference "#PWR218")
 					(unit 1)
 				)
 			)
@@ -6942,7 +6963,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1b13e303-389e-442f-bf80-330bff8cc3fd")
-		(property "Reference" "#FLG0202"
+		(property "Reference" "#FLG202"
 			(at 62.23 46.355 0)
 			(hide yes)
 			(show_name no)
@@ -7002,7 +7023,7 @@
 		(instances
 			(project "power-link-usb"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/c407889f-d00a-4a47-8608-26350f8ea54f"
-					(reference "#FLG0202")
+					(reference "#FLG202")
 					(unit 1)
 				)
 			)
@@ -7019,7 +7040,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2a216a5a-78f8-4cc0-b7f7-6a94d2247f7c")
-		(property "Reference" "#PWR0215"
+		(property "Reference" "#PWR215"
 			(at 149.86 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -7080,7 +7101,7 @@
 		(instances
 			(project "power-link-usb"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/c407889f-d00a-4a47-8608-26350f8ea54f"
-					(reference "#PWR0215")
+					(reference "#PWR215")
 					(unit 1)
 				)
 			)
@@ -7529,7 +7550,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.016 1.016)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -7663,7 +7684,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.016 1.016)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -7928,7 +7949,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "467f3d46-6560-4922-9898-f7e7b1b79b44")
-		(property "Reference" "#PWR0211"
+		(property "Reference" "#PWR211"
 			(at 113.03 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -7989,7 +8010,7 @@
 		(instances
 			(project "power-link-usb"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/c407889f-d00a-4a47-8608-26350f8ea54f"
-					(reference "#PWR0211")
+					(reference "#PWR211")
 					(unit 1)
 				)
 			)
@@ -8158,7 +8179,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.016 1.016)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -8286,7 +8307,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4ac984d9-dffc-45e8-9ee5-7355fa418fb5")
-		(property "Reference" "#PWR0214"
+		(property "Reference" "#PWR214"
 			(at 129.54 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -8347,7 +8368,7 @@
 		(instances
 			(project "power-link-usb"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/c407889f-d00a-4a47-8608-26350f8ea54f"
-					(reference "#PWR0214")
+					(reference "#PWR214")
 					(unit 1)
 				)
 			)
@@ -8365,7 +8386,7 @@
 		(in_pos_files no)
 		(dnp no)
 		(uuid "4f039994-bf42-47e9-8075-5c4c736341de")
-		(property "Reference" "#PWR0206"
+		(property "Reference" "#PWR206"
 			(at 60.198 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -8426,7 +8447,7 @@
 		(instances
 			(project "power-link-usb"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/c407889f-d00a-4a47-8608-26350f8ea54f"
-					(reference "#PWR0206")
+					(reference "#PWR206")
 					(unit 1)
 				)
 			)
@@ -8443,7 +8464,7 @@
 		(in_pos_files no)
 		(dnp no)
 		(uuid "5707e201-99f3-4ba1-801d-6fa71ee9c580")
-		(property "Reference" "#PWR0231"
+		(property "Reference" "#PWR231"
 			(at 244.348 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -8504,7 +8525,7 @@
 		(instances
 			(project "power-link-usb"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/c407889f-d00a-4a47-8608-26350f8ea54f"
-					(reference "#PWR0231")
+					(reference "#PWR231")
 					(unit 1)
 				)
 			)
@@ -8550,7 +8571,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.0254 0.0254)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -8657,7 +8678,7 @@
 		(in_pos_files no)
 		(dnp no)
 		(uuid "655b5b0d-1ae5-4438-9f89-e20b0ce05e7c")
-		(property "Reference" "#PWR0219"
+		(property "Reference" "#PWR219"
 			(at 167.64 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -8718,7 +8739,7 @@
 		(instances
 			(project "power-link-usb"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/c407889f-d00a-4a47-8608-26350f8ea54f"
-					(reference "#PWR0219")
+					(reference "#PWR219")
 					(unit 1)
 				)
 			)
@@ -8735,7 +8756,7 @@
 		(in_pos_files no)
 		(dnp no)
 		(uuid "69d74863-cbc6-49e5-9556-bf377830b9eb")
-		(property "Reference" "#PWR0204"
+		(property "Reference" "#PWR204"
 			(at 68.58 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -8795,7 +8816,7 @@
 		(instances
 			(project "power-link-usb"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/c407889f-d00a-4a47-8608-26350f8ea54f"
-					(reference "#PWR0204")
+					(reference "#PWR204")
 					(unit 1)
 				)
 			)
@@ -8812,7 +8833,7 @@
 		(in_pos_files no)
 		(dnp no)
 		(uuid "728e5bdc-c200-4a46-a053-6f31a94b6288")
-		(property "Reference" "#PWR0224"
+		(property "Reference" "#PWR224"
 			(at 171.45 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -8873,7 +8894,7 @@
 		(instances
 			(project "power-link-usb"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/c407889f-d00a-4a47-8608-26350f8ea54f"
-					(reference "#PWR0224")
+					(reference "#PWR224")
 					(unit 1)
 				)
 			)
@@ -8890,7 +8911,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "798b09c1-9feb-490d-abf0-c7a27eee9200")
-		(property "Reference" "#PWR0207"
+		(property "Reference" "#PWR207"
 			(at 78.74 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -8951,7 +8972,7 @@
 		(instances
 			(project "power-link-usb"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/c407889f-d00a-4a47-8608-26350f8ea54f"
-					(reference "#PWR0207")
+					(reference "#PWR207")
 					(unit 1)
 				)
 			)
@@ -8969,7 +8990,7 @@
 		(in_pos_files no)
 		(dnp no)
 		(uuid "7c1a4875-e903-4671-922c-a5415f8601e6")
-		(property "Reference" "#PWR0225"
+		(property "Reference" "#PWR225"
 			(at 235.458 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -9030,7 +9051,7 @@
 		(instances
 			(project "power-link-usb"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/c407889f-d00a-4a47-8608-26350f8ea54f"
-					(reference "#PWR0225")
+					(reference "#PWR225")
 					(unit 1)
 				)
 			)
@@ -9053,7 +9074,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.016 1.016)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -9181,7 +9202,7 @@
 		(in_pos_files no)
 		(dnp no)
 		(uuid "873ee6d0-90f8-43cc-a57d-9afb6883e395")
-		(property "Reference" "#PWR0216"
+		(property "Reference" "#PWR216"
 			(at 152.4 102.362 0)
 			(hide yes)
 			(show_name no)
@@ -9242,7 +9263,7 @@
 		(instances
 			(project "power-link-usb"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/c407889f-d00a-4a47-8608-26350f8ea54f"
-					(reference "#PWR0216")
+					(reference "#PWR216")
 					(unit 1)
 				)
 			)
@@ -9259,7 +9280,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "87adc931-fd15-425e-8e9a-dd523ac1a643")
-		(property "Reference" "#FLG0201"
+		(property "Reference" "#FLG201"
 			(at 62.23 42.545 0)
 			(hide yes)
 			(show_name no)
@@ -9319,7 +9340,7 @@
 		(instances
 			(project "power-link-usb"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/c407889f-d00a-4a47-8608-26350f8ea54f"
-					(reference "#FLG0201")
+					(reference "#FLG201")
 					(unit 1)
 				)
 			)
@@ -9611,7 +9632,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "949d046a-21fc-45f0-bfe0-392f982e2297")
-		(property "Reference" "#PWR0217"
+		(property "Reference" "#PWR217"
 			(at 157.48 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -9672,7 +9693,7 @@
 		(instances
 			(project "power-link-usb"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/c407889f-d00a-4a47-8608-26350f8ea54f"
-					(reference "#PWR0217")
+					(reference "#PWR217")
 					(unit 1)
 				)
 			)
@@ -9689,7 +9710,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "98b285fd-1239-4fd8-b241-6c248bfb48b9")
-		(property "Reference" "#PWR0213"
+		(property "Reference" "#PWR213"
 			(at 111.76 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -9750,7 +9771,7 @@
 		(instances
 			(project "power-link-usb"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/c407889f-d00a-4a47-8608-26350f8ea54f"
-					(reference "#PWR0213")
+					(reference "#PWR213")
 					(unit 1)
 				)
 			)
@@ -9767,7 +9788,7 @@
 		(in_pos_files no)
 		(dnp no)
 		(uuid "98f96d22-591e-4d79-bf1b-191026c87ccb")
-		(property "Reference" "#PWR0212"
+		(property "Reference" "#PWR212"
 			(at 130.302 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -9828,7 +9849,7 @@
 		(instances
 			(project "power-link-usb"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/c407889f-d00a-4a47-8608-26350f8ea54f"
-					(reference "#PWR0212")
+					(reference "#PWR212")
 					(unit 1)
 				)
 			)
@@ -9845,7 +9866,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "996b7bde-8edc-4e32-8662-49d9c4d9af31")
-		(property "Reference" "#PWR0229"
+		(property "Reference" "#PWR229"
 			(at 254 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -9906,7 +9927,7 @@
 		(instances
 			(project "power-link-usb"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/c407889f-d00a-4a47-8608-26350f8ea54f"
-					(reference "#PWR0229")
+					(reference "#PWR229")
 					(unit 1)
 				)
 			)
@@ -9923,7 +9944,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9e66007e-a2c1-4625-849b-176a00b89eae")
-		(property "Reference" "#PWR0209"
+		(property "Reference" "#PWR209"
 			(at 111.76 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -9984,7 +10005,7 @@
 		(instances
 			(project "power-link-usb"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/c407889f-d00a-4a47-8608-26350f8ea54f"
-					(reference "#PWR0209")
+					(reference "#PWR209")
 					(unit 1)
 				)
 			)
@@ -10425,7 +10446,7 @@
 		(in_pos_files no)
 		(dnp no)
 		(uuid "a6e02ade-126a-40d1-976c-41182b6097e9")
-		(property "Reference" "#PWR0201"
+		(property "Reference" "#PWR201"
 			(at 50.8 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -10485,7 +10506,7 @@
 		(instances
 			(project "power-link-usb"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/c407889f-d00a-4a47-8608-26350f8ea54f"
-					(reference "#PWR0201")
+					(reference "#PWR201")
 					(unit 1)
 				)
 			)
@@ -10503,7 +10524,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ab1d570a-35ed-4708-960a-ce881c029905")
-		(property "Reference" "#PWR0202"
+		(property "Reference" "#PWR202"
 			(at 58.42 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -10564,7 +10585,7 @@
 		(instances
 			(project "power-link-usb"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/c407889f-d00a-4a47-8608-26350f8ea54f"
-					(reference "#PWR0202")
+					(reference "#PWR202")
 					(unit 1)
 				)
 			)
@@ -10582,7 +10603,7 @@
 		(in_pos_files no)
 		(dnp no)
 		(uuid "ac404b2d-6f2f-4b52-a88f-15fed54b5fb2")
-		(property "Reference" "#PWR0226"
+		(property "Reference" "#PWR226"
 			(at 235.458 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -10643,7 +10664,7 @@
 		(instances
 			(project "power-link-usb"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/c407889f-d00a-4a47-8608-26350f8ea54f"
-					(reference "#PWR0226")
+					(reference "#PWR226")
 					(unit 1)
 				)
 			)
@@ -10660,7 +10681,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ac9c589c-a9a1-4675-a655-a10afe22132b")
-		(property "Reference" "#PWR0222"
+		(property "Reference" "#PWR222"
 			(at 181.61 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -10721,7 +10742,7 @@
 		(instances
 			(project "power-link-usb"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/c407889f-d00a-4a47-8608-26350f8ea54f"
-					(reference "#PWR0222")
+					(reference "#PWR222")
 					(unit 1)
 				)
 			)
@@ -10738,7 +10759,7 @@
 		(in_pos_files no)
 		(dnp no)
 		(uuid "ad548d70-9e26-4372-99c3-29702ccf4355")
-		(property "Reference" "#PWR0203"
+		(property "Reference" "#PWR203"
 			(at 49.53 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -10799,7 +10820,7 @@
 		(instances
 			(project "power-link-usb"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/c407889f-d00a-4a47-8608-26350f8ea54f"
-					(reference "#PWR0203")
+					(reference "#PWR203")
 					(unit 1)
 				)
 			)
@@ -10816,7 +10837,7 @@
 		(in_pos_files no)
 		(dnp no)
 		(uuid "afddf44f-cbb0-45d4-93b5-c132d5986c60")
-		(property "Reference" "#PWR0230"
+		(property "Reference" "#PWR230"
 			(at 244.348 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -10877,7 +10898,7 @@
 		(instances
 			(project "power-link-usb"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/c407889f-d00a-4a47-8608-26350f8ea54f"
-					(reference "#PWR0230")
+					(reference "#PWR230")
 					(unit 1)
 				)
 			)
@@ -10894,7 +10915,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b51698ac-0510-48ac-9e8d-c93d2816764f")
-		(property "Reference" "#PWR0220"
+		(property "Reference" "#PWR220"
 			(at 168.91 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -10955,7 +10976,7 @@
 		(instances
 			(project "power-link-usb"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/c407889f-d00a-4a47-8608-26350f8ea54f"
-					(reference "#PWR0220")
+					(reference "#PWR220")
 					(unit 1)
 				)
 			)
@@ -11272,7 +11293,7 @@
 		(in_pos_files no)
 		(dnp no)
 		(uuid "c04ca539-5488-4ab2-a840-12c64550625a")
-		(property "Reference" "#PWR0205"
+		(property "Reference" "#PWR205"
 			(at 58.42 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -11333,7 +11354,7 @@
 		(instances
 			(project "power-link-usb"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/c407889f-d00a-4a47-8608-26350f8ea54f"
-					(reference "#PWR0205")
+					(reference "#PWR205")
 					(unit 1)
 				)
 			)
@@ -11351,7 +11372,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c0f74365-a7b8-40d2-963f-0cf7ab4cbc9f")
-		(property "Reference" "#PWR0208"
+		(property "Reference" "#PWR208"
 			(at 111.76 76.962 0)
 			(hide yes)
 			(show_name no)
@@ -11412,7 +11433,7 @@
 		(instances
 			(project "power-link-usb"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/c407889f-d00a-4a47-8608-26350f8ea54f"
-					(reference "#PWR0208")
+					(reference "#PWR208")
 					(unit 1)
 				)
 			)
@@ -11429,7 +11450,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cd3964ac-e9aa-476f-8c49-72a2aa437f6a")
-		(property "Reference" "#PWR0228"
+		(property "Reference" "#PWR228"
 			(at 254 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -11490,7 +11511,7 @@
 		(instances
 			(project "power-link-usb"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/c407889f-d00a-4a47-8608-26350f8ea54f"
-					(reference "#PWR0228")
+					(reference "#PWR228")
 					(unit 1)
 				)
 			)
@@ -11508,7 +11529,7 @@
 		(in_pos_files no)
 		(dnp no)
 		(uuid "d2cde56b-bd9e-448a-8415-7bb4cfbe0581")
-		(property "Reference" "#PWR0227"
+		(property "Reference" "#PWR227"
 			(at 235.458 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -11569,7 +11590,7 @@
 		(instances
 			(project "power-link-usb"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/c407889f-d00a-4a47-8608-26350f8ea54f"
-					(reference "#PWR0227")
+					(reference "#PWR227")
 					(unit 1)
 				)
 			)
@@ -11586,7 +11607,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dba170b9-7814-4558-89e5-020692c6c0e1")
-		(property "Reference" "#PWR0221"
+		(property "Reference" "#PWR221"
 			(at 181.61 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -11647,7 +11668,7 @@
 		(instances
 			(project "power-link-usb"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/c407889f-d00a-4a47-8608-26350f8ea54f"
-					(reference "#PWR0221")
+					(reference "#PWR221")
 					(unit 1)
 				)
 			)
@@ -11808,7 +11829,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.016 1.016)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -12038,7 +12059,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "feb24e9d-3a39-47bc-8574-b7b9537fd780")
-		(property "Reference" "#PWR0223"
+		(property "Reference" "#PWR223"
 			(at 190.5 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -12099,7 +12120,7 @@
 		(instances
 			(project "power-link-usb"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/c407889f-d00a-4a47-8608-26350f8ea54f"
-					(reference "#PWR0223")
+					(reference "#PWR223")
 					(unit 1)
 				)
 			)

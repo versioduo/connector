@@ -1475,7 +1475,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "33193485-4309-4a8c-abfe-572382b7d3e1")
-		(property "Reference" "#PWR0102"
+		(property "Reference" "#PWR102"
 			(at 107.95 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -1536,7 +1536,7 @@
 		(instances
 			(project "power-link-usb"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR0102")
+					(reference "#PWR102")
 					(unit 1)
 				)
 			)
@@ -1628,7 +1628,7 @@
 		(in_pos_files no)
 		(dnp no)
 		(uuid "442f3ec6-802d-4b1b-b062-b5e141a17024")
-		(property "Reference" "#PWR0101"
+		(property "Reference" "#PWR101"
 			(at 97.79 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -1689,7 +1689,7 @@
 		(instances
 			(project "power-link-usb"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR0101")
+					(reference "#PWR101")
 					(unit 1)
 				)
 			)
@@ -1706,7 +1706,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6c2e60bc-71fc-4105-aaeb-272201cddfa7")
-		(property "Reference" "#FLG0102"
+		(property "Reference" "#FLG102"
 			(at 101.6 74.295 0)
 			(hide yes)
 			(show_name no)
@@ -1766,7 +1766,7 @@
 		(instances
 			(project "power-link-usb"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#FLG0102")
+					(reference "#FLG102")
 					(unit 1)
 				)
 			)
@@ -1783,7 +1783,7 @@
 		(in_pos_files no)
 		(dnp no)
 		(uuid "7bedbf51-0cbd-4acf-abd3-5897460de69c")
-		(property "Reference" "#PWR0103"
+		(property "Reference" "#PWR103"
 			(at 100.33 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -1844,7 +1844,7 @@
 		(instances
 			(project "power-link-usb"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR0103")
+					(reference "#PWR103")
 					(unit 1)
 				)
 			)
@@ -2009,7 +2009,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ad1d27bf-9bb9-4a40-8cf0-36be2db527cb")
-		(property "Reference" "#FLG0101"
+		(property "Reference" "#FLG101"
 			(at 101.6 69.215 0)
 			(hide yes)
 			(show_name no)
@@ -2069,7 +2069,7 @@
 		(instances
 			(project "power-link-usb"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#FLG0101")
+					(reference "#FLG101")
 					(unit 1)
 				)
 			)
@@ -2317,7 +2317,7 @@
 		(in_pos_files no)
 		(dnp no)
 		(uuid "e678a6cf-1de6-4e6b-b82b-b41467f31799")
-		(property "Reference" "#PWR0105"
+		(property "Reference" "#PWR105"
 			(at 148.59 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -2378,7 +2378,7 @@
 		(instances
 			(project "power-link-usb"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR0105")
+					(reference "#PWR105")
 					(unit 1)
 				)
 			)
@@ -2395,7 +2395,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e75b4b39-5510-460c-9dc1-1a19824adf38")
-		(property "Reference" "#PWR0106"
+		(property "Reference" "#PWR106"
 			(at 199.39 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -2456,7 +2456,7 @@
 		(instances
 			(project "power-link-usb"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR0106")
+					(reference "#PWR106")
 					(unit 1)
 				)
 			)
@@ -2473,7 +2473,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e8610785-775d-44d8-a5ca-c67c9827dc3c")
-		(property "Reference" "#PWR0104"
+		(property "Reference" "#PWR104"
 			(at 158.75 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -2534,7 +2534,7 @@
 		(instances
 			(project "power-link-usb"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR0104")
+					(reference "#PWR104")
 					(unit 1)
 				)
 			)
@@ -2551,7 +2551,7 @@
 		(in_pos_files no)
 		(dnp no)
 		(uuid "e863746e-cf12-4760-8051-15d47a257cbd")
-		(property "Reference" "#PWR0107"
+		(property "Reference" "#PWR107"
 			(at 189.23 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -2612,7 +2612,7 @@
 		(instances
 			(project "power-link-usb"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR0107")
+					(reference "#PWR107")
 					(unit 1)
 				)
 			)
