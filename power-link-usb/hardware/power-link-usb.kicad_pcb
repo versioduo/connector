@@ -269,6 +269,12 @@
 		(path "/c407889f-d00a-4a47-8608-26350f8ea54f/3fda4276-d457-40e9-9eee-17b51629525f")
 		(sheetname "/PowerDelivery/")
 		(sheetfile "PowerDelivery.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -496,6 +502,12 @@
 		(path "/c407889f-d00a-4a47-8608-26350f8ea54f/bc67e65c-70cb-4366-b5e2-43f0e7fee208")
 		(sheetname "/PowerDelivery/")
 		(sheetfile "PowerDelivery.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -737,6 +749,12 @@
 		(path "/c407889f-d00a-4a47-8608-26350f8ea54f/a2a25fe6-69c0-4cbc-86da-1b92351b4a42")
 		(sheetname "/PowerDelivery/")
 		(sheetfile "PowerDelivery.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "4" "5" "1")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1613,6 +1631,12 @@
 		(path "/c407889f-d00a-4a47-8608-26350f8ea54f/44679223-785c-4aad-b70f-35a8a50d3d59")
 		(sheetname "/PowerDelivery/")
 		(sheetfile "PowerDelivery.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1853,6 +1877,12 @@
 		(path "/c407889f-d00a-4a47-8608-26350f8ea54f/46c0dc3f-ebc2-4f92-8f68-23c03c360b81")
 		(sheetname "/PowerDelivery/")
 		(sheetfile "PowerDelivery.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2131,6 +2161,12 @@
 		(path "/c407889f-d00a-4a47-8608-26350f8ea54f/0c07b4d6-619c-4f32-b882-b21dd9e0bd33")
 		(sheetname "/PowerDelivery/")
 		(sheetfile "PowerDelivery.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2359,6 +2395,12 @@
 		(path "/c407889f-d00a-4a47-8608-26350f8ea54f/bed53fc7-9f33-4d3c-b590-73cab8dc4d0c")
 		(sheetname "/PowerDelivery/")
 		(sheetfile "PowerDelivery.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "S" "G" "V" "A5" "B5" "A7" "B7" "A6" "B6" "A8" "B8")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
 			(pts
@@ -3012,6 +3054,12 @@
 		(path "/c407889f-d00a-4a47-8608-26350f8ea54f/05ece255-7da1-459b-8905-cc2655681b93")
 		(sheetname "/PowerDelivery/")
 		(sheetfile "PowerDelivery.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3226,13 +3274,19 @@
 		(path "/7eb06b9d-d894-478a-bc35-8590f2ab48d6")
 		(sheetname "/")
 		(sheetfile "power-link-usb.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+		(units
+			(unit
+				(name "A")
+				(pins)
+			)
+		)
+		(attr exclude_from_bom allow_missing_courtyard)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_text user "${REVISION} @{if(${REVISION} !=  ${ISSUE_DATE}, \"(${ISSUE_DATE})\", \"\")}"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "82dfd403-d80c-476d-909d-08d68dda2d93")
+			(uuid "c910c3fd-9311-4e5e-accd-07fbcce8d71f")
 			(effects
 				(font
 					(size 0.75 0.75)
@@ -3244,7 +3298,7 @@
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "c910c3fd-9311-4e5e-accd-07fbcce8d71f")
+			(uuid "82dfd403-d80c-476d-909d-08d68dda2d93")
 			(effects
 				(font
 					(size 0.75 0.75)
@@ -3377,6 +3431,12 @@
 		(path "/c407889f-d00a-4a47-8608-26350f8ea54f/a2b344f4-1faf-4342-a62e-6e1caff9f31d")
 		(sheetname "/PowerDelivery/")
 		(sheetfile "PowerDelivery.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3603,6 +3663,16 @@
 		(path "/c407889f-d00a-4a47-8608-26350f8ea54f/8bd77089-d134-4947-9639-5d22782cc2e0")
 		(sheetname "/PowerDelivery/")
 		(sheetfile "PowerDelivery.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3" "4" "5" "6" "7" "8" "9" "10" "11" "12" "48" "13" "47"
+					"14" "46" "15" "45" "16" "44" "17" "43" "18" "42" "19" "41" "20" "40"
+					"21" "39" "22" "38" "23" "37" "24" "49" "36" "35" "34" "33" "32" "31"
+					"30" "29" "28" "27" "26" "25"
+				)
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5198,6 +5268,12 @@
 		(path "/c407889f-d00a-4a47-8608-26350f8ea54f/84f128c8-0348-4175-bb52-e5c4ae13443b")
 		(sheetname "/PowerDelivery/")
 		(sheetfile "PowerDelivery.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5425,6 +5501,12 @@
 		(path "/c407889f-d00a-4a47-8608-26350f8ea54f/dcba9f07-5ce1-42d8-b03a-ea3c6b0b1b3b")
 		(sheetname "/PowerDelivery/")
 		(sheetfile "PowerDelivery.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5589,7 +5671,13 @@
 		(path "/c407889f-d00a-4a47-8608-26350f8ea54f/e6716224-42c2-4828-ac25-52f78822252e")
 		(sheetname "/PowerDelivery/")
 		(sheetfile "PowerDelivery.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
+		(units
+			(unit
+				(name "A")
+				(pins "4" "6" "8" "10" "1" "3" "5" "7" "9")
+			)
+		)
+		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -2.9972 1.9812)
@@ -5898,7 +5986,7 @@
 		(at 127 99.5 -90)
 		(descr "Diode SMB (DO-214AA)")
 		(tags "Diode SMB (DO-214AA)")
-		(property "Reference" "TVS202"
+		(property "Reference" "TVS101"
 			(at 0 -3 270)
 			(layer "F.SilkS")
 			(hide yes)
@@ -6013,9 +6101,15 @@
 				)
 			)
 		)
-		(path "/c407889f-d00a-4a47-8608-26350f8ea54f/141a6a22-dee3-4022-bc9f-5b4e9129b65e")
-		(sheetname "/PowerDelivery/")
-		(sheetfile "PowerDelivery.kicad_sch")
+		(path "/141a6a22-dee3-4022-bc9f-5b4e9129b65e")
+		(sheetname "/")
+		(sheetfile "power-link-usb.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6281,6 +6375,12 @@
 		(path "/c407889f-d00a-4a47-8608-26350f8ea54f/2eba6ccb-9243-4317-a36c-47dd50f209db")
 		(sheetname "/PowerDelivery/")
 		(sheetfile "PowerDelivery.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "4" "5" "1")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7093,7 +7193,13 @@
 		(path "/0602ed14-d2c2-4e47-84cb-eec621139215")
 		(sheetname "/")
 		(sheetfile "power-link-usb.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+		(units
+			(unit
+				(name "A")
+				(pins)
+			)
+		)
+		(attr exclude_from_bom allow_missing_courtyard)
 		(stackup
 			(layer "F.Cu")
 			(layer "B.Cu")
@@ -7452,6 +7558,12 @@
 		(path "/c407889f-d00a-4a47-8608-26350f8ea54f/e1942dca-2594-4805-abc6-f1fe682c73c6")
 		(sheetname "/PowerDelivery/")
 		(sheetfile "PowerDelivery.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7679,6 +7791,12 @@
 		(path "/c407889f-d00a-4a47-8608-26350f8ea54f/3543ef20-fe35-4835-9323-5c24ccfa0bfe")
 		(sheetname "/PowerDelivery/")
 		(sheetfile "PowerDelivery.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7907,6 +8025,12 @@
 		(path "/c407889f-d00a-4a47-8608-26350f8ea54f/5925034c-29ee-43f9-a871-9dae70851901")
 		(sheetname "/PowerDelivery/")
 		(sheetfile "PowerDelivery.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8095,6 +8219,12 @@
 		(path "/f3ebfb05-17be-488d-b5c3-e4a62e3009d2")
 		(sheetname "/")
 		(sheetfile "power-link-usb.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins)
+			)
+		)
 		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -8253,6 +8383,12 @@
 		(path "/c407889f-d00a-4a47-8608-26350f8ea54f/4a5c9aa7-1c8c-410a-9983-60a092fc4a31")
 		(sheetname "/PowerDelivery/")
 		(sheetfile "PowerDelivery.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8417,6 +8553,12 @@
 		(path "/d70eefe3-c463-42c7-ad37-0fcb53cb0f3d")
 		(sheetname "/")
 		(sheetfile "power-link-usb.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins)
+			)
+		)
 		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -8575,6 +8717,12 @@
 		(path "/c407889f-d00a-4a47-8608-26350f8ea54f/41fa43a9-edd2-4c57-9438-cd882295dbcb")
 		(sheetname "/PowerDelivery/")
 		(sheetfile "PowerDelivery.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8802,6 +8950,12 @@
 		(path "/c407889f-d00a-4a47-8608-26350f8ea54f/a1d9950e-6ebe-40d5-8748-4e35001f4d63")
 		(sheetname "/PowerDelivery/")
 		(sheetfile "PowerDelivery.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8966,6 +9120,12 @@
 		(path "/977377c2-2f87-473b-87b3-55cb2215e7cb")
 		(sheetname "/")
 		(sheetfile "power-link-usb.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins)
+			)
+		)
 		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -9124,6 +9284,12 @@
 		(path "/c407889f-d00a-4a47-8608-26350f8ea54f/2f2253ef-6d5a-45fa-a482-7775c86af4cb")
 		(sheetname "/PowerDelivery/")
 		(sheetfile "PowerDelivery.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9285,7 +9451,13 @@
 		(path "/42c324ad-c8b6-4b1e-83a4-df2244deef0c")
 		(sheetname "/")
 		(sheetfile "power-link-usb.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+		(units
+			(unit
+				(name "A")
+				(pins)
+			)
+		)
+		(attr exclude_from_bom allow_missing_courtyard)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
 			(pts
@@ -9557,6 +9729,12 @@
 		(path "/ad716ec9-c63e-4bde-9a41-0a62e211f7e1")
 		(sheetname "/")
 		(sheetfile "power-link-usb.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "S" "8" "7" "6" "5" "4" "3" "2" "1")
+			)
+		)
 		(attr through_hole allow_missing_courtyard)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9890,6 +10068,12 @@
 		(path "/f53024c6-fa8a-4370-b1cb-e787398626f0")
 		(sheetname "/")
 		(sheetfile "power-link-usb.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "S" "8" "7" "6" "5" "4" "3" "2" "1")
+			)
+		)
 		(attr through_hole allow_missing_courtyard)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line

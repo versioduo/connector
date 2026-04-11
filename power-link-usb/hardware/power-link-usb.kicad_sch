@@ -6,9 +6,10 @@
 	(paper "A4")
 	(title_block
 		(title "V2 Power Link USB")
-		(date "2026-04-08")
+		(date "2026-04-10")
 		(rev "2026-04-08")
 		(company "Versio Duo")
+		(comment 1 "USB PD for V2Link / RJ45")
 	)
 	(lib_symbols
 		(symbol "V2_Artwork:V2-logo"
@@ -497,6 +498,218 @@
 						)
 					)
 					(number "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "V2_Diode:SMBJ33CA"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TVS"
+				(at -2.54 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SMBJ33CA"
+				(at -2.54 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "V2_Diode_SMD:D_SMB"
+				(at 0 -5.715 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 0.0254 0.0254)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Transient Voltage Suppressor Diode, Bidirectional, 36.7-40.6V"
+				(at 0 -20.32 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Mouser" "652-SMBJ33CA-Q"
+				(at 0 -28.194 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Id" "Diode:${SYMBOL_NAME}"
+				(at 0 -11.43 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Product" "SMBJ33CA-Q"
+				(at 0 -25.4 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "Bourns"
+				(at 0 -22.86 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Rating" "33V"
+				(at 0 -30.48 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SMBJ33CA_0_1"
+				(polyline
+					(pts
+						(xy -2.54 -1.27) (xy -2.54 1.27) (xy 0 0) (xy -2.54 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy -0.635 1.905) (xy 0 1.27) (xy 0 -1.27) (xy 0.635 -1.905) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy 2.54 -1.27) (xy 0 0) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SMBJ33CA_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1169,6 +1382,14 @@
 		(color 0 0 0 0)
 		(uuid "c1fd66a6-fb71-4e5f-868f-c132fa6797b7")
 	)
+	(no_connect
+		(at 105.41 107.95)
+		(uuid "44c8e986-990e-4a72-943d-9d7926ae1b6c")
+	)
+	(no_connect
+		(at 105.41 105.41)
+		(uuid "7869a9e1-fcea-4d03-aa40-5a4931fc6656")
+	)
 	(wire
 		(pts
 			(xy 193.04 93.98) (xy 193.04 96.52)
@@ -1464,6 +1685,142 @@
 		)
 	)
 	(symbol
+		(lib_id "V2_Diode:SMBJ33CA")
+		(at 228.6 104.14 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "141a6a22-dee3-4022-bc9f-5b4e9129b65e")
+		(property "Reference" "TVS101"
+			(at 238.506 102.8699 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMBJ33CA"
+			(at 241.3 105.4099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "V2_Diode_SMD:D_SMB"
+			(at 234.315 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Transient Voltage Suppressor Diode, Bidirectional, 36.7-40.6V"
+			(at 228.6 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" "652-SMBJ33CA-Q"
+			(at 244.094 104.14 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Product" "SMBJ33CA-Q"
+			(at 238.76 104.14 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Bourns"
+			(at 236.22 104.14 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "33V"
+			(at 241.3 104.14 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Id" "Diode:${SYMBOL_NAME}"
+			(at 234.95 104.14 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "8b2c9039-b8f0-4d72-8509-0eb2f2f9b4de")
+		)
+		(pin "1"
+			(uuid "6fee8d28-543e-47fd-869c-a2654f4642be")
+		)
+		(instances
+			(project "power-link-usb"
+				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
+					(reference "TVS101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "V2_power:GND")
 		(at 101.6 76.2 90)
 		(unit 1)
@@ -1696,6 +2053,84 @@
 		)
 	)
 	(symbol
+		(lib_id "V2_power:+VLINK")
+		(at 228.6 100.33 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "51e10f59-2a42-4bd6-80b9-fe6d6122896f")
+		(property "Reference" "#PWR108"
+			(at 228.6 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+VLINK"
+			(at 228.5999 94.996 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 255 92 187 1)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 228.6 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power Over CAT Cable"
+			(at 228.6 115.824 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "282f293a-3407-48c9-b6b3-1783ab097068")
+		)
+		(instances
+			(project "power-link-usb"
+				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
+					(reference "#PWR108")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "V2_power:PWR_FLAG")
 		(at 101.6 76.2 0)
 		(unit 1)
@@ -1774,7 +2209,7 @@
 	)
 	(symbol
 		(lib_id "V2_power:+VLINK")
-		(at 104.14 102.87 270)
+		(at 105.41 99.06 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim yes)
@@ -1784,7 +2219,7 @@
 		(dnp no)
 		(uuid "7bedbf51-0cbd-4acf-abd3-5897460de69c")
 		(property "Reference" "#PWR103"
-			(at 100.33 102.87 0)
+			(at 101.6 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1795,7 +2230,7 @@
 			)
 		)
 		(property "Value" "+VLINK"
-			(at 112.522 102.8699 90)
+			(at 113.792 99.0599 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1806,7 +2241,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 104.14 102.87 0)
+			(at 105.41 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1817,7 +2252,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 104.14 102.87 0)
+			(at 105.41 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1828,7 +2263,7 @@
 			)
 		)
 		(property "Description" "Power Over CAT Cable"
-			(at 88.646 102.87 0)
+			(at 89.916 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2301,6 +2736,84 @@
 			(project "power-link-usb"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
 					(reference "FID102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "V2_power:GND")
+		(at 228.6 107.95 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "dba170b9-7814-4558-89e5-020692c6c0e1")
+		(property "Reference" "#PWR109"
+			(at 228.6 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 228.6 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 228.6 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 228.6 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "61a0f6c8-d813-4948-90ae-d9d3df752c0f")
+		)
+		(instances
+			(project "power-link-usb"
+				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
+					(reference "#PWR109")
 					(unit 1)
 				)
 			)
@@ -2850,7 +3363,7 @@
 		)
 	)
 	(sheet
-		(at 87.63 95.25)
+		(at 88.9 96.52)
 		(size 16.51 13.97)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2866,7 +3379,7 @@
 		)
 		(uuid "c407889f-d00a-4a47-8608-26350f8ea54f")
 		(property "Sheetname" "PowerDelivery"
-			(at 87.63 94.5384 0)
+			(at 88.9 95.8084 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2877,7 +3390,7 @@
 			)
 		)
 		(property "Sheetfile" "PowerDelivery.kicad_sch"
-			(at 87.63 109.8046 0)
+			(at 88.9 111.0746 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2889,8 +3402,28 @@
 			)
 		)
 		(pin "Power" output
-			(at 104.14 102.87 0)
+			(at 105.41 99.06 0)
 			(uuid "0f1a4f5a-70ae-44c3-a18c-0e57f6d1ddaf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "UART-RX" input
+			(at 105.41 105.41 0)
+			(uuid "3f7f5a82-0f8d-4adc-b34c-53a9c0d740f1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "UART-TX" output
+			(at 105.41 107.95 0)
+			(uuid "e19bbe3f-3604-4671-bfe9-cd1fcf58eb4e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2916,18 +3449,18 @@
 		(file
 			(name "V2_A4.kicad_wks")
 			(type worksheet)
-			(data |KLUv/WBhBk0QALbYTiEQtRsmZc5q276ayLS71D6kxbkmoTeIJM7lAHtEAMAAxQFGAD8ARQCbvIHa
-				a/wrVHSazXnPhvzar1BNtH1kxRf5EwCAQPh5F+e0kJq0nmtfKDvj37Jf3xQUlFKqztoXWzE7iAAI
-				iJ6Q5m2d9RAC9jcPPWe/GXf/9ewpPR3+uPbv7bdzvr37wXlr2X8dBHFXu7Z3HUG7Kvrz9qKU7eB2
-				v/MM4n/Mhfg5G5sn7WsDTS2mA1WyssZDsy4YdpEGzfD8Ny+85JzH7H+961FjX/x0qtq0MdaqJ8dx
-				k1KAwF+soV3VFnEoqewX+XNfTaqqPatRlLsbgcKhzs5+29sEzSaWRPZ4txDEjpmZNCoSiiMhaUwy
-				y4Jg3oe5pmhPRSS7MtJAerbfnYNNgaEkuCg6oVzYhbEsF1vRgtxS55zTIVig4URjFFJTI1qYFNIB
-				YESmRusYYvaiF0uSUdhu1Q2lFiOgdmN7VvaH2oWyw9MQXRuZtQQQoIsxFn2ldtnpQiUNa0HvDQCK
-				f/XTisCgEJQEXe/if4EJsakkqj8BMmGAU+ZM/AG8LSEJMfgkOKfSKPhw4rD3ZHfmNZYNfDMigEPJ
-				EBoIDghtm1kJ8BAQ8xyGdkOuFQy33sishFt8DZNX4uNRXJZ5hBy746RJaNtgbfyB613d0dov6Cdg
-				iUQT9BXkf9EiYDuODpB6gKkC|
+			(data |KLUv/WDeBT0QAOaYUCHw1jZMGCc1TjHsIAD+nBVeHO/D3DsaVZTuahuwiWx49AVHAEEASACf/ZHe
+				e+5oafaqDnoRl27Go6Vd1u8Jm2+6XwEAgXL016xXtdSjWLzeWFLf+r998/1YC2tthlXMs8bmvqQK
+				EDBFJU/8QiyqAhn/d8u7981bhz969UpFoR5Bv+Pj9wt6F/NI78+pf74kqUPMMRfzTVjHFv77e5NS
+				v+SXP7yb1P8aLPWDPnhX6xkHEW/TcNwERXBvCCoPRjk8ZblMuMlmy6AIe+9z38839NOD3xyFNMzt
+				48Q0ryAIVpsBAp+1x7qGualLaqm/6T74Ws00zKt2mnYYAatqtrNsFepn/kpSQziWB6ZygTA8Q1wK
+				cdSgZ9brgtJNOiriWuvF2CoPS7dtEs7gqcEhNfh7QVxmPWNciyxl0Q7tWBXteCG1dY9TIGBE5kzS
+				Mc6MsAui52u9aDXEJLCx61sv4G45V+cKELRrLwotvSZg50T1BaN0aAfmAAEEAOMT0Lp2nNkTrDWU
+				R0vnKzgB6OkSlP0Tha6wgapMTOJ3zmNLLIUwfCXOmySJnj927tjXBF1zOINlD3yzQIACKXNUEXJA
+				brtBdiLwkSvuUXiFG3mBAoB7n9HzWW9AFzB/E9/M4LDkIXvsvIM2Ipc2rQB7lLIbNxLWS9USsEAV
+				RYgb7OmqDsHYDtEBywOWEw==|
 			)
-			(checksum "0A61268C685EAF945CA2EA8187370BD3")
+			(checksum "6DC8D98D5849D2806AFE8CE2DA504721")
 		)
 	)
 )
