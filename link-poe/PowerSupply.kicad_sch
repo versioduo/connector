@@ -6,9 +6,10 @@
 	(paper "A4")
 	(title_block
 		(title "V2 Link PoE")
-		(date "2026-03-31")
+		(date "2026-04-14")
 		(rev "2026-03-31")
-		(company "+5V")
+		(company "Versio Duo")
+		(comment 1 "CAT Cable Power Supply")
 	)
 	(lib_symbols
 		(symbol "V2_Capacitor:0603_0u1"
@@ -25,7 +26,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "C"
-				(at 1.778 1.524 0)
+				(at 2.54 1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -36,7 +37,7 @@
 				)
 			)
 			(property "Value" "0u1"
-				(at 1.778 -2.032 0)
+				(at 2.54 -1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -47,7 +48,7 @@
 				)
 			)
 			(property "Footprint" "V2_Capacitor_SMD:C_0603"
-				(at 0 -17.018 0)
+				(at 0 -17.78 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -81,6 +82,17 @@
 			)
 			(property "Mouser" "810-CGA3E2X7R1H104MA"
 				(at 0 -20.32 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Id" "Capacitor:${SYMBOL_NAME}"
+				(at 0 -15.24 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -225,7 +237,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "C"
-				(at 1.524 1.778 0)
+				(at 2.54 1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -236,7 +248,7 @@
 				)
 			)
 			(property "Value" "1u"
-				(at 1.524 -2.032 0)
+				(at 2.54 -1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -247,7 +259,7 @@
 				)
 			)
 			(property "Footprint" "V2_Capacitor_SMD:C_0603"
-				(at 0 -17.018 0)
+				(at 0 -17.78 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -281,6 +293,17 @@
 			)
 			(property "Mouser" "810-CGA3E3X7R1H105K0"
 				(at 0 -20.32 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Id" "Capacitor:${SYMBOL_NAME}"
+				(at 0 -15.24 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -425,7 +448,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "C"
-				(at 1.524 1.778 0)
+				(at 2.54 1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -436,7 +459,7 @@
 				)
 			)
 			(property "Value" "10u"
-				(at 1.524 -2.032 0)
+				(at 2.54 -1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -447,7 +470,7 @@
 				)
 			)
 			(property "Footprint" "V2_Capacitor_SMD:C_1210"
-				(at 0 -17.018 0)
+				(at 0 -17.78 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -480,7 +503,18 @@
 				)
 			)
 			(property "Mouser" "810-CNC6P1X7R1H106K2"
-				(at 0 -22.86 0)
+				(at 0 -20.32 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Id" "Capacitor:${SYMBOL_NAME}"
+				(at 0 -15.24 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -491,7 +525,7 @@
 				)
 			)
 			(property "Rating" "50V"
-				(at 0 -20.32 0)
+				(at 0 -22.86 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -625,7 +659,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "C"
-				(at 1.524 1.778 0)
+				(at 2.54 1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -636,7 +670,7 @@
 				)
 			)
 			(property "Value" "22u"
-				(at 1.524 -2.032 0)
+				(at 2.54 -1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -647,7 +681,7 @@
 				)
 			)
 			(property "Footprint" "V2_Capacitor_SMD:C_1210"
-				(at 0 -17.018 0)
+				(at 0 -17.78 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -680,7 +714,18 @@
 				)
 			)
 			(property "Mouser" "810-CGA6P3X7R1E226M5"
-				(at 0 -22.86 0)
+				(at 0 -20.32 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Id" "Capacitor:${SYMBOL_NAME}"
+				(at 0 -15.24 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -691,7 +736,7 @@
 				)
 			)
 			(property "Rating" "25V"
-				(at 0 -20.32 0)
+				(at 0 -22.86 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -843,7 +888,7 @@
 				)
 			)
 			(property "Footprint" "V2_Converter_DCDC:QFN-11"
-				(at 0 -38.1 0)
+				(at 0 -46.99 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -880,6 +925,17 @@
 			(property "Mouser" "595-SM33620S5QRDNRQ1"
 				(at 0 -48.26 0)
 				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Id" "DCDC:${SYMBOL_NAME}"
+				(at 0 -44.45 0)
+				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
 				(effects
@@ -1687,6 +1743,17 @@
 				)
 			)
 		)
+		(property "Id" "DCDC:${SYMBOL_NAME}"
+			(at 148.59 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "52c8be82-e8ad-472d-b603-1ade6cc9dc39")
 		)
@@ -1740,7 +1807,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "184035cd-b7e9-4cfb-9be6-23f1be0e3415")
-		(property "Reference" "#PWR509"
+		(property "Reference" "#PWR504"
 			(at 129.54 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -1801,7 +1868,7 @@
 		(instances
 			(project "link-poe"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/24a9dc0c-cb3c-464a-a734-f09bf949d71a"
-					(reference "#PWR509")
+					(reference "#PWR504")
 					(unit 1)
 				)
 			)
@@ -1917,6 +1984,17 @@
 				)
 			)
 		)
+		(property "Id" "Capacitor:${SYMBOL_NAME}"
+			(at 109.22 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "12842680-1364-4c72-ac9a-94a83521a115")
 		)
@@ -1943,7 +2021,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "32e0962d-2870-40f1-961f-e0a8436f4ae1")
-		(property "Reference" "C504"
+		(property "Reference" "C505"
 			(at 198.12 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2042,6 +2120,17 @@
 				)
 			)
 		)
+		(property "Id" "Capacitor:${SYMBOL_NAME}"
+			(at 195.58 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "baeb49a9-b9c9-4286-988c-5c16f14230d4")
 		)
@@ -2051,7 +2140,7 @@
 		(instances
 			(project "link-poe"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/24a9dc0c-cb3c-464a-a734-f09bf949d71a"
-					(reference "C504")
+					(reference "C505")
 					(unit 1)
 				)
 			)
@@ -2068,7 +2157,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "375e8848-8eea-41f8-a7f3-9a19bee252db")
-		(property "Reference" "#PWR504"
+		(property "Reference" "#PWR506"
 			(at 185.42 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -2129,7 +2218,7 @@
 		(instances
 			(project "link-poe"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/24a9dc0c-cb3c-464a-a734-f09bf949d71a"
-					(reference "#PWR504")
+					(reference "#PWR506")
 					(unit 1)
 				)
 			)
@@ -2146,7 +2235,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "478902d6-4aff-4fcb-a385-fca8f35709c1")
-		(property "Reference" "#PWR505"
+		(property "Reference" "#PWR508"
 			(at 195.58 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -2207,7 +2296,7 @@
 		(instances
 			(project "link-poe"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/24a9dc0c-cb3c-464a-a734-f09bf949d71a"
-					(reference "#PWR505")
+					(reference "#PWR508")
 					(unit 1)
 				)
 			)
@@ -2224,7 +2313,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4d4ebc61-b15d-4222-bcb8-9f849a59d901")
-		(property "Reference" "#PWR501"
+		(property "Reference" "#PWR507"
 			(at 195.58 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -2284,7 +2373,7 @@
 		(instances
 			(project "link-poe"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/24a9dc0c-cb3c-464a-a734-f09bf949d71a"
-					(reference "#PWR501")
+					(reference "#PWR507")
 					(unit 1)
 				)
 			)
@@ -2301,7 +2390,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "531fc383-fb58-423a-a382-5ec2d1a20e95")
-		(property "Reference" "#PWR502"
+		(property "Reference" "#PWR501"
 			(at 97.79 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -2362,7 +2451,7 @@
 		(instances
 			(project "link-poe"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/24a9dc0c-cb3c-464a-a734-f09bf949d71a"
-					(reference "#PWR502")
+					(reference "#PWR501")
 					(unit 1)
 				)
 			)
@@ -2379,7 +2468,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5c63cc8b-cfef-42fe-ba54-7d6431ef620a")
-		(property "Reference" "#PWR503"
+		(property "Reference" "#PWR502"
 			(at 109.22 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -2440,7 +2529,7 @@
 		(instances
 			(project "link-poe"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/24a9dc0c-cb3c-464a-a734-f09bf949d71a"
-					(reference "#PWR503")
+					(reference "#PWR502")
 					(unit 1)
 				)
 			)
@@ -2457,7 +2546,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6f72d12b-3fd7-4fef-b38d-6a1a01607885")
-		(property "Reference" "C505"
+		(property "Reference" "C503"
 			(at 124.46 110.236 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2556,6 +2645,17 @@
 				)
 			)
 		)
+		(property "Id" "Capacitor:${SYMBOL_NAME}"
+			(at 110.49 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "55815810-097d-4c5b-be27-642329380ffa")
 		)
@@ -2565,7 +2665,7 @@
 		(instances
 			(project "link-poe"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/24a9dc0c-cb3c-464a-a734-f09bf949d71a"
-					(reference "C505")
+					(reference "C503")
 					(unit 1)
 				)
 			)
@@ -2582,7 +2682,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "77be58e3-6c00-45da-9843-6a2883e3b059")
-		(property "Reference" "C503"
+		(property "Reference" "C504"
 			(at 187.96 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2681,6 +2781,17 @@
 				)
 			)
 		)
+		(property "Id" "Capacitor:${SYMBOL_NAME}"
+			(at 185.42 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "70e74275-ae6a-4a83-a4aa-4660d01bef4d")
 		)
@@ -2690,7 +2801,7 @@
 		(instances
 			(project "link-poe"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/24a9dc0c-cb3c-464a-a734-f09bf949d71a"
-					(reference "C503")
+					(reference "C504")
 					(unit 1)
 				)
 			)
@@ -2707,7 +2818,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "77fc86a4-b71b-42cd-a914-f7257b900b65")
-		(property "Reference" "#PWR507"
+		(property "Reference" "#PWR503"
 			(at 116.84 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -2768,7 +2879,7 @@
 		(instances
 			(project "link-poe"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/24a9dc0c-cb3c-464a-a734-f09bf949d71a"
-					(reference "#PWR507")
+					(reference "#PWR503")
 					(unit 1)
 				)
 			)
@@ -2785,7 +2896,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b70ec11c-33cd-448a-81a6-e35714977a9a")
-		(property "Reference" "#PWR508"
+		(property "Reference" "#PWR505"
 			(at 148.59 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -2846,7 +2957,7 @@
 		(instances
 			(project "link-poe"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/24a9dc0c-cb3c-464a-a734-f09bf949d71a"
-					(reference "#PWR508")
+					(reference "#PWR505")
 					(unit 1)
 				)
 			)
@@ -2918,7 +3029,7 @@
 				)
 			)
 		)
-		(property "Mouser" "810-CNA6P1X7R1H106K2"
+		(property "Mouser" "810-CNC6P1X7R1H106K2"
 			(at 97.79 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -2929,7 +3040,7 @@
 				)
 			)
 		)
-		(property "Product" "CNA6P1X7R1H106K250AE"
+		(property "Product" "CNC6P1X7R1H106K250AE"
 			(at 97.79 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -2953,6 +3064,17 @@
 		)
 		(property "Rating" "50V"
 			(at 97.79 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Id" "Capacitor:${SYMBOL_NAME}"
+			(at 97.79 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

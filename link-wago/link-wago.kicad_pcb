@@ -8,7 +8,7 @@
 	)
 	(paper "A4")
 	(title_block
-		(date "2026-03-31")
+		(date "2026-04-14")
 		(rev "2026-03-31")
 	)
 	(layers
@@ -151,7 +151,7 @@
 		(at 152 112)
 		(descr "USB TYPE C, USB 2.0, SMT, https://www.jae.com/en/connectors/series/detail/product/id=91780")
 		(tags "USB C Type-C Receptacle SMD USB 2.0")
-		(property "Reference" "J103"
+		(property "Reference" "J111"
 			(at 0 -5 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -240,15 +240,35 @@
 				)
 			)
 		)
+		(property "Id" "USB:JAE_DX07S016JA3"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "61671a3c-5814-4649-b928-954ebe6de9f1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Rating" "USB2.0"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "87d87083-6cca-47ea-8f97-9b7ec431ef14")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/41195de9-f1d3-4b20-abc5-7b3bdcc257bc")
 		(sheetname "/")
 		(sheetfile "link-wago.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "S" "G" "V" "A5" "B5" "A7" "B7" "A6" "B6" "A8" "B8")
-			)
-		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
 			(pts
@@ -586,7 +606,7 @@
 			(size 0.27 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.1)
-			(net "unconnected-(J103-SBU1-PadA8)")
+			(net "unconnected-(J111-SBU1-PadA8)")
 			(pinfunction "SBU1_A8")
 			(pintype "bidirectional+no_connect")
 			(uuid "f4f24bbb-34bb-4bc8-8fb4-f16f4f24373a")
@@ -626,7 +646,7 @@
 			(size 0.27 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.1)
-			(net "unconnected-(J103-SBU2-PadB8)")
+			(net "unconnected-(J111-SBU2-PadB8)")
 			(pinfunction "SBU2_B8")
 			(pintype "bidirectional+no_connect")
 			(uuid "288c52f7-1afa-4d8c-affa-5efc4a25440f")
@@ -826,12 +846,6 @@
 		(path "/f3ebfb05-17be-488d-b5c3-e4a62e3009d2")
 		(sheetname "/")
 		(sheetfile "link-wago.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
 		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -927,12 +941,6 @@
 		(path "/977377c2-2f87-473b-87b3-55cb2215e7cb")
 		(sheetname "/")
 		(sheetfile "link-wago.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
 		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -1027,19 +1035,13 @@
 		(path "/7eb06b9d-d894-478a-bc35-8590f2ab48d6")
 		(sheetname "/")
 		(sheetfile "link-wago.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
-		(attr exclude_from_bom allow_missing_courtyard)
+		(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_text user "${REVISION} @{if(${REVISION} !=  ${ISSUE_DATE}, \"(${ISSUE_DATE})\", \"\")}"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "92719501-0da8-40ce-bf7c-f8bf14e1b293")
+			(uuid "02db84f1-7826-4193-85d4-79d96c66828e")
 			(effects
 				(font
 					(size 0.75 0.75)
@@ -1051,7 +1053,7 @@
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "02db84f1-7826-4193-85d4-79d96c66828e")
+			(uuid "92719501-0da8-40ce-bf7c-f8bf14e1b293")
 			(effects
 				(font
 					(size 0.75 0.75)
@@ -1065,7 +1067,7 @@
 		(layer "F.Cu")
 		(uuid "552eacff-0ed8-4174-aeef-cc4ed8dd5e1b")
 		(at 152 100)
-		(property "Reference" "ICON102"
+		(property "Reference" "ICON101"
 			(at 0 -3.319443 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -1118,13 +1120,7 @@
 		(path "/ff5fa334-854e-4ca7-a359-9c419e0f5264")
 		(sheetname "/")
 		(sheetfile "link-wago.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
-		(attr exclude_from_bom allow_missing_courtyard)
+		(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
 			(pts
@@ -1267,7 +1263,7 @@
 		(layer "F.Cu")
 		(uuid "64446ff0-41a7-45aa-a389-fa596d19458c")
 		(at 184.5 113.5 180)
-		(property "Reference" "ICON105"
+		(property "Reference" "ICON106"
 			(at 0 -2.5 180)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -1319,16 +1315,23 @@
 				)
 			)
 		)
+		(property "Sim.Enable" "0"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8188c4a5-a211-408c-9f76-a513e8be005b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/fd47ea83-79d5-4384-8ee2-f8e21cc93432")
 		(sheetname "/")
 		(sheetfile "link-wago.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
-		(attr exclude_from_bom allow_missing_courtyard)
+		(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_arc
 			(start -0.9 -0.5)
@@ -1461,15 +1464,35 @@
 				)
 			)
 		)
+		(property "Id" "WAGO:2065"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c4dc90c5-7e4e-413c-820a-5756a84e09a7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Rating" "9A"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c47fa15d-d1ee-4a8c-a51c-86adb3b11b32")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/dc756eaf-03bd-4d2b-909b-98cc2e7767c6")
 		(sheetname "/")
 		(sheetfile "link-wago.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -4.25 -1.1452)
@@ -1687,7 +1710,7 @@
 		(layer "F.Cu")
 		(uuid "6b84928f-89ce-4bf0-aaac-2577ca7b1232")
 		(at 179 109.5 -90)
-		(property "Reference" "J101"
+		(property "Reference" "J105"
 			(at -1.27 -7.62 270)
 			(layer "F.SilkS")
 			(hide yes)
@@ -1778,15 +1801,35 @@
 				)
 			)
 		)
+		(property "Id" "Header:2x05_Horizontal"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7797ebb8-ae84-4aae-93cf-546bb473ba0a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Rating" "1A"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9cbc5322-2cd2-4bb4-8e42-02b4c33024fe")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/6a9f7d0f-baf3-473f-8fb0-b3912073b983")
 		(sheetname "/")
 		(sheetfile "link-wago.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "3" "5" "7" "9" "2" "4" "6" "8" "10")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -2219,7 +2262,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers yes)
 			(keep_end_layers yes)
-			(zone_layer_connections "In1.Cu" "In2.Cu")
+			(zone_layer_connections)
 			(net "GND")
 			(pinfunction "Pin_3_3")
 			(pintype "passive")
@@ -2289,7 +2332,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers yes)
 			(keep_end_layers yes)
-			(zone_layer_connections "In1.Cu" "In2.Cu")
+			(zone_layer_connections)
 			(net "GND")
 			(pinfunction "Pin_8_8")
 			(pintype "passive")
@@ -2393,15 +2436,22 @@
 				)
 			)
 		)
+		(property "Sim.Enable" "0"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "de77026d-8e29-4580-a50f-d70c53da10ef")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/38261f6f-d971-44fd-8331-e6e4a96356c7")
 		(sheetname "/")
 		(sheetfile "link-wago.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
 		(attr exclude_from_bom allow_missing_courtyard)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2689,15 +2739,22 @@
 				)
 			)
 		)
+		(property "Id" "Diode:SMBJ33CA"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e64b754f-c96d-43e2-bf39-a14ad8dc0fc3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/2222df47-d315-45d7-8daf-e5fc9c19addf")
 		(sheetname "/")
 		(sheetfile "link-wago.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2932,16 +2989,23 @@
 				)
 			)
 		)
+		(property "Id" "Resistor:0603_5k1"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9b4637f0-4883-4872-a5a8-0b1b54b427a0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/886bf437-fd9d-4f70-9d35-4fd987f5c4ff")
 		(sheetname "/")
 		(sheetfile "link-wago.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2999,7 +3063,7 @@
 		)
 		(pad "" smd roundrect
 			(at -0.75 0)
-			(size 0.75 0.95)
+			(size 0.7 0.9)
 			(layers "F.Paste")
 			(roundrect_rratio 0.1333333333)
 			(chamfer_ratio 0.4)
@@ -3008,7 +3072,7 @@
 		)
 		(pad "" smd roundrect
 			(at 0.75 0)
-			(size 0.75 0.95)
+			(size 0.7 0.9)
 			(layers "F.Paste")
 			(roundrect_rratio 0.1333333333)
 			(chamfer_ratio 0.4)
@@ -3052,7 +3116,7 @@
 		(at 138.25 106 90)
 		(descr "Capacitor SMD 1210 (3225 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
-		(property "Reference" "C504"
+		(property "Reference" "C505"
 			(at 0 -2.3 90)
 			(layer "F.SilkS")
 			(hide yes)
@@ -3152,16 +3216,23 @@
 				)
 			)
 		)
+		(property "Id" "Capacitor:1210_22u"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "86224986-7681-4e05-99c8-f2ac6a4df189")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/24a9dc0c-cb3c-464a-a734-f09bf949d71a/32e0962d-2870-40f1-961f-e0a8436f4ae1")
 		(sheetname "/Power +5V/")
 		(sheetfile "PowerSupply.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3373,16 +3444,23 @@
 				)
 			)
 		)
+		(property "Id" "Capacitor:0603_0u1"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "48a645be-58a4-4a4d-8aad-e96098dbeaa3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/65298d35-9787-43b4-a842-021b3924efcc")
 		(sheetname "/")
 		(sheetfile "link-wago.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3491,7 +3569,7 @@
 		(layer "F.Cu")
 		(uuid "95212238-9968-4f8a-8fc7-a1e359fcb1f6")
 		(at 158 88.75 90)
-		(property "Reference" "ICON106"
+		(property "Reference" "ICON105"
 			(at 0 -2.5 90)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -3543,16 +3621,23 @@
 				)
 			)
 		)
+		(property "Sim.Enable" "0"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "01aadf95-f39c-4774-b06f-f146bcb49b9b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/eac24763-ca3d-47b7-9373-d53bca4911bb")
 		(sheetname "/")
 		(sheetfile "link-wago.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
-		(attr exclude_from_bom allow_missing_courtyard)
+		(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -3660,15 +3745,22 @@
 				)
 			)
 		)
+		(property "Sim.Enable" "0"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a257acfa-6c91-473e-8d9c-4b47bf3fa668")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/1463bfa1-8b83-4294-8886-9981438f7d20")
 		(sheetname "/")
 		(sheetfile "link-wago.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
 		(attr exclude_from_bom allow_missing_courtyard)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3907,19 +3999,13 @@
 		(path "/bbe3337a-17bc-44ab-a017-0175fad49556")
 		(sheetname "/")
 		(sheetfile "link-wago.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
-		(attr exclude_from_bom allow_missing_courtyard)
+		(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_text user "28V"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Cu")
-			(uuid "e78d5480-bc79-450d-8e86-b3a40bf76637")
+			(uuid "0509803c-19c1-48d6-bcfa-003df90d8c89")
 			(effects
 				(font
 					(size 1.2 1.2)
@@ -3931,7 +4017,7 @@
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Mask")
-			(uuid "0509803c-19c1-48d6-bcfa-003df90d8c89")
+			(uuid "e78d5480-bc79-450d-8e86-b3a40bf76637")
 			(effects
 				(font
 					(size 1.2 1.2)
@@ -4047,16 +4133,23 @@
 				)
 			)
 		)
+		(property "Id" "Resistor:0603_5k1"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "82523d9d-6959-4092-b2b4-3ab07e9964bf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/82000250-e2a7-49ac-a431-deb06f264c8c")
 		(sheetname "/")
 		(sheetfile "link-wago.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4114,7 +4207,7 @@
 		)
 		(pad "" smd roundrect
 			(at -0.75 0 180)
-			(size 0.75 0.95)
+			(size 0.7 0.9)
 			(layers "F.Paste")
 			(roundrect_rratio 0.1333333333)
 			(chamfer_ratio 0.4)
@@ -4123,7 +4216,7 @@
 		)
 		(pad "" smd roundrect
 			(at 0.75 0 180)
-			(size 0.75 0.95)
+			(size 0.7 0.9)
 			(layers "F.Paste")
 			(roundrect_rratio 0.1333333333)
 			(chamfer_ratio 0.4)
@@ -4165,7 +4258,7 @@
 		(layer "F.Cu")
 		(uuid "adb76998-af2c-44f9-9910-64fe4fd54634")
 		(at 184.25 95.5)
-		(property "Reference" "ICON101"
+		(property "Reference" "ICON102"
 			(at 0 -2.5 0)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -4215,22 +4308,29 @@
 				)
 			)
 		)
+		(property "Sim.Enable" "0"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6031cbc9-e3da-4d73-a158-6fb1fb685175")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/d31fe3f1-9942-4bd0-8e8b-53eda94db37d")
 		(sheetname "/")
 		(sheetfile "link-wago.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
-		(attr exclude_from_bom allow_missing_courtyard)
+		(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_text user "5V"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Cu")
-			(uuid "1e50f7d3-937a-4525-915b-d091bc7b8aad")
+			(uuid "8cf553b5-14ca-495b-8e38-1fd8b4edbd10")
 			(effects
 				(font
 					(size 1.2 1.2)
@@ -4242,7 +4342,7 @@
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Mask")
-			(uuid "8cf553b5-14ca-495b-8e38-1fd8b4edbd10")
+			(uuid "1e50f7d3-937a-4525-915b-d091bc7b8aad")
 			(effects
 				(font
 					(size 1.2 1.2)
@@ -4256,7 +4356,7 @@
 		(layer "F.Cu")
 		(uuid "b0582cb7-eb88-4ad5-a3e2-67fed29d5625")
 		(at 125 109.5 90)
-		(property "Reference" "J104"
+		(property "Reference" "J106"
 			(at -1.27 -7.62 90)
 			(layer "F.SilkS")
 			(hide yes)
@@ -4347,15 +4447,35 @@
 				)
 			)
 		)
+		(property "Id" "Header:2x05_Horizontal"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bd98762b-e879-4b00-a780-656540bfd9d1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Rating" "1A"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "12c3a967-20c7-4654-adf3-b90e5f94ebdc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/b5db4cf1-ba08-4a42-b8f5-3ca5561cc8b5")
 		(sheetname "/")
 		(sheetfile "link-wago.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "3" "5" "7" "9" "2" "4" "6" "8" "10")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -4788,7 +4908,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers yes)
 			(keep_end_layers yes)
-			(zone_layer_connections "In1.Cu" "In2.Cu")
+			(zone_layer_connections)
 			(net "GND")
 			(pinfunction "Pin_3_3")
 			(pintype "passive")
@@ -4803,7 +4923,7 @@
 			(remove_unused_layers yes)
 			(keep_end_layers yes)
 			(zone_layer_connections)
-			(net "unconnected-(J104-Pin_4-Pad4)")
+			(net "unconnected-(J106-Pin_4-Pad4)")
 			(pinfunction "Pin_4_4")
 			(pintype "passive+no_connect")
 			(zone_connect 2)
@@ -4817,7 +4937,7 @@
 			(remove_unused_layers yes)
 			(keep_end_layers yes)
 			(zone_layer_connections)
-			(net "unconnected-(J104-Pin_5-Pad5)")
+			(net "unconnected-(J106-Pin_5-Pad5)")
 			(pinfunction "Pin_5_5")
 			(pintype "passive+no_connect")
 			(zone_connect 2)
@@ -4831,7 +4951,7 @@
 			(remove_unused_layers yes)
 			(keep_end_layers yes)
 			(zone_layer_connections)
-			(net "unconnected-(J104-Pin_6-Pad6)")
+			(net "unconnected-(J106-Pin_6-Pad6)")
 			(pinfunction "Pin_6_6")
 			(pintype "passive+no_connect")
 			(zone_connect 2)
@@ -4845,7 +4965,7 @@
 			(remove_unused_layers yes)
 			(keep_end_layers yes)
 			(zone_layer_connections)
-			(net "unconnected-(J104-Pin_7-Pad7)")
+			(net "unconnected-(J106-Pin_7-Pad7)")
 			(pinfunction "Pin_7_7")
 			(pintype "passive+no_connect")
 			(zone_connect 2)
@@ -4858,7 +4978,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers yes)
 			(keep_end_layers yes)
-			(zone_layer_connections "In1.Cu" "In2.Cu")
+			(zone_layer_connections)
 			(net "GND")
 			(pinfunction "Pin_8_8")
 			(pintype "passive")
@@ -4965,13 +5085,7 @@
 		(path "/0602ed14-d2c2-4e47-84cb-eec621139215")
 		(sheetname "/")
 		(sheetfile "link-wago.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
-		(attr exclude_from_bom allow_missing_courtyard)
+		(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
 		(stackup
 			(layer "F.Cu")
 			(layer "B.Cu")
@@ -5261,7 +5375,7 @@
 				)
 			)
 		)
-		(property "Mouser" "810-CNA6P1X7R1H106K2"
+		(property "Mouser" "810-CNC6P1X7R1H106K2"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5274,7 +5388,7 @@
 				)
 			)
 		)
-		(property "Product" "CNA6P1X7R1H106K250AE"
+		(property "Product" "CNC6P1X7R1H106K250AE"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5313,16 +5427,23 @@
 				)
 			)
 		)
+		(property "Id" "Capacitor:1210_10u"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "671a03a9-b634-4067-931a-0c8645603218")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/24a9dc0c-cb3c-464a-a734-f09bf949d71a/cac3c346-4365-4436-a009-c85b94d5cc1e")
 		(sheetname "/Power +5V/")
 		(sheetfile "PowerSupply.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5432,7 +5553,7 @@
 		(layer "F.Cu")
 		(uuid "d17d4a59-335a-4cc8-a73b-7af3bd28aab1")
 		(at 122.5 92)
-		(property "Reference" "J111"
+		(property "Reference" "J110"
 			(at 0.5 -1.7352 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -5510,15 +5631,35 @@
 				)
 			)
 		)
+		(property "Id" "WAGO:2065"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1d1da8d6-5582-4acc-a67e-69afbd7115c6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Rating" "9A"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ed39a33e-cbfd-4805-8db3-d58f815570df")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/59229aee-d785-4427-a2d2-99323f910720")
 		(sheetname "/")
 		(sheetfile "link-wago.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -4.25 -1.1452)
@@ -5788,16 +5929,23 @@
 				)
 			)
 		)
+		(property "Sim.Enable" "0"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4770c2f9-6c3a-4cda-be47-396ad37880ee")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/6498fb84-a13e-438d-a3d9-4fdd7bb9a001")
 		(sheetname "/")
 		(sheetfile "link-wago.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
-		(attr exclude_from_bom allow_missing_courtyard)
+		(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_arc
 			(start 0.9 0.5)
@@ -5953,16 +6101,23 @@
 				)
 			)
 		)
+		(property "Id" "Capacitor:0603_0u1"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "54e9a69d-61e0-438b-96a9-bd63db27b5fc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/24a9dc0c-cb3c-464a-a734-f09bf949d71a/2984d9f9-0bb1-4243-bafb-064221e4b94f")
 		(sheetname "/Power +5V/")
 		(sheetfile "PowerSupply.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6071,7 +6226,7 @@
 		(layer "F.Cu")
 		(uuid "db4a46ee-8c41-491b-9543-c2f42ab8e47f")
 		(at 181.5 88.5 180)
-		(property "Reference" "J108"
+		(property "Reference" "J109"
 			(at 0.5 -1.7352 180)
 			(layer "F.SilkS")
 			(hide yes)
@@ -6149,15 +6304,35 @@
 				)
 			)
 		)
+		(property "Id" "WAGO:2065"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9aca5986-9df5-4d6a-974c-03c3d3c4aabb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Rating" "9A"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "486d2d71-ca90-4f8c-b59e-fdd73e325e6e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/ab5a52bc-5588-408f-bf77-150d2edf9ad4")
 		(sheetname "/")
 		(sheetfile "link-wago.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 3.873 1.1548)
@@ -6375,7 +6550,7 @@
 		(layer "F.Cu")
 		(uuid "dd231797-ae58-4f08-9e54-12aaffa03305")
 		(at 181.5 92 180)
-		(property "Reference" "J110"
+		(property "Reference" "J108"
 			(at 0.5 -1.7352 180)
 			(layer "F.SilkS")
 			(hide yes)
@@ -6453,15 +6628,35 @@
 				)
 			)
 		)
+		(property "Id" "WAGO:2065"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d63c95d1-3390-4e41-87c4-8ff6b42b40a2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Rating" "9A"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bcac983e-da2e-460f-9cab-fcfc72dbb48c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/b1237348-27fa-47bd-a870-e9fd4fd976c4")
 		(sheetname "/")
 		(sheetfile "link-wago.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 3.873 1.1548)
@@ -6681,7 +6876,7 @@
 		(at 131.5 109.5 90)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
-		(property "Reference" "C505"
+		(property "Reference" "C503"
 			(at 0 -1.43 90)
 			(layer "F.SilkS")
 			(hide yes)
@@ -6781,16 +6976,23 @@
 				)
 			)
 		)
+		(property "Id" "Capacitor:0603_1u"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eec6a962-5765-46b8-8e62-727ed827a81c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/24a9dc0c-cb3c-464a-a734-f09bf949d71a/6f72d12b-3fd7-4fef-b38d-6a1a01607885")
 		(sheetname "/Power +5V/")
 		(sheetfile "PowerSupply.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7003,15 +7205,22 @@
 				)
 			)
 		)
+		(property "Id" "DCDC:TPSM33620S5QRDNRQ1"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f4e2e4e8-06b0-4790-9ca9-98c5b5805b8a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/24a9dc0c-cb3c-464a-a734-f09bf949d71a/1810c6ec-7176-4f6b-89cb-cc3c00a8361e")
 		(sheetname "/Power +5V/")
 		(sheetfile "PowerSupply.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "3" "2" "8" "11" "10" "5" "6" "7" "4" "9" "1")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -7454,7 +7663,7 @@
 			(layers "*.Cu")
 			(remove_unused_layers yes)
 			(keep_end_layers yes)
-			(zone_layer_connections "In1.Cu" "In2.Cu")
+			(zone_layer_connections)
 			(net "GND")
 			(pinfunction "GND_10")
 			(pintype "power_in")
@@ -7489,7 +7698,7 @@
 			(layers "*.Cu")
 			(remove_unused_layers yes)
 			(keep_end_layers yes)
-			(zone_layer_connections "In1.Cu" "In2.Cu")
+			(zone_layer_connections)
 			(net "GND")
 			(pinfunction "GND_10")
 			(pintype "power_in")
@@ -7579,12 +7788,6 @@
 		(path "/d70eefe3-c463-42c7-ad37-0fcb53cb0f3d")
 		(sheetname "/")
 		(sheetfile "link-wago.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
 		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -7626,7 +7829,7 @@
 		(at 141.5 106 90)
 		(descr "Capacitor SMD 1210 (3225 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
-		(property "Reference" "C503"
+		(property "Reference" "C504"
 			(at 0 -2.3 90)
 			(layer "F.SilkS")
 			(hide yes)
@@ -7726,16 +7929,23 @@
 				)
 			)
 		)
+		(property "Id" "Capacitor:1210_22u"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "89f92878-9e35-45d7-a01e-8adfa0e240c0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/24a9dc0c-cb3c-464a-a734-f09bf949d71a/77be58e3-6c00-45da-9843-6a2883e3b059")
 		(sheetname "/Power +5V/")
 		(sheetfile "PowerSupply.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7897,16 +8107,23 @@
 				)
 			)
 		)
+		(property "Sim.Enable" "0"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "83c2b179-fd23-499e-9e5a-653881ea5eed")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/4f6b56b8-c613-4474-a8d0-bddcb82e6fa8")
 		(sheetname "/")
 		(sheetfile "link-wago.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
-		(attr exclude_from_bom allow_missing_courtyard)
+		(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -7962,7 +8179,7 @@
 		(layer "B.Cu")
 		(uuid "632a8628-4a2b-4d99-a4a3-5c482f7e2c54")
 		(at 152 92.5 90)
-		(property "Reference" "J109"
+		(property "Reference" "J102"
 			(at 0.1 12 270)
 			(layer "B.SilkS")
 			(hide yes)
@@ -8044,15 +8261,37 @@
 				(justify mirror)
 			)
 		)
+		(property "Id" "WAGO:2601-1101"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "c8d44413-df9e-463b-b28a-cb06022ffd7d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Rating" "17.5A"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "79d3123e-a7af-4096-b07f-dc0997197652")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(path "/8973d91d-6718-4770-a6d3-8f5da6c98a8c")
 		(sheetname "/")
 		(sheetfile "link-wago.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
 		(attr through_hole allow_missing_courtyard)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8106,7 +8345,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers yes)
 			(keep_end_layers yes)
-			(zone_layer_connections "In1.Cu" "In2.Cu")
+			(zone_layer_connections)
 			(net "GND")
 			(pintype "passive")
 			(uuid "f499fe96-b429-4e1d-85f8-b761e136dc38")
@@ -8118,7 +8357,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers yes)
 			(keep_end_layers yes)
-			(zone_layer_connections "In1.Cu" "In2.Cu")
+			(zone_layer_connections)
 			(net "GND")
 			(pintype "passive")
 			(uuid "b0c4433f-9981-47c2-b8ed-e22a46d5bbab")
@@ -8140,7 +8379,7 @@
 		(layer "B.Cu")
 		(uuid "92a1c6de-4606-4f57-8a01-4031e9600993")
 		(at 152 89 90)
-		(property "Reference" "J106"
+		(property "Reference" "J101"
 			(at 0.1 12 270)
 			(layer "B.SilkS")
 			(hide yes)
@@ -8222,15 +8461,37 @@
 				(justify mirror)
 			)
 		)
+		(property "Id" "WAGO:2601-1101"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "da2be931-8463-4056-9c47-3db7984361a2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Rating" "17.5A"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "85667349-a3f5-4d4a-be85-3064a41194b6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(path "/4ae79b7c-ee12-42b5-9c61-0d30587fb6a5")
 		(sheetname "/")
 		(sheetfile "link-wago.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
 		(attr through_hole allow_missing_courtyard)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8318,7 +8579,7 @@
 		(layer "B.Cu")
 		(uuid "92f9a956-1afb-48a5-9abe-f76fbe863374")
 		(at 165 115)
-		(property "Reference" "J102"
+		(property "Reference" "J103"
 			(at 0.792281 -8.164788 180)
 			(unlocked yes)
 			(layer "B.SilkS")
@@ -8416,15 +8677,37 @@
 				(justify mirror)
 			)
 		)
+		(property "Id" "EtherCon:NE8FAH"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "50560646-fe86-4749-94c1-c297cc1594cf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Rating" "CAT5e"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "d58ed416-69d4-4c86-bdff-c08d8381a481")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(path "/5ecfe8ce-99f8-4d4e-b811-2938a051739d")
 		(sheetname "/")
 		(sheetfile "link-wago.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "S" "8" "7" "6" "5" "4" "3" "2" "1")
-			)
-		)
 		(attr through_hole allow_missing_courtyard)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8583,7 +8866,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers yes)
 			(keep_end_layers yes)
-			(zone_layer_connections "In1.Cu" "In2.Cu")
+			(zone_layer_connections)
 			(net "GND")
 			(pintype "passive")
 			(uuid "35e9dfe3-ca3d-4775-a4c2-efdda3862ba1")
@@ -8595,7 +8878,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers yes)
 			(keep_end_layers yes)
-			(zone_layer_connections "In1.Cu" "In2.Cu")
+			(zone_layer_connections)
 			(net "GND")
 			(pintype "passive")
 			(uuid "e5d21b80-70b7-44e5-addf-a3c114cc259d")
@@ -8629,7 +8912,7 @@
 		(layer "B.Cu")
 		(uuid "e1217285-67fb-49cf-9152-3b52be45baaa")
 		(at 139 115)
-		(property "Reference" "J105"
+		(property "Reference" "J104"
 			(at 0.792281 -8.164788 180)
 			(unlocked yes)
 			(layer "B.SilkS")
@@ -8727,15 +9010,37 @@
 				(justify mirror)
 			)
 		)
+		(property "Id" "EtherCon:NE8FAH"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "b1110b11-f3d0-434c-8d4c-53639898e372")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Rating" "CAT5e"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "c4f9b8af-821c-41da-8092-a51f6b0f01e1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(path "/e55754f9-56c3-49b9-87d1-10400de5c5a3")
 		(sheetname "/")
 		(sheetfile "link-wago.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "S" "8" "7" "6" "5" "4" "3" "2" "1")
-			)
-		)
 		(attr through_hole allow_missing_courtyard)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8894,7 +9199,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers yes)
 			(keep_end_layers yes)
-			(zone_layer_connections "In1.Cu" "In2.Cu")
+			(zone_layer_connections)
 			(net "GND")
 			(pintype "passive")
 			(uuid "77dccc8a-9bb4-447b-9264-b5c18e6dbb3b")
@@ -8906,7 +9211,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers yes)
 			(keep_end_layers yes)
-			(zone_layer_connections "In1.Cu" "In2.Cu")
+			(zone_layer_connections)
 			(net "GND")
 			(pintype "passive")
 			(uuid "a18f5ae0-bc68-4199-85da-14d456eaf3a4")

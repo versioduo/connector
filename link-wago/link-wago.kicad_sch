@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "V2 Link WAGO")
-		(date "2026-03-31")
+		(date "2026-04-14")
 		(rev "2026-03-31")
 		(company "Versio Duo")
 		(comment 1 "External Power Supply")
@@ -608,7 +608,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "C"
-				(at 1.778 1.524 0)
+				(at 2.54 1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -619,7 +619,7 @@
 				)
 			)
 			(property "Value" "0u1"
-				(at 1.778 -2.032 0)
+				(at 2.54 -1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -630,7 +630,7 @@
 				)
 			)
 			(property "Footprint" "V2_Capacitor_SMD:C_0603"
-				(at 0 -17.018 0)
+				(at 0 -17.78 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -664,6 +664,17 @@
 			)
 			(property "Mouser" "810-CGA3E2X7R1H104MA"
 				(at 0 -20.32 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Id" "Capacitor:${SYMBOL_NAME}"
+				(at 0 -15.24 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -826,7 +837,7 @@
 				)
 			)
 			(property "Footprint" "V2_Connector_EtherCon:NE8FAH"
-				(at 0 -25.4 0)
+				(at 0 -31.75 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -859,7 +870,7 @@
 				)
 			)
 			(property "Mouser" "568-NE8FAH"
-				(at 0 -33.02 0)
+				(at 0 -39.37 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -870,7 +881,7 @@
 				)
 			)
 			(property "Manufacturer" "Neutrik"
-				(at 0 -27.94 0)
+				(at 0 -34.29 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -881,7 +892,29 @@
 				)
 			)
 			(property "Product" "NE8FAH"
-				(at 0 -30.48 0)
+				(at 0 -36.83 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Id" "EtherCon:${SYMBOL_NAME}"
+				(at 0 -29.21 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Rating" "CAT5e"
+				(at 0 -41.91 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1210,7 +1243,7 @@
 				)
 			)
 			(property "Footprint" "V2_Connector_Header_1.27mm:PinHeader_2x05_P1.27mm_Horizontal"
-				(at 0 -12.7 0)
+				(at 0 -17.78 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1232,7 +1265,7 @@
 				)
 			)
 			(property "Description" "Amphenol – Minitek127"
-				(at 0 -15.24 0)
+				(at 0 -20.32 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1243,7 +1276,7 @@
 				)
 			)
 			(property "Mouser" "649-200211120001T4LF"
-				(at 0 -22.86 0)
+				(at 0 -27.94 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1254,7 +1287,7 @@
 				)
 			)
 			(property "Manufacturer" "Amphenol FCI"
-				(at 0 -17.78 0)
+				(at 0 -22.86 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1265,7 +1298,29 @@
 				)
 			)
 			(property "Product" "20021112-00010T4LF"
-				(at 0 -20.32 0)
+				(at 0 -25.4 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Id" "Header:${SYMBOL_NAME}"
+				(at 0 -15.24 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Rating" "1A"
+				(at 0 -30.48 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1542,8 +1597,30 @@
 					)
 				)
 			)
+			(property "Id" "USB:${SYMBOL_NAME}"
+				(at 0 -38.1 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(property "Product" "DX07S016JA3R1500"
 				(at -0.254 -40.64 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Rating" "USB2.0"
+				(at 0 -40.64 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1894,7 +1971,7 @@
 				)
 			)
 			(property "Footprint" "V2_Connector_WAGO:2065-100"
-				(at 0 -9.906 0)
+				(at 0 -10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1927,7 +2004,7 @@
 				)
 			)
 			(property "Manufacturer" "WAGO"
-				(at 0 -13.208 0)
+				(at 0 -12.7 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1938,7 +2015,29 @@
 				)
 			)
 			(property "Product" "2065-100/998-403"
-				(at 0 -16.51 0)
+				(at 0 -15.24 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Id" "WAGO:${SYMBOL_NAME}"
+				(at 0 -7.62 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Rating" "9A"
+				(at 0 -17.78 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2028,7 +2127,7 @@
 				)
 			)
 			(property "Footprint" "V2_Connector_WAGO:2601-1101"
-				(at 0 -8.128 0)
+				(at 0 -11.43 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2061,7 +2160,7 @@
 				)
 			)
 			(property "Manufacturer" "WAGO"
-				(at 0 -11.43 0)
+				(at 0 -13.97 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2072,7 +2171,29 @@
 				)
 			)
 			(property "Product" "2601-1101"
-				(at 0 -14.478 0)
+				(at 0 -16.51 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Id" "WAGO:${SYMBOL_NAME}"
+				(at 0 -8.89 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Rating" "17.5A"
+				(at 0 -19.05 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2141,7 +2262,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "TVS"
-				(at -2.54 6.35 0)
+				(at -2.54 -3.81 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -2152,7 +2273,7 @@
 				)
 			)
 			(property "Value" "SMBJ33CA"
-				(at -2.54 3.81 0)
+				(at -2.54 -6.35 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -2185,7 +2306,7 @@
 				)
 			)
 			(property "Description" "Transient Voltage Suppressor Diode, Bidirectional, 36.7-40.6V"
-				(at 0 -12.7 0)
+				(at 0 -20.32 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2196,7 +2317,18 @@
 				)
 			)
 			(property "Mouser" "652-SMBJ33CA-Q"
-				(at 0 -23.114 0)
+				(at 0 -28.194 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Id" "Diode:${SYMBOL_NAME}"
+				(at 0 -11.43 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2207,7 +2339,7 @@
 				)
 			)
 			(property "Product" "SMBJ33CA-Q"
-				(at 0 -17.78 0)
+				(at 0 -25.4 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2218,7 +2350,7 @@
 				)
 			)
 			(property "Manufacturer" "Bourns"
-				(at 0 -15.24 0)
+				(at 0 -22.86 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2229,7 +2361,7 @@
 				)
 			)
 			(property "Rating" "33V"
-				(at 0 -20.32 0)
+				(at 0 -30.48 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2706,27 +2838,29 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "R"
-				(at 2.032 1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.016 1.016)
-					)
-				)
-			)
-			(property "Value" "5k1"
-				(at 3.302 -1.27 0)
+				(at 1.27 1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
+				)
+			)
+			(property "Value" "5k1"
+				(at 1.27 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
 				)
 			)
 			(property "Footprint" "V2_Resistor_SMD:R_0603"
-				(at 0 -15.748 0)
+				(at 0 -16.51 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2760,6 +2894,17 @@
 			)
 			(property "Mouser" "71-CRCW06035K10FKEAC"
 				(at 0 -22.86 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Id" "Resistor:${SYMBOL_NAME}"
+				(at 0 -13.97 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -4728,7 +4873,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "09b12e1c-4dcf-4374-904e-884e738b1c35")
-		(property "Reference" "#PWR123"
+		(property "Reference" "#PWR110"
 			(at 77.47 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -4789,7 +4934,7 @@
 		(instances
 			(project "link-wago"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR123")
+					(reference "#PWR110")
 					(unit 1)
 				)
 			)
@@ -4807,7 +4952,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0fab35f9-0ebc-4fc7-9b36-7d9add0a14d4")
-		(property "Reference" "#PWR113"
+		(property "Reference" "#PWR130"
 			(at 261.62 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -4868,7 +5013,7 @@
 		(instances
 			(project "link-wago"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR113")
+					(reference "#PWR130")
 					(unit 1)
 				)
 			)
@@ -4882,11 +5027,11 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board no)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1034eb65-a4c7-455e-a8e5-2a51b8d02bda")
-		(property "Reference" "#PWR101"
+		(property "Reference" "#PWR104"
 			(at 45.72 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -4947,7 +5092,7 @@
 		(instances
 			(project "link-wago"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR101")
+					(reference "#PWR104")
 					(unit 1)
 				)
 			)
@@ -5020,6 +5165,17 @@
 				)
 			)
 		)
+		(property "Sim.Enable" "0"
+			(at 187.96 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "link-wago"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
@@ -5037,11 +5193,11 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board no)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "20896438-d460-4bc4-b2f0-ad5dc72af023")
-		(property "Reference" "#PWR108"
+		(property "Reference" "#PWR106"
 			(at 52.07 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -5102,7 +5258,7 @@
 		(instances
 			(project "link-wago"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR108")
+					(reference "#PWR106")
 					(unit 1)
 				)
 			)
@@ -5219,6 +5375,17 @@
 				)
 			)
 		)
+		(property "Id" "Diode:${SYMBOL_NAME}"
+			(at 88.9 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2103d9a7-4bde-4dfb-9f27-26e053f51b95")
 		)
@@ -5245,7 +5412,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2910f391-48b2-4532-85db-b28389593910")
-		(property "Reference" "#FLG102"
+		(property "Reference" "#FLG103"
 			(at 227.33 27.305 0)
 			(hide yes)
 			(show_name no)
@@ -5305,7 +5472,7 @@
 		(instances
 			(project "link-wago"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#FLG102")
+					(reference "#FLG103")
 					(unit 1)
 				)
 			)
@@ -5322,7 +5489,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2d2b1203-47b5-49b4-ad5f-bbcb0de8cc62")
-		(property "Reference" "#PWR124"
+		(property "Reference" "#PWR111"
 			(at 95.25 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -5383,7 +5550,7 @@
 		(instances
 			(project "link-wago"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR124")
+					(reference "#PWR111")
 					(unit 1)
 				)
 			)
@@ -5397,11 +5564,11 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board no)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3102dd26-796a-4d2d-ade6-685ca6ffcae7")
-		(property "Reference" "#PWR111"
+		(property "Reference" "#PWR128"
 			(at 233.68 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -5462,7 +5629,7 @@
 		(instances
 			(project "link-wago"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR111")
+					(reference "#PWR128")
 					(unit 1)
 				)
 			)
@@ -5535,6 +5702,17 @@
 				)
 			)
 		)
+		(property "Sim.Enable" "0"
+			(at 187.96 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "link-wago"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
@@ -5552,10 +5730,10 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board no)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "393b3fc2-29e9-4799-b9a4-7bd6d5fe5ba0")
-		(property "Reference" "#PWR120"
+		(property "Reference" "#PWR109"
 			(at 77.47 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -5615,7 +5793,7 @@
 		(instances
 			(project "link-wago"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR120")
+					(reference "#PWR109")
 					(unit 1)
 				)
 			)
@@ -5629,11 +5807,11 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board no)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3b58c35d-7d3c-48df-a122-d63312ea44dc")
-		(property "Reference" "#PWR104"
+		(property "Reference" "#PWR127"
 			(at 233.68 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -5694,7 +5872,7 @@
 		(instances
 			(project "link-wago"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR104")
+					(reference "#PWR127")
 					(unit 1)
 				)
 			)
@@ -5711,7 +5889,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "41195de9-f1d3-4b20-abc5-7b3bdcc257bc")
-		(property "Reference" "J103"
+		(property "Reference" "J111"
 			(at 217.424 50.546 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5798,6 +5976,28 @@
 				)
 			)
 		)
+		(property "Id" "USB:${SYMBOL_NAME}"
+			(at 224.79 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "USB2.0"
+			(at 224.79 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "A5"
 			(uuid "bc5ba71a-02af-486f-ac99-56529e500eac")
 		)
@@ -5834,7 +6034,7 @@
 		(instances
 			(project "link-wago"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "J103")
+					(reference "J111")
 					(unit 1)
 				)
 			)
@@ -5851,7 +6051,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "41f5e8ed-abf6-4070-b8df-a6a2d6de37aa")
-		(property "Reference" "#PWR106"
+		(property "Reference" "#PWR113"
 			(at 110.49 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -5912,7 +6112,7 @@
 		(instances
 			(project "link-wago"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR106")
+					(reference "#PWR113")
 					(unit 1)
 				)
 			)
@@ -5930,7 +6130,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "43d1504f-1596-415c-91c2-44ae3bfe68a5")
-		(property "Reference" "#PWR112"
+		(property "Reference" "#PWR129"
 			(at 261.62 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -5991,7 +6191,7 @@
 		(instances
 			(project "link-wago"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR112")
+					(reference "#PWR129")
 					(unit 1)
 				)
 			)
@@ -6005,10 +6205,10 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board no)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "4981b5d6-92af-4a29-9272-c16be4de595a")
-		(property "Reference" "#PWR118"
+		(property "Reference" "#PWR123"
 			(at 217.17 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -6068,7 +6268,7 @@
 		(instances
 			(project "link-wago"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR118")
+					(reference "#PWR123")
 					(unit 1)
 				)
 			)
@@ -6085,7 +6285,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4ae79b7c-ee12-42b5-9c61-0d30587fb6a5")
-		(property "Reference" "J106"
+		(property "Reference" "J101"
 			(at 36.83 153.6699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6161,13 +6361,35 @@
 				)
 			)
 		)
+		(property "Id" "WAGO:${SYMBOL_NAME}"
+			(at 35.56 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "17.5A"
+			(at 35.56 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e81c113d-1213-41c3-a7a6-654a1491c034")
 		)
 		(instances
 			(project "link-wago"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "J106")
+					(reference "J101")
 					(unit 1)
 				)
 			)
@@ -6241,6 +6463,17 @@
 				)
 			)
 		)
+		(property "Sim.Enable" "0"
+			(at 246.38 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "link-wago"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
@@ -6261,7 +6494,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "528b5159-9137-4e02-8539-6818fd5e2035")
-		(property "Reference" "#PWR117"
+		(property "Reference" "#PWR118"
 			(at 135.89 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -6322,7 +6555,7 @@
 		(instances
 			(project "link-wago"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR117")
+					(reference "#PWR118")
 					(unit 1)
 				)
 			)
@@ -6339,7 +6572,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "581cc582-0c5b-4ebc-897a-5704c16860d3")
-		(property "Reference" "#PWR107"
+		(property "Reference" "#PWR116"
 			(at 125.73 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -6399,7 +6632,7 @@
 		(instances
 			(project "link-wago"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR107")
+					(reference "#PWR116")
 					(unit 1)
 				)
 			)
@@ -6416,7 +6649,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "59229aee-d785-4427-a2d2-99323f910720")
-		(property "Reference" "J111"
+		(property "Reference" "J110"
 			(at 140.335 187.96 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6491,13 +6724,35 @@
 				)
 			)
 		)
+		(property "Id" "WAGO:${SYMBOL_NAME}"
+			(at 137.16 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "9A"
+			(at 137.16 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3374c576-7cb5-425e-be38-c00801ed5675")
 		)
 		(instances
 			(project "link-wago"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "J111")
+					(reference "J110")
 					(unit 1)
 				)
 			)
@@ -6515,7 +6770,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5ecfe8ce-99f8-4d4e-b811-2938a051739d")
-		(property "Reference" "J102"
+		(property "Reference" "J103"
 			(at 54.61 36.83 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6601,6 +6856,28 @@
 				)
 			)
 		)
+		(property "Id" "EtherCon:${SYMBOL_NAME}"
+			(at 54.61 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "CAT5e"
+			(at 54.61 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f5e0d436-e8fb-447b-90ca-fd33017a58a4")
 		)
@@ -6631,7 +6908,7 @@
 		(instances
 			(project "link-wago"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "J102")
+					(reference "J103")
 					(unit 1)
 				)
 			)
@@ -6695,6 +6972,17 @@
 			)
 		)
 		(property "Description" ""
+			(at 269.24 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Enable" "0"
 			(at 269.24 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -6824,6 +7112,17 @@
 				)
 			)
 		)
+		(property "Id" "Capacitor:${SYMBOL_NAME}"
+			(at 95.25 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7ec4c6d1-a550-4a9c-8a35-931df72f02a2")
 		)
@@ -6847,11 +7146,11 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board no)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "69d2a2fc-ac1b-4dd8-86b0-d7576809246f")
-		(property "Reference" "#PWR102"
+		(property "Reference" "#PWR125"
 			(at 223.52 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -6912,7 +7211,7 @@
 		(instances
 			(project "link-wago"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR102")
+					(reference "#PWR125")
 					(unit 1)
 				)
 			)
@@ -6929,7 +7228,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6a9f7d0f-baf3-473f-8fb0-b3912073b983")
-		(property "Reference" "J101"
+		(property "Reference" "J105"
 			(at 124.46 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7015,6 +7314,28 @@
 				)
 			)
 		)
+		(property "Id" "Header:${SYMBOL_NAME}"
+			(at 123.19 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "1A"
+			(at 123.19 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8a2826bf-03c9-403f-af3c-53e656b5dbd9")
 		)
@@ -7048,7 +7369,7 @@
 		(instances
 			(project "link-wago"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "J101")
+					(reference "J105")
 					(unit 1)
 				)
 			)
@@ -7237,6 +7558,17 @@
 				)
 			)
 		)
+		(property "Id" "Resistor:${SYMBOL_NAME}"
+			(at 266.7 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a6bd0adc-43a8-411b-91cb-a4229636ad28")
 		)
@@ -7361,6 +7693,17 @@
 				)
 			)
 		)
+		(property "Id" "Resistor:${SYMBOL_NAME}"
+			(at 266.7 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "bc0ee5f0-6a26-43d7-93d5-36370f8616b8")
 		)
@@ -7387,7 +7730,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8973d91d-6718-4770-a6d3-8f5da6c98a8c")
-		(property "Reference" "J109"
+		(property "Reference" "J102"
 			(at 36.83 161.2899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7463,13 +7806,35 @@
 				)
 			)
 		)
+		(property "Id" "WAGO:${SYMBOL_NAME}"
+			(at 35.56 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "17.5A"
+			(at 35.56 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "1e596f77-491b-4f08-94ae-be6432eefbd5")
 		)
 		(instances
 			(project "link-wago"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "J109")
+					(reference "J102")
 					(unit 1)
 				)
 			)
@@ -7486,7 +7851,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "90e39936-56e3-49e8-b35b-db9cb5ef193b")
-		(property "Reference" "#FLG101"
+		(property "Reference" "#FLG102"
 			(at 58.42 26.035 0)
 			(hide yes)
 			(show_name no)
@@ -7546,7 +7911,7 @@
 		(instances
 			(project "link-wago"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#FLG101")
+					(reference "#FLG102")
 					(unit 1)
 				)
 			)
@@ -7560,10 +7925,10 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board no)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "91445946-1eb7-473b-bb14-54b5d3b14338")
-		(property "Reference" "#PWR126"
+		(property "Reference" "#PWR119"
 			(at 135.89 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -7623,7 +7988,7 @@
 		(instances
 			(project "link-wago"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR126")
+					(reference "#PWR119")
 					(unit 1)
 				)
 			)
@@ -7791,10 +8156,10 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board no)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "a230c320-dbce-46b2-a1d1-08b3366b4a28")
-		(property "Reference" "#PWR122"
+		(property "Reference" "#PWR112"
 			(at 100.33 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -7854,7 +8219,7 @@
 		(instances
 			(project "link-wago"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR122")
+					(reference "#PWR112")
 					(unit 1)
 				)
 			)
@@ -7868,11 +8233,11 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board no)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a54dabbf-3659-4fec-ab6a-ad439de4113b")
-		(property "Reference" "#PWR121"
+		(property "Reference" "#PWR103"
 			(at 27.94 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -7933,7 +8298,7 @@
 		(instances
 			(project "link-wago"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR121")
+					(reference "#PWR103")
 					(unit 1)
 				)
 			)
@@ -7950,7 +8315,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ab5a52bc-5588-408f-bf77-150d2edf9ad4")
-		(property "Reference" "J108"
+		(property "Reference" "J109"
 			(at 140.335 180.34 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8025,13 +8390,35 @@
 				)
 			)
 		)
+		(property "Id" "WAGO:${SYMBOL_NAME}"
+			(at 137.16 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "9A"
+			(at 137.16 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "35fb1a86-2e95-4cd8-85af-00c72378a872")
 		)
 		(instances
 			(project "link-wago"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "J108")
+					(reference "J109")
 					(unit 1)
 				)
 			)
@@ -8048,7 +8435,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ac967660-8d4f-4d6d-89ee-0e54dc4d747b")
-		(property "Reference" "#FLG103"
+		(property "Reference" "#FLG104"
 			(at 227.33 32.385 0)
 			(hide yes)
 			(show_name no)
@@ -8108,7 +8495,7 @@
 		(instances
 			(project "link-wago"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#FLG103")
+					(reference "#FLG104")
 					(unit 1)
 				)
 			)
@@ -8125,7 +8512,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b1237348-27fa-47bd-a870-e9fd4fd976c4")
-		(property "Reference" "J110"
+		(property "Reference" "J108"
 			(at 140.335 161.29 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8200,13 +8587,35 @@
 				)
 			)
 		)
+		(property "Id" "WAGO:${SYMBOL_NAME}"
+			(at 137.16 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "9A"
+			(at 137.16 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "cd1636de-afdc-4010-be44-dbea5f694bdd")
 		)
 		(instances
 			(project "link-wago"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "J110")
+					(reference "J108")
 					(unit 1)
 				)
 			)
@@ -8223,7 +8632,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b5db4cf1-ba08-4a42-b8f5-3ca5561cc8b5")
-		(property "Reference" "J104"
+		(property "Reference" "J106"
 			(at 124.46 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8309,6 +8718,28 @@
 				)
 			)
 		)
+		(property "Id" "Header:${SYMBOL_NAME}"
+			(at 123.19 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "1A"
+			(at 123.19 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3ce15cd3-489d-4c72-8f45-54fa5ea3beed")
 		)
@@ -8342,7 +8773,7 @@
 		(instances
 			(project "link-wago"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "J104")
+					(reference "J106")
 					(unit 1)
 				)
 			)
@@ -8359,7 +8790,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b68315cb-2780-4373-9245-ed190ca01b93")
-		(property "Reference" "#PWR119"
+		(property "Reference" "#PWR124"
 			(at 224.79 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -8420,7 +8851,7 @@
 		(instances
 			(project "link-wago"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR119")
+					(reference "#PWR124")
 					(unit 1)
 				)
 			)
@@ -8437,7 +8868,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b74eaa1d-e401-491b-921d-5e6173cb381f")
-		(property "Reference" "#PWR129"
+		(property "Reference" "#PWR120"
 			(at 125.73 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -8498,7 +8929,7 @@
 		(instances
 			(project "link-wago"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR129")
+					(reference "#PWR120")
 					(unit 1)
 				)
 			)
@@ -8592,7 +9023,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c485025b-4ea3-4264-948f-376940111ac6")
-		(property "Reference" "#PWR110"
+		(property "Reference" "#PWR117"
 			(at 135.89 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -8653,7 +9084,7 @@
 		(instances
 			(project "link-wago"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR110")
+					(reference "#PWR117")
 					(unit 1)
 				)
 			)
@@ -8670,7 +9101,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c596b77f-3e85-4075-8fba-b23e2132521d")
-		(property "Reference" "#PWR127"
+		(property "Reference" "#PWR121"
 			(at 135.89 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -8730,7 +9161,7 @@
 		(instances
 			(project "link-wago"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR127")
+					(reference "#PWR121")
 					(unit 1)
 				)
 			)
@@ -8748,7 +9179,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d31fe3f1-9942-4bd0-8e8b-53eda94db37d")
-		(property "Reference" "ICON101"
+		(property "Reference" "ICON102"
 			(at 248.92 143.51 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8804,10 +9235,21 @@
 				)
 			)
 		)
+		(property "Sim.Enable" "0"
+			(at 246.38 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "link-wago"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "ICON101")
+					(reference "ICON102")
 					(unit 1)
 				)
 			)
@@ -8824,7 +9266,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d522f5b4-330e-4884-ac32-b93397a0270c")
-		(property "Reference" "#FLG104"
+		(property "Reference" "#FLG105"
 			(at 227.33 37.465 0)
 			(hide yes)
 			(show_name no)
@@ -8884,7 +9326,7 @@
 		(instances
 			(project "link-wago"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#FLG104")
+					(reference "#FLG105")
 					(unit 1)
 				)
 			)
@@ -8901,7 +9343,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d5f32978-c184-493b-b9aa-7eb455de601e")
-		(property "Reference" "#FLG105"
+		(property "Reference" "#FLG101"
 			(at 31.75 142.875 0)
 			(hide yes)
 			(show_name no)
@@ -8961,7 +9403,7 @@
 		(instances
 			(project "link-wago"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#FLG105")
+					(reference "#FLG101")
 					(unit 1)
 				)
 			)
@@ -9050,10 +9492,10 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board no)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "d8749acd-d492-41a3-9ed1-612505ed5b5a")
-		(property "Reference" "#PWR125"
+		(property "Reference" "#PWR101"
 			(at 34.29 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -9113,7 +9555,7 @@
 		(instances
 			(project "link-wago"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR125")
+					(reference "#PWR101")
 					(unit 1)
 				)
 			)
@@ -9205,6 +9647,28 @@
 				)
 			)
 		)
+		(property "Id" "WAGO:${SYMBOL_NAME}"
+			(at 137.16 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "9A"
+			(at 137.16 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "244f3eeb-9f6b-4eb3-a492-7c5ee5bc845f")
 		)
@@ -9229,7 +9693,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e49f331f-4d70-43d6-a5a6-c57c951b156d")
-		(property "Reference" "#PWR103"
+		(property "Reference" "#PWR126"
 			(at 233.68 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -9290,7 +9754,7 @@
 		(instances
 			(project "link-wago"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR103")
+					(reference "#PWR126")
 					(unit 1)
 				)
 			)
@@ -9308,7 +9772,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e55754f9-56c3-49b9-87d1-10400de5c5a3")
-		(property "Reference" "J105"
+		(property "Reference" "J104"
 			(at 54.61 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9394,6 +9858,28 @@
 				)
 			)
 		)
+		(property "Id" "EtherCon:${SYMBOL_NAME}"
+			(at 54.61 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "CAT5e"
+			(at 54.61 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e0faf81f-2706-4ee5-b759-79a2c331eb4b")
 		)
@@ -9424,7 +9910,7 @@
 		(instances
 			(project "link-wago"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "J105")
+					(reference "J104")
 					(unit 1)
 				)
 			)
@@ -9441,7 +9927,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e8610785-775d-44d8-a5ca-c67c9827dc3c")
-		(property "Reference" "#PWR114"
+		(property "Reference" "#PWR107"
 			(at 71.12 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -9502,7 +9988,7 @@
 		(instances
 			(project "link-wago"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR114")
+					(reference "#PWR107")
 					(unit 1)
 				)
 			)
@@ -9520,7 +10006,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eac24763-ca3d-47b7-9373-d53bca4911bb")
-		(property "Reference" "ICON106"
+		(property "Reference" "ICON105"
 			(at 249.555 173.355 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9576,10 +10062,21 @@
 				)
 			)
 		)
+		(property "Sim.Enable" "0"
+			(at 246.38 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "link-wago"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "ICON106")
+					(reference "ICON105")
 					(unit 1)
 				)
 			)
@@ -9596,7 +10093,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ede6db82-7171-4017-82e4-b07abf1d5db9")
-		(property "Reference" "#PWR128"
+		(property "Reference" "#PWR102"
 			(at 24.13 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -9657,7 +10154,7 @@
 		(instances
 			(project "link-wago"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR128")
+					(reference "#PWR102")
 					(unit 1)
 				)
 			)
@@ -9674,7 +10171,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f1271624-be15-4632-8d0a-41415805c5d5")
-		(property "Reference" "#PWR130"
+		(property "Reference" "#PWR122"
 			(at 125.73 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -9735,7 +10232,7 @@
 		(instances
 			(project "link-wago"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR130")
+					(reference "#PWR122")
 					(unit 1)
 				)
 			)
@@ -9828,7 +10325,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f4a4dd87-8d92-49fc-8f60-faba539de940")
-		(property "Reference" "#PWR109"
+		(property "Reference" "#PWR114"
 			(at 120.65 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -9888,7 +10385,7 @@
 		(instances
 			(project "link-wago"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR109")
+					(reference "#PWR114")
 					(unit 1)
 				)
 			)
@@ -9902,11 +10399,11 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board no)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f6e9b757-0609-44c9-9707-4ce75b2d73c9")
-		(property "Reference" "#PWR116"
+		(property "Reference" "#PWR108"
 			(at 52.07 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -9967,7 +10464,7 @@
 		(instances
 			(project "link-wago"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR116")
+					(reference "#PWR108")
 					(unit 1)
 				)
 			)
@@ -9985,7 +10482,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fd47ea83-79d5-4384-8ee2-f8e21cc93432")
-		(property "Reference" "ICON105"
+		(property "Reference" "ICON106"
 			(at 271.78 168.9099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10041,10 +10538,21 @@
 				)
 			)
 		)
+		(property "Sim.Enable" "0"
+			(at 269.24 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "link-wago"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "ICON105")
+					(reference "ICON106")
 					(unit 1)
 				)
 			)
@@ -10061,7 +10569,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ff5fa334-854e-4ca7-a359-9c419e0f5264")
-		(property "Reference" "ICON102"
+		(property "Reference" "ICON101"
 			(at 224.79 143.002 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10120,7 +10628,7 @@
 		(instances
 			(project "link-wago"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "ICON102")
+					(reference "ICON101")
 					(unit 1)
 				)
 			)
@@ -10193,18 +10701,17 @@
 		(file
 			(name "V2_A4.kicad_wks")
 			(type worksheet)
-			(data |KLUv/WBhBk0QALbYTiEQtRsmZc5q276ayLS71D6kxbkmoTeIJM7lAHtEAMAAxQFGAD8ARQCbvIHa
-				a/wrVHSazXnPhvzar1BNtH1kxRf5EwCAQPh5F+e0kJq0nmtfKDvj37Jf3xQUlFKqztoXWzE7iAAI
-				iJ6Q5m2d9RAC9jcPPWe/GXf/9ewpPR3+uPbv7bdzvr37wXlr2X8dBHFXu7Z3HUG7Kvrz9qKU7eB2
-				v/MM4n/Mhfg5G5sn7WsDTS2mA1WyssZDsy4YdpEGzfD8Ny+85JzH7H+961FjX/x0qtq0MdaqJ8dx
-				k1KAwF+soV3VFnEoqewX+XNfTaqqPatRlLsbgcKhzs5+29sEzSaWRPZ4txDEjpmZNCoSiiMhaUwy
-				y4Jg3oe5pmhPRSS7MtJAerbfnYNNgaEkuCg6oVzYhbEsF1vRgtxS55zTIVig4URjFFJTI1qYFNIB
-				YESmRusYYvaiF0uSUdhu1Q2lFiOgdmN7VvaH2oWyw9MQXRuZtQQQoIsxFn2ldtnpQiUNa0HvDQCK
-				f/XTisCgEJQEXe/if4EJsakkqj8BMmGAU+ZM/AG8LSEJMfgkOKfSKPhw4rD3ZHfmNZYNfDMigEPJ
-				EBoIDghtm1kJ8BAQ8xyGdkOuFQy33sishFt8DZNX4uNRXJZ5hBy746RJaNtgbfyB613d0dov6Cdg
-				iUQT9BXkf9EiYDuODpB6gKkC|
+			(data |KLUv/WD5BbUPADbXSyEA1TbWikhSlOA2eC2ekVMEUCwq7NEwtcLUrO9RVbWigglBAD0ARQB3rDJr
+				Vfe8iEc347HKLOu3hM0n3acAgEAZ+mtWq1rqUSxebyypb/3fvvl2Ks1ai1318qyxua+IAgRM0MgT
+				vxCDqNazy01dUkv9SffBzyqWXV6zk7TDjC//75ZXzHffvHX4Y/Xf35uU+iW//OHdpP7XYKnf08G7
+				Ws+4sz/Se05W5tbSsFNFN3RTUXTjhdPWNR7ehuG4iIngvhBQHGxi+IlSiXCRzHYxEfbe576fb+gn
+				B78Z+mSX28Z5ZV5BEKwWAwQ+a06BCmH90rZJg9JtG4SrtqNsE+pn/kpSOzSUhmVScSgcO1gJcdSg
+				J6zLuq1W1TZJF+moiP3v9XDUP1+S1KFCs7SB4TTQalSg4UCjGDM0M3GaNAZgZObmWAewpQGB0gB3
+				GYWe0WuYLYxil2+HCVPCLoewmMo8a9CJow+hHPOLKHdUb0wU8lRpRE+qFdAXJgbU7nMwecZYivJQ
+				iTgLkNig5tH7xtAJA8QyZ+ZP4GUJKSTwm+RM51H7yWknvCe7YZZxrISdEQ48yLJBiQaevBZD1kY4
+				h0V7Dqlt/1rBcP0NQy83g9hYapcpANydipsbWw09qO7ggsG8qpSEBRoltBf/e9cTMh29AaQeYKo=|
 			)
-			(checksum "0A61268C685EAF945CA2EA8187370BD3")
+			(checksum "080A27BD1FADC1F81518BF82EA92C143")
 		)
 	)
 )
