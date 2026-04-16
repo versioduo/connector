@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "V2 Power Link USB")
-		(date "2026-04-10")
+		(date "2026-04-15")
 		(rev "2026-04-08")
 		(company "Versio Duo")
 		(comment 1 "USB PD for V2Link / RJ45")
@@ -3449,18 +3449,17 @@
 		(file
 			(name "V2_A4.kicad_wks")
 			(type worksheet)
-			(data |KLUv/WDeBT0QAOaYUCHw1jZMGCc1TjHsIAD+nBVeHO/D3DsaVZTuahuwiWx49AVHAEEASACf/ZHe
-				e+5oafaqDnoRl27Go6Vd1u8Jm2+6XwEAgXL016xXtdSjWLzeWFLf+r998/1YC2tthlXMs8bmvqQK
-				EDBFJU/8QiyqAhn/d8u7981bhz969UpFoR5Bv+Pj9wt6F/NI78+pf74kqUPMMRfzTVjHFv77e5NS
-				v+SXP7yb1P8aLPWDPnhX6xkHEW/TcNwERXBvCCoPRjk8ZblMuMlmy6AIe+9z38839NOD3xyFNMzt
-				48Q0ryAIVpsBAp+1x7qGualLaqm/6T74Ws00zKt2mnYYAatqtrNsFepn/kpSQziWB6ZygTA8Q1wK
-				cdSgZ9brgtJNOiriWuvF2CoPS7dtEs7gqcEhNfh7QVxmPWNciyxl0Q7tWBXteCG1dY9TIGBE5kzS
-				Mc6MsAui52u9aDXEJLCx61sv4G45V+cKELRrLwotvSZg50T1BaN0aAfmAAEEAOMT0Lp2nNkTrDWU
-				R0vnKzgB6OkSlP0Tha6wgapMTOJ3zmNLLIUwfCXOmySJnj927tjXBF1zOINlD3yzQIACKXNUEXJA
-				brtBdiLwkSvuUXiFG3mBAoB7n9HzWW9AFzB/E9/M4LDkIXvsvIM2Ipc2rQB7lLIbNxLWS9USsEAV
-				RYgb7OmqDsHYDtEBywOWEw==|
+			(data |KLUv/WD5BbUPADbXSyEA1TbWikhSlOA2eC2ekVMEUCwq7NEwtcLUrO9RVbWigglBAD0ARQB3rDJr
+				Vfe8iEc347HKLOu3hM0n3acAgEAZ+mtWq1rqUSxebyypb/3fvvl2Ks1ai1318qyxua+IAgRM0MgT
+				vxCDqNazy01dUkv9SffBzyqWXV6zk7TDjC//75ZXzHffvHX4Y/Xf35uU+iW//OHdpP7XYKnf08G7
+				Ws+4sz/Se05W5tbSsFNFN3RTUXTjhdPWNR7ehuG4iIngvhBQHGxi+IlSiXCRzHYxEfbe576fb+gn
+				B78Z+mSX28Z5ZV5BEKwWAwQ+a06BCmH90rZJg9JtG4SrtqNsE+pn/kpSOzSUhmVScSgcO1gJcdSg
+				J6zLuq1W1TZJF+moiP3v9XDUP1+S1KFCs7SB4TTQalSg4UCjGDM0M3GaNAZgZObmWAewpQGB0gB3
+				GYWe0WuYLYxil2+HCVPCLoewmMo8a9CJow+hHPOLKHdUb0wU8lRpRE+qFdAXJgbU7nMwecZYivJQ
+				iTgLkNig5tH7xtAJA8QyZ+ZP4GUJKSTwm+RM51H7yWknvCe7YZZxrISdEQ48yLJBiQaevBZD1kY4
+				h0V7Dqlt/1rBcP0NQy83g9hYapcpANydipsbWw09qO7ggsG8qpSEBRoltBf/e9cTMh29AaQeYKo=|
 			)
-			(checksum "6DC8D98D5849D2806AFE8CE2DA504721")
+			(checksum "080A27BD1FADC1F81518BF82EA92C143")
 		)
 	)
 )
