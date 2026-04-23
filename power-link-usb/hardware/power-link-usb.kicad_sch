@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "V2 Power Link USB")
-		(date "2026-04-15")
+		(date "2026-04-23")
 		(rev "2026-04-08")
 		(company "Versio Duo")
 		(comment 1 "USB PD for V2Link / RJ45")
