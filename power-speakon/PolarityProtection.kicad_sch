@@ -11,7 +11,7 @@
 		(company "Versio Duo")
 	)
 	(lib_symbols
-		(symbol "V2_Capacitor:0603_0u1"
+		(symbol "V2_Capacitor:1608_0u1"
 			(pin_numbers
 				(hide yes)
 			)
@@ -46,7 +46,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "V2_Capacitor_SMD:C_0603"
+			(property "Footprint" "V2_Capacitor_SMD:C_1608"
 				(at 0 -17.78 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -156,7 +156,7 @@
 					)
 				)
 			)
-			(symbol "0603_0u1_0_1"
+			(symbol "1608_0u1_0_1"
 				(polyline
 					(pts
 						(xy -1.524 0.508) (xy 1.524 0.508)
@@ -182,7 +182,7 @@
 					)
 				)
 			)
-			(symbol "0603_0u1_1_1"
+			(symbol "1608_0u1_1_1"
 				(pin passive line
 					(at 0 2.54 270)
 					(length 2.032)
@@ -222,7 +222,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "V2_Capacitor:0603_0u22"
+		(symbol "V2_Capacitor:1608_0u22"
 			(pin_numbers
 				(hide yes)
 			)
@@ -257,7 +257,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "V2_Capacitor_SMD:C_0603"
+			(property "Footprint" "V2_Capacitor_SMD:C_1608"
 				(at 0 -17.78 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -367,7 +367,7 @@
 					)
 				)
 			)
-			(symbol "0603_0u22_0_1"
+			(symbol "1608_0u22_0_1"
 				(polyline
 					(pts
 						(xy -1.524 0.508) (xy 1.524 0.508)
@@ -393,7 +393,7 @@
 					)
 				)
 			)
-			(symbol "0603_0u22_1_1"
+			(symbol "1608_0u22_1_1"
 				(pin passive line
 					(at 0 2.54 270)
 					(length 2.032)
@@ -711,7 +711,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "V2_Resistor:0603_100k"
+		(symbol "V2_Resistor:1608_100k"
 			(pin_numbers
 				(hide yes)
 			)
@@ -746,7 +746,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "V2_Resistor_SMD:R_0603"
+			(property "Footprint" "V2_Resistor_SMD:R_1608"
 				(at 0 -16.51 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -856,7 +856,7 @@
 					)
 				)
 			)
-			(symbol "0603_100k_0_1"
+			(symbol "1608_100k_0_1"
 				(rectangle
 					(start -0.762 1.778)
 					(end 0.762 -1.778)
@@ -869,7 +869,7 @@
 					)
 				)
 			)
-			(symbol "0603_100k_1_1"
+			(symbol "1608_100k_1_1"
 				(pin passive line
 					(at 0 2.54 270)
 					(length 0.762)
@@ -909,7 +909,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "V2_Resistor:0603_3k9"
+		(symbol "V2_Resistor:1608_3k9"
 			(pin_numbers
 				(hide yes)
 			)
@@ -944,7 +944,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "V2_Resistor_SMD:R_0603"
+			(property "Footprint" "V2_Resistor_SMD:R_1608"
 				(at 0 -16.51 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1054,7 +1054,7 @@
 					)
 				)
 			)
-			(symbol "0603_3k9_0_1"
+			(symbol "1608_3k9_0_1"
 				(rectangle
 					(start -0.762 1.778)
 					(end 0.762 -1.778)
@@ -1067,7 +1067,7 @@
 					)
 				)
 			)
-			(symbol "0603_3k9_1_1"
+			(symbol "1608_3k9_1_1"
 				(pin passive line
 					(at 0 2.54 270)
 					(length 0.762)
@@ -2230,7 +2230,7 @@
 		)
 	)
 	(symbol
-		(lib_id "V2_Resistor:0603_100k")
+		(lib_id "V2_Resistor:1608_100k")
 		(at 127 111.76 0)
 		(unit 1)
 		(body_style 1)
@@ -2262,7 +2262,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "V2_Resistor_SMD:R_0603"
+		(property "Footprint" "V2_Resistor_SMD:R_1608"
 			(at 127 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -2366,7 +2366,7 @@
 		)
 	)
 	(symbol
-		(lib_id "V2_Capacitor:0603_0u1")
+		(lib_id "V2_Capacitor:1608_0u1")
 		(at 111.76 88.9 0)
 		(unit 1)
 		(body_style 1)
@@ -2398,7 +2398,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "V2_Capacitor_SMD:C_0603"
+		(property "Footprint" "V2_Capacitor_SMD:C_1608"
 			(at 111.76 105.918 0)
 			(hide yes)
 			(show_name no)
@@ -2502,7 +2502,7 @@
 		)
 	)
 	(symbol
-		(lib_id "V2_Capacitor:0603_0u22")
+		(lib_id "V2_Capacitor:1608_0u22")
 		(at 140.97 101.6 0)
 		(unit 1)
 		(body_style 1)
@@ -2534,7 +2534,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "V2_Capacitor_SMD:C_0603"
+		(property "Footprint" "V2_Capacitor_SMD:C_1608"
 			(at 140.97 118.618 0)
 			(hide yes)
 			(show_name no)
@@ -2638,7 +2638,7 @@
 		)
 	)
 	(symbol
-		(lib_id "V2_Resistor:0603_3k9")
+		(lib_id "V2_Resistor:1608_3k9")
 		(at 127 116.84 0)
 		(unit 1)
 		(body_style 1)
@@ -2670,7 +2670,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "V2_Resistor_SMD:R_0603"
+		(property "Footprint" "V2_Resistor_SMD:R_1608"
 			(at 127 116.84 0)
 			(hide yes)
 			(show_name no)

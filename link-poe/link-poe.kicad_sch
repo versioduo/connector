@@ -2457,7 +2457,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "V2_Resistor:0603_5k1"
+		(symbol "V2_Resistor:1608_5k1"
 			(pin_numbers
 				(hide yes)
 			)
@@ -2492,7 +2492,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "V2_Resistor_SMD:R_0603"
+			(property "Footprint" "V2_Resistor_SMD:R_1608"
 				(at 0 -16.51 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2602,7 +2602,7 @@
 					)
 				)
 			)
-			(symbol "0603_5k1_0_1"
+			(symbol "1608_5k1_0_1"
 				(rectangle
 					(start -0.762 1.778)
 					(end 0.762 -1.778)
@@ -2615,7 +2615,7 @@
 					)
 				)
 			)
-			(symbol "0603_5k1_1_1"
+			(symbol "1608_5k1_1_1"
 				(pin passive line
 					(at 0 2.54 270)
 					(length 0.762)
@@ -6736,7 +6736,7 @@
 		)
 	)
 	(symbol
-		(lib_id "V2_Resistor:0603_5k1")
+		(lib_id "V2_Resistor:1608_5k1")
 		(at 252.73 72.39 90)
 		(unit 1)
 		(body_style 1)
@@ -6768,7 +6768,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "V2_Resistor_SMD:R_0603"
+		(property "Footprint" "V2_Resistor_SMD:R_1608"
 			(at 268.478 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -6872,7 +6872,7 @@
 		)
 	)
 	(symbol
-		(lib_id "V2_Resistor:0603_5k1")
+		(lib_id "V2_Resistor:1608_5k1")
 		(at 252.73 74.93 90)
 		(unit 1)
 		(body_style 1)
@@ -6904,7 +6904,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "V2_Resistor_SMD:R_0603"
+		(property "Footprint" "V2_Resistor_SMD:R_1608"
 			(at 268.478 74.93 0)
 			(hide yes)
 			(show_name no)
