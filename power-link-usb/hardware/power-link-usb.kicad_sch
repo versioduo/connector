@@ -817,14 +817,14 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "V2_Production:Layer_Numbers"
+		(symbol "V2_Production:Layer_Numbers-4"
 			(exclude_from_sim no)
 			(in_bom no)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "INFO"
-				(at 0 3.81 0)
+				(at 0 2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -833,7 +833,7 @@
 					)
 				)
 			)
-			(property "Value" "Layer_Numbers"
+			(property "Value" "Layer_Numbers-4"
 				(at 0 -3.81 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -844,7 +844,7 @@
 					)
 				)
 			)
-			(property "Footprint" "V2_Production:Layer_Numbers"
+			(property "Footprint" "V2_Production:Layer_Numbers-4"
 				(at 0 -6.35 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -877,26 +877,26 @@
 					)
 				)
 			)
-			(symbol "Layer_Numbers_0_0"
-				(text "1 2 3 4"
-					(at 0 0 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(symbol "Layer_Numbers_0_1"
+			(symbol "Layer_Numbers-4_0_1"
 				(rectangle
-					(start -5.08 1.27)
-					(end 5.08 -1.27)
+					(start -2.54 1.27)
+					(end 2.54 -1.27)
 					(stroke
 						(width 0)
 						(type default)
 					)
 					(fill
 						(type none)
+					)
+				)
+			)
+			(symbol "Layer_Numbers-4_1_1"
+				(text "1 2"
+					(at 0 0 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
 					)
 				)
 			)
@@ -1611,7 +1611,7 @@
 		(uuid "b79daee3-650d-4e31-91db-1f2702e08af6")
 	)
 	(symbol
-		(lib_id "V2_Production:Layer_Numbers")
+		(lib_id "V2_Production:Layer_Numbers-4")
 		(at 228.6 179.07 0)
 		(unit 1)
 		(body_style 1)
@@ -1631,7 +1631,7 @@
 				)
 			)
 		)
-		(property "Value" "Layer_Numbers"
+		(property "Value" "Layer_Numbers-4"
 			(at 223.52 175.2599 0)
 			(hide yes)
 			(show_name no)
@@ -1642,7 +1642,7 @@
 				)
 			)
 		)
-		(property "Footprint" "V2_Production:Layer_Numbers"
+		(property "Footprint" "V2_Production:Layer_Numbers-4"
 			(at 228.6 185.42 0)
 			(hide yes)
 			(show_name no)
