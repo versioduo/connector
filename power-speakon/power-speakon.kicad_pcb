@@ -8,7 +8,7 @@
 	)
 	(paper "A4")
 	(title_block
-		(date "2026-02-25")
+		(date "2026-06-06")
 		(rev "2026-01-12")
 	)
 	(layers
@@ -396,11 +396,10 @@
 			)
 		)
 	)
-	(footprint "V2_Capacitor_SMD:C_0603"
+	(footprint "V2_Capacitor_SMD:C_1608"
 		(layer "F.Cu")
 		(uuid "1a21a3d5-e36f-4560-895c-47133439c1a8")
 		(at 152.25 83.25 90)
-		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C201"
 			(at 0 -1.43 90)
@@ -455,7 +454,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "642309b8-b584-4662-89bc-6a1c49c19948")
+			(uuid "14d625e8-ae27-47d9-8616-d7eff64cf331")
 			(effects
 				(font
 					(size 1 1)
@@ -468,7 +467,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c2c065ca-f8e5-4042-a26b-0d0795b37230")
+			(uuid "95d41259-a870-4593-a2c9-47702bf6c497")
 			(effects
 				(font
 					(size 1 1)
@@ -481,7 +480,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0106338a-67c5-4dc7-9e1e-834b8f80c880")
+			(uuid "6e9d8228-3812-47f3-aa53-d4b392d53724")
 			(effects
 				(font
 					(size 1 1)
@@ -494,7 +493,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7077c75d-3ec9-4542-b320-28f2ff54a759")
+			(uuid "dda680a1-531a-47fa-8124-2f71e8414884")
 			(effects
 				(font
 					(size 1 1)
@@ -502,12 +501,12 @@
 				)
 			)
 		)
-		(property "Id" "Capacitor:0603_0u1"
+		(property "Id" "Capacitor:1608_0u1"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7d490df0-193b-416e-9828-c59caef19342")
+			(uuid "83abe313-b2d9-4223-a193-2a06194b4903")
 			(effects
 				(font
 					(size 1 1)
@@ -611,7 +610,7 @@
 			(uuid "5aeea7c4-d08e-4195-b84f-1010d7c2735a")
 		)
 		(embedded_fonts no)
-		(model "../../3dmodels/V2_Capacitor_SMD.3dshapes/C_0603_1608Metric.step"
+		(model "../../3dmodels/V2_Capacitor_SMD.3dshapes/C_1608.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -619,7 +618,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -718,11 +717,10 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "V2_Resistor_SMD:R_0603"
+	(footprint "V2_Resistor_SMD:R_1608"
 		(layer "F.Cu")
 		(uuid "30eb77a7-756b-44e1-8f87-b86c143827db")
 		(at 160.75 83.25 90)
-		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R202"
 			(at 0 -1.43 90)
@@ -777,7 +775,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "40d7010f-c1d8-471d-8a4c-83d264c8ef1c")
+			(uuid "bb2d0801-de62-4177-be00-b4bbcc0e18bc")
 			(effects
 				(font
 					(size 1 1)
@@ -790,7 +788,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7f809fc6-c2a1-4859-878d-2d9e7b74e2b5")
+			(uuid "9d1e4b32-2a48-46d2-9d47-6804fcac04d6")
 			(effects
 				(font
 					(size 1 1)
@@ -803,7 +801,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "dd6c4060-62d3-4d1b-aaa4-10596e119749")
+			(uuid "5f0bb4ee-906a-470d-b4f9-0a223a01076b")
 			(effects
 				(font
 					(size 1 1)
@@ -816,7 +814,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2d1d58f3-947e-49e6-9917-7071f87ad311")
+			(uuid "6e4638c9-08c0-4a32-af89-7431ad903320")
 			(effects
 				(font
 					(size 1 1)
@@ -824,12 +822,12 @@
 				)
 			)
 		)
-		(property "Id" "Resistor:0603_3k9"
+		(property "Id" "Resistor:1608_3k9"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c9311076-c2c8-4b83-a871-97d1a3fb2d69")
+			(uuid "e210ef10-3f96-4d2c-a286-9fe602011242")
 			(effects
 				(font
 					(size 1 1)
@@ -933,7 +931,7 @@
 			(uuid "7a24330b-ca42-474f-89c4-25b7a9ec1fa6")
 		)
 		(embedded_fonts no)
-		(model "../../3dmodels/V2_Resistor_SMD.3dshapes/R_0603_1608Metric.step"
+		(model "../../3dmodels/V2_Resistor_SMD.3dshapes/R_1608.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -1010,7 +1008,7 @@
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "b80a4c07-2456-4d23-b7f8-792b288d42fe")
+			(uuid "26545d14-6ad6-40b0-b240-7a454f6e9b09")
 			(effects
 				(font
 					(size 0.75 0.75)
@@ -1022,7 +1020,7 @@
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "26545d14-6ad6-40b0-b240-7a454f6e9b09")
+			(uuid "b80a4c07-2456-4d23-b7f8-792b288d42fe")
 			(effects
 				(font
 					(size 0.75 0.75)
@@ -3334,11 +3332,10 @@
 			)
 		)
 	)
-	(footprint "V2_Capacitor_SMD:C_0603"
+	(footprint "V2_Capacitor_SMD:C_1608"
 		(layer "F.Cu")
 		(uuid "b03d8345-46cb-4dd8-b3de-a554f3209c0b")
 		(at 153.75 83.25 90)
-		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C202"
 			(at 0 -1.43 90)
@@ -3393,7 +3390,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "62411ad3-d5d4-4947-a527-8b5fa3d3e602")
+			(uuid "84e3306a-3536-4c6e-8bd4-f7fdfa954a58")
 			(effects
 				(font
 					(size 1 1)
@@ -3406,7 +3403,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "55d09a8a-af6b-4b7c-b1a9-8e031f148087")
+			(uuid "25a2cdd5-4e63-434f-8b6d-c9fa8d6be73a")
 			(effects
 				(font
 					(size 1 1)
@@ -3419,7 +3416,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5e0e744c-7d0f-4ec2-b1c7-58afee3a0aea")
+			(uuid "30ae6709-69bb-405a-9d8c-5ef04d37dd63")
 			(effects
 				(font
 					(size 1 1)
@@ -3427,12 +3424,12 @@
 				)
 			)
 		)
-		(property "Id" "Capacitor:0603_0u22"
+		(property "Id" "Capacitor:1608_0u22"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "07e90bd5-a5a2-4bc1-81a9-fa7afb9174fa")
+			(uuid "6909fd29-7829-4746-800e-b09503f1904e")
 			(effects
 				(font
 					(size 1 1)
@@ -3445,7 +3442,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "860abce6-b284-4e3e-9c69-7b6eada27012")
+			(uuid "df6233ef-da5d-464d-8f4a-d97a78fe04db")
 			(effects
 				(font
 					(size 1 1)
@@ -3549,7 +3546,7 @@
 			(uuid "56bb4de3-4ad3-46cb-83a7-722e8ac1b6ce")
 		)
 		(embedded_fonts no)
-		(model "../../3dmodels/V2_Capacitor_SMD.3dshapes/C_0603_1608Metric.step"
+		(model "../../3dmodels/V2_Capacitor_SMD.3dshapes/C_1608.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3557,15 +3554,14 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
-	(footprint "V2_Resistor_SMD:R_0603"
+	(footprint "V2_Resistor_SMD:R_1608"
 		(layer "F.Cu")
 		(uuid "b5d9191a-f2be-450c-962a-1a084945b207")
 		(at 159.25 83.25 -90)
-		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R201"
 			(at 0 -1.43 270)
@@ -3620,7 +3616,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "25d0b112-dbda-4979-bf6d-c8ae3cadfdc3")
+			(uuid "56f1b158-f610-4da9-873a-df81726e1300")
 			(effects
 				(font
 					(size 1 1)
@@ -3633,7 +3629,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "506e6c88-c668-40ae-9f37-7da764370048")
+			(uuid "b7aae18e-c907-49bf-af08-20fcc49d1140")
 			(effects
 				(font
 					(size 1 1)
@@ -3646,7 +3642,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "097d1314-5bd0-432d-903a-5253b547acf5")
+			(uuid "3cb0c858-6180-4262-a1e0-72d8d2e590af")
 			(effects
 				(font
 					(size 1 1)
@@ -3659,7 +3655,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d6cd2c04-e323-4acd-9d55-d1bb79d40bc6")
+			(uuid "6063c369-bf25-4c9d-b155-44cc09c1cbaf")
 			(effects
 				(font
 					(size 1 1)
@@ -3667,12 +3663,12 @@
 				)
 			)
 		)
-		(property "Id" "Resistor:0603_100k"
+		(property "Id" "Resistor:1608_100k"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "bfb273a4-83da-4b59-a69c-f1c6af4a830a")
+			(uuid "0c6f7301-7d26-47da-ada9-7a72fb2b1e69")
 			(effects
 				(font
 					(size 1 1)
@@ -3776,7 +3772,7 @@
 			(uuid "68f23b96-1b16-4e5e-b4fd-5f5af87db7e4")
 		)
 		(embedded_fonts no)
-		(model "../../3dmodels/V2_Resistor_SMD.3dshapes/R_0603_1608Metric.step"
+		(model "../../3dmodels/V2_Resistor_SMD.3dshapes/R_1608.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -4678,7 +4674,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers yes)
 			(keep_end_layers yes)
-			(zone_layer_connections)
+			(zone_layer_connections "In1.Cu" "In2.Cu")
 			(net "GND")
 			(pinfunction "1-_1-")
 			(pintype "passive")
@@ -4993,7 +4989,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers yes)
 			(keep_end_layers yes)
-			(zone_layer_connections)
+			(zone_layer_connections "In1.Cu" "In2.Cu")
 			(net "GND")
 			(pinfunction "1-_1-")
 			(pintype "passive")
@@ -5208,7 +5204,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers yes)
 			(keep_end_layers yes)
-			(zone_layer_connections)
+			(zone_layer_connections "In1.Cu" "In2.Cu")
 			(net "GND")
 			(pintype "passive")
 			(uuid "9772b38f-e54f-45ae-b3bc-c1d2d47c26e7")
@@ -5220,7 +5216,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers yes)
 			(keep_end_layers yes)
-			(zone_layer_connections)
+			(zone_layer_connections "In1.Cu" "In2.Cu")
 			(net "GND")
 			(pintype "passive")
 			(uuid "2675c82d-adf7-417d-b11b-045ca772f76f")
@@ -5535,20 +5531,52 @@
 		(uuid "f2644722-a7e4-48c6-bc42-e964b4f542f0")
 	)
 	(segment
-		(start 154.1125 82.1125)
-		(end 155.525 82.1125)
+		(start 159.25 84.075)
+		(end 159.075 84.075)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "Net-(U201-VCAP)")
-		(uuid "1f930d7c-6d62-4435-b31c-4729b7428094")
+		(net "/Polarity Protection/Overvoltage")
+		(uuid "28e5bb23-b659-49ff-8346-1764772ec47e")
 	)
 	(segment
-		(start 153.75 82.475)
-		(end 154.1125 82.1125)
+		(start 159.075 84.075)
+		(end 158.5 83.5)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "Net-(U201-VCAP)")
-		(uuid "e1ba6530-42af-45dd-85b1-00711a7dc871")
+		(net "/Polarity Protection/Overvoltage")
+		(uuid "74569005-e94d-4b68-8d38-092593af808e")
+	)
+	(segment
+		(start 156.825 83.675)
+		(end 156.825 84.3875)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/Polarity Protection/Overvoltage")
+		(uuid "8cd6cccf-8064-4803-926c-4acdd32b1887")
+	)
+	(segment
+		(start 158.5 83.5)
+		(end 157 83.5)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/Polarity Protection/Overvoltage")
+		(uuid "a82897b2-5b3f-476e-b63f-b076295ac0d1")
+	)
+	(segment
+		(start 157 83.5)
+		(end 156.825 83.675)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/Polarity Protection/Overvoltage")
+		(uuid "dfe266ea-53f1-4c15-bf17-5bd9308546b9")
+	)
+	(segment
+		(start 160.75 84.075)
+		(end 159.25 84.075)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/Polarity Protection/Overvoltage")
+		(uuid "e39ac22e-0a9d-4d26-ac86-7747ac0a36fc")
 	)
 	(segment
 		(start 157.475 84.3875)
@@ -5681,52 +5709,20 @@
 		(uuid "ace14797-a3fc-4e03-91c0-ca86de062c31")
 	)
 	(segment
-		(start 159.25 84.075)
-		(end 159.075 84.075)
+		(start 154.1125 82.1125)
+		(end 155.525 82.1125)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/Polarity Protection/Overvoltage")
-		(uuid "28e5bb23-b659-49ff-8346-1764772ec47e")
+		(net "Net-(U201-VCAP)")
+		(uuid "1f930d7c-6d62-4435-b31c-4729b7428094")
 	)
 	(segment
-		(start 159.075 84.075)
-		(end 158.5 83.5)
+		(start 153.75 82.475)
+		(end 154.1125 82.1125)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/Polarity Protection/Overvoltage")
-		(uuid "74569005-e94d-4b68-8d38-092593af808e")
-	)
-	(segment
-		(start 156.825 83.675)
-		(end 156.825 84.3875)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/Polarity Protection/Overvoltage")
-		(uuid "8cd6cccf-8064-4803-926c-4acdd32b1887")
-	)
-	(segment
-		(start 158.5 83.5)
-		(end 157 83.5)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/Polarity Protection/Overvoltage")
-		(uuid "a82897b2-5b3f-476e-b63f-b076295ac0d1")
-	)
-	(segment
-		(start 157 83.5)
-		(end 156.825 83.675)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/Polarity Protection/Overvoltage")
-		(uuid "dfe266ea-53f1-4c15-bf17-5bd9308546b9")
-	)
-	(segment
-		(start 160.75 84.075)
-		(end 159.25 84.075)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/Polarity Protection/Overvoltage")
-		(uuid "e39ac22e-0a9d-4d26-ac86-7747ac0a36fc")
+		(net "Net-(U201-VCAP)")
+		(uuid "e1ba6530-42af-45dd-85b1-00711a7dc871")
 	)
 	(zone
 		(net "/Polarity Protection/Source")

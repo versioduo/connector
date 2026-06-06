@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "V2 Power SpeakOn")
-		(date "2026-04-14")
+		(date "2026-06-06")
 		(rev "2026-01-12")
 		(company "Versio Duo")
 	)
@@ -1709,7 +1709,6 @@
 		(on_board no)
 		(in_pos_files no)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "09ef1bb1-8c2d-426a-9a91-ec2b19f4db3e")
 		(property "Reference" "#PWR108"
 			(at 167.64 110.49 0)
@@ -1723,14 +1722,14 @@
 			)
 		)
 		(property "Value" "+28V"
-			(at 175.26 110.4899 90)
+			(at 178.816 110.2359 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(color 255 92 187 1)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -2094,12 +2093,13 @@
 			)
 		)
 		(property "Value" "+28V"
-			(at 159.004 95.25 90)
+			(at 159.004 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(color 255 92 187 1)
 				)
 			)
 		)
@@ -2171,7 +2171,7 @@
 			)
 		)
 		(property "Value" "WAGO 2601-1101"
-			(at 154.94 150.368 0)
+			(at 161.798 147.32 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2565,7 +2565,7 @@
 	)
 	(symbol
 		(lib_id "V2_Production:Revision")
-		(at 214.63 179.07 0)
+		(at 209.55 179.07 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2575,7 +2575,7 @@
 		(dnp no)
 		(uuid "7eb06b9d-d894-478a-bc35-8590f2ab48d6")
 		(property "Reference" "INFO101"
-			(at 214.63 175.26 0)
+			(at 209.55 175.26 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2585,7 +2585,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 214.63 181.61 0)
+			(at 209.55 181.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2596,7 +2596,7 @@
 			)
 		)
 		(property "Footprint" "V2_Production:Revision"
-			(at 214.63 184.15 0)
+			(at 209.55 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2607,7 +2607,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 214.63 179.07 0)
+			(at 209.55 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2618,7 +2618,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 214.63 179.07 0)
+			(at 209.55 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2639,7 +2639,7 @@
 	)
 	(symbol
 		(lib_id "V2_Connector_WAGO:2601-1101")
-		(at 144.78 154.94 0)
+		(at 144.78 151.13 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2649,7 +2649,7 @@
 		(dnp no)
 		(uuid "8973d91d-6718-4770-a6d3-8f5da6c98a8c")
 		(property "Reference" "J103"
-			(at 146.05 154.9399 0)
+			(at 146.05 151.1299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2660,7 +2660,7 @@
 			)
 		)
 		(property "Value" "WAGO 2601-1101"
-			(at 155.194 157.988 0)
+			(at 162.052 151.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2670,7 +2670,7 @@
 			)
 		)
 		(property "Footprint" "V2_Connector_WAGO:2601-1101"
-			(at 144.526 157.48 0)
+			(at 144.526 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2681,17 +2681,6 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 144.78 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
 			(at 144.78 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -2702,8 +2691,19 @@
 				)
 			)
 		)
+		(property "Description" ""
+			(at 144.78 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Manufacturer" "WAGO"
-			(at 144.78 166.37 0)
+			(at 144.78 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2714,7 +2714,7 @@
 			)
 		)
 		(property "Product" "2601-1101"
-			(at 144.78 169.418 0)
+			(at 144.78 165.608 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2725,7 +2725,7 @@
 			)
 		)
 		(property "Id" "WAGO:${SYMBOL_NAME}"
-			(at 144.78 163.83 0)
+			(at 144.78 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2736,7 +2736,7 @@
 			)
 		)
 		(property "Rating" "17.5A"
-			(at 144.78 173.99 0)
+			(at 144.78 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3137,12 +3137,13 @@
 			)
 		)
 		(property "Value" "+28V"
-			(at 132.842 147.066 90)
+			(at 132.588 147.066 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(color 255 92 187 1)
 				)
 			)
 		)
@@ -3193,7 +3194,7 @@
 	)
 	(symbol
 		(lib_id "V2_power:GND")
-		(at 139.7 154.94 270)
+		(at 139.7 151.13 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3203,7 +3204,7 @@
 		(dnp no)
 		(uuid "ede6db82-7171-4017-82e4-b07abf1d5db9")
 		(property "Reference" "#PWR104"
-			(at 133.35 154.94 0)
+			(at 133.35 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3214,7 +3215,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 134.62 154.94 90)
+			(at 134.62 151.13 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3225,7 +3226,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 139.7 154.94 0)
+			(at 139.7 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3236,7 +3237,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 139.7 154.94 0)
+			(at 139.7 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3247,7 +3248,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 129.286 154.686 0)
+			(at 129.286 150.876 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

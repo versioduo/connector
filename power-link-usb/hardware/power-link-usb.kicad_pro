@@ -839,7 +839,7 @@
         "uuid": "6c8448b4-b04d-47e1-934e-e40cbe27a7be"
       }
     ],
-    "used_designators": "",
+    "used_designators": "TVS101,TVS201,INFO101-102,#FLG101-102,#FLG201-202,U201,C201-208,D201-202,#PWR101-109,#PWR201-230,Q201-202,FID101-103,ICON101,J101-102,J201-202,R201-205",
     "variants": []
   },
   "sheets": [

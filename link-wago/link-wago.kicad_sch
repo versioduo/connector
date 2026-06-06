@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "V2 Link WAGO")
-		(date "2026-04-14")
-		(rev "2026-03-31")
+		(date "2026-06-06")
+		(rev "2026-06-06")
 		(company "Versio Duo")
 		(comment 1 "External Power Supply")
 	)
@@ -2654,14 +2654,14 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "V2_Production:Layer_Numbers"
+		(symbol "V2_Production:Layer_Numbers-4"
 			(exclude_from_sim no)
 			(in_bom no)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "INFO"
-				(at 0 3.81 0)
+				(at 0 2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -2670,7 +2670,7 @@
 					)
 				)
 			)
-			(property "Value" "Layer_Numbers"
+			(property "Value" "Layer_Numbers-4"
 				(at 0 -3.81 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2681,7 +2681,7 @@
 					)
 				)
 			)
-			(property "Footprint" "V2_Production:Layer_Numbers"
+			(property "Footprint" "V2_Production:Layer_Numbers-4"
 				(at 0 -6.35 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2714,26 +2714,26 @@
 					)
 				)
 			)
-			(symbol "Layer_Numbers_0_0"
-				(text "1 2 3 4"
-					(at 0 0 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(symbol "Layer_Numbers_0_1"
+			(symbol "Layer_Numbers-4_0_1"
 				(rectangle
-					(start -5.08 1.27)
-					(end 5.08 -1.27)
+					(start -2.54 1.27)
+					(end 2.54 -1.27)
 					(stroke
 						(width 0)
 						(type default)
 					)
 					(fill
 						(type none)
+					)
+				)
+			)
+			(symbol "Layer_Numbers-4_1_1"
+				(text "1 2"
+					(at 0 0 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
 					)
 				)
 			)
@@ -3281,134 +3281,6 @@
 				)
 			)
 			(symbol "+5V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "V2_power:+VBUS"
-			(power local)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim yes)
-			(in_bom no)
-			(on_board no)
-			(in_pos_files no)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "+VBUS"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(color 255 92 187 1)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "USB Power Delivery"
-				(at 0 -15.494 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "+VBUS_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 1.27) (xy -0.762 1.27) (xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "+VBUS_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -4069,7 +3941,7 @@
 		(uuid "00456bfb-7e11-44c3-b80c-004b535e2aba")
 	)
 	(junction
-		(at 77.47 152.4)
+		(at 76.2 156.21)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "69688e5d-0114-4750-850b-e364ee59203f")
@@ -4103,6 +3975,10 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f00f7854-fcdb-4c48-9a2b-42d3a2b61884")
+	)
+	(no_connect
+		(at 237.49 58.42)
+		(uuid "26f79059-2be0-4ff3-9ae9-eac4306fdf91")
 	)
 	(no_connect
 		(at 116.84 93.98)
@@ -4200,7 +4076,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 154.94) (xy 95.25 152.4)
+			(xy 93.98 158.75) (xy 93.98 156.21)
 		)
 		(stroke
 			(width 0)
@@ -4350,7 +4226,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 152.4) (xy 77.47 152.4)
+			(xy 93.98 156.21) (xy 76.2 156.21)
 		)
 		(stroke
 			(width 0)
@@ -4719,7 +4595,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "02a4deea-6abb-466b-ad01-19b22ee96b5c")
-		(property "Reference" "#PWR115"
+		(property "Reference" "#PWR0115"
 			(at 110.49 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -4780,14 +4656,14 @@
 		(instances
 			(project "link-wago"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR115")
+					(reference "#PWR0115")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "V2_Production:Layer_Numbers")
+		(lib_id "V2_Production:Layer_Numbers-4")
 		(at 228.6 165.1 0)
 		(unit 1)
 		(body_style 1)
@@ -4808,7 +4684,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Layer_Numbers"
+		(property "Value" "Layer_Numbers-4"
 			(at 223.52 161.2899 0)
 			(hide yes)
 			(show_name no)
@@ -4820,7 +4696,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "V2_Production:Layer_Numbers"
+		(property "Footprint" "V2_Production:Layer_Numbers-4"
 			(at 228.6 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -4864,7 +4740,7 @@
 	)
 	(symbol
 		(lib_id "V2_power:GND")
-		(at 77.47 160.02 0)
+		(at 76.2 163.83 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4873,8 +4749,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "09b12e1c-4dcf-4374-904e-884e738b1c35")
-		(property "Reference" "#PWR110"
-			(at 77.47 166.37 0)
+		(property "Reference" "#PWR0110"
+			(at 76.2 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4885,7 +4761,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 77.47 164.084 0)
+			(at 76.2 167.894 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4896,7 +4772,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 77.47 160.02 0)
+			(at 76.2 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4907,7 +4783,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 77.47 160.02 0)
+			(at 76.2 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4918,7 +4794,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 77.216 170.434 0)
+			(at 75.946 174.244 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4934,7 +4810,7 @@
 		(instances
 			(project "link-wago"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR110")
+					(reference "#PWR0110")
 					(unit 1)
 				)
 			)
@@ -4952,7 +4828,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0fab35f9-0ebc-4fc7-9b36-7d9add0a14d4")
-		(property "Reference" "#PWR130"
+		(property "Reference" "#PWR0128"
 			(at 261.62 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -5013,7 +4889,7 @@
 		(instances
 			(project "link-wago"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR130")
+					(reference "#PWR0128")
 					(unit 1)
 				)
 			)
@@ -5029,7 +4905,6 @@
 		(on_board no)
 		(in_pos_files no)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1034eb65-a4c7-455e-a8e5-2a51b8d02bda")
 		(property "Reference" "#PWR104"
 			(at 45.72 27.94 0)
@@ -5043,14 +4918,14 @@
 			)
 		)
 		(property "Value" "+VLINK"
-			(at 62.23 27.9399 90)
+			(at 68.072 27.9399 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(color 255 92 187 1)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -5195,7 +5070,6 @@
 		(on_board no)
 		(in_pos_files no)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "20896438-d460-4bc4-b2f0-ad5dc72af023")
 		(property "Reference" "#PWR106"
 			(at 52.07 52.07 0)
@@ -5209,14 +5083,14 @@
 			)
 		)
 		(property "Value" "+VLINK"
-			(at 68.58 52.0699 90)
+			(at 73.914 52.0699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(color 255 92 187 1)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -5266,7 +5140,7 @@
 	)
 	(symbol
 		(lib_id "V2_Diode:SMBJ33CA")
-		(at 77.47 156.21 90)
+		(at 76.2 160.02 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5277,7 +5151,7 @@
 		(fields_autoplaced yes)
 		(uuid "2222df47-d315-45d7-8daf-e5fc9c19addf")
 		(property "Reference" "TVS101"
-			(at 81.28 154.9399 90)
+			(at 80.01 158.7499 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5288,7 +5162,7 @@
 			)
 		)
 		(property "Value" "SMBJ33CA"
-			(at 81.28 157.4799 90)
+			(at 80.01 161.2899 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5299,7 +5173,7 @@
 			)
 		)
 		(property "Footprint" "V2_Diode_SMD:D_SMB"
-			(at 83.185 156.21 0)
+			(at 81.915 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5310,7 +5184,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 87.63 156.21 0)
+			(at 86.36 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5321,7 +5195,7 @@
 			)
 		)
 		(property "Description" "Transient Voltage Suppressor Diode, Bidirectional, 36.7-40.6V"
-			(at 90.17 156.21 0)
+			(at 88.9 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5332,7 +5206,7 @@
 			)
 		)
 		(property "Mouser" "652-SMBJ33CA-Q"
-			(at 100.584 156.21 0)
+			(at 99.314 160.02 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -5343,7 +5217,7 @@
 			)
 		)
 		(property "Product" "SMBJ33CA-Q"
-			(at 95.25 156.21 0)
+			(at 93.98 160.02 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -5354,7 +5228,7 @@
 			)
 		)
 		(property "Manufacturer" "Bourns"
-			(at 92.71 156.21 0)
+			(at 91.44 160.02 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -5365,7 +5239,7 @@
 			)
 		)
 		(property "Rating" "33V"
-			(at 97.79 156.21 0)
+			(at 96.52 160.02 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -5376,7 +5250,7 @@
 			)
 		)
 		(property "Id" "Diode:${SYMBOL_NAME}"
-			(at 88.9 156.21 0)
+			(at 87.63 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5402,85 +5276,8 @@
 		)
 	)
 	(symbol
-		(lib_id "V2_power:PWR_FLAG")
-		(at 227.33 29.21 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "2910f391-48b2-4532-85db-b28389593910")
-		(property "Reference" "#FLG103"
-			(at 227.33 27.305 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 218.186 29.21 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 227.33 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 227.33 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 227.33 46.482 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "fd34bead-173d-4a17-a13b-8efd90a5f8b0")
-		)
-		(instances
-			(project "link-wago"
-				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#FLG103")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "V2_power:GND")
-		(at 95.25 160.02 0)
+		(at 93.98 163.83 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5489,8 +5286,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2d2b1203-47b5-49b4-ad5f-bbcb0de8cc62")
-		(property "Reference" "#PWR111"
-			(at 95.25 166.37 0)
+		(property "Reference" "#PWR0111"
+			(at 93.98 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5501,7 +5298,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 95.25 164.084 0)
+			(at 93.98 167.894 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5512,7 +5309,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 95.25 160.02 0)
+			(at 93.98 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5523,7 +5320,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 95.25 160.02 0)
+			(at 93.98 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5534,7 +5331,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 94.996 170.434 0)
+			(at 93.726 174.244 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5550,86 +5347,7 @@
 		(instances
 			(project "link-wago"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR111")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "V2_power:+VBUS")
-		(at 237.49 58.42 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board no)
-		(in_pos_files no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3102dd26-796a-4d2d-ade6-685ca6ffcae7")
-		(property "Reference" "#PWR128"
-			(at 233.68 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+VBUS"
-			(at 241.3 58.4199 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 237.49 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 237.49 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "USB Power Delivery"
-			(at 221.996 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "bb81c4ee-7306-490f-810d-71183ef26ffd")
-		)
-		(instances
-			(project "link-wago"
-				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR128")
+					(reference "#PWR0111")
 					(unit 1)
 				)
 			)
@@ -5724,7 +5442,7 @@
 	)
 	(symbol
 		(lib_id "V2_power:+28V")
-		(at 77.47 152.4 0)
+		(at 76.2 156.21 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim yes)
@@ -5734,7 +5452,7 @@
 		(dnp no)
 		(uuid "393b3fc2-29e9-4799-b9a4-7bd6d5fe5ba0")
 		(property "Reference" "#PWR109"
-			(at 77.47 156.21 0)
+			(at 76.2 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5745,17 +5463,18 @@
 			)
 		)
 		(property "Value" "+28V"
-			(at 77.47 147.066 0)
+			(at 76.2 150.876 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(color 255 92 187 1)
 				)
 			)
 		)
 		(property "Footprint" ""
-			(at 77.47 152.4 0)
+			(at 76.2 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5766,7 +5485,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 77.47 152.4 0)
+			(at 76.2 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5777,7 +5496,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 77.47 167.132 0)
+			(at 76.2 170.942 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5811,7 +5530,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3b58c35d-7d3c-48df-a122-d63312ea44dc")
-		(property "Reference" "#PWR127"
+		(property "Reference" "#PWR0126"
 			(at 233.68 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -5872,7 +5591,7 @@
 		(instances
 			(project "link-wago"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR127")
+					(reference "#PWR0126")
 					(unit 1)
 				)
 			)
@@ -6051,7 +5770,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "41f5e8ed-abf6-4070-b8df-a6a2d6de37aa")
-		(property "Reference" "#PWR113"
+		(property "Reference" "#PWR0113"
 			(at 110.49 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -6112,7 +5831,7 @@
 		(instances
 			(project "link-wago"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR113")
+					(reference "#PWR0113")
 					(unit 1)
 				)
 			)
@@ -6130,7 +5849,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "43d1504f-1596-415c-91c2-44ae3bfe68a5")
-		(property "Reference" "#PWR129"
+		(property "Reference" "#PWR0127"
 			(at 261.62 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -6191,7 +5910,7 @@
 		(instances
 			(project "link-wago"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR129")
+					(reference "#PWR0127")
 					(unit 1)
 				)
 			)
@@ -6208,7 +5927,7 @@
 		(in_pos_files no)
 		(dnp no)
 		(uuid "4981b5d6-92af-4a29-9272-c16be4de595a")
-		(property "Reference" "#PWR123"
+		(property "Reference" "#PWR0123"
 			(at 217.17 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -6268,7 +5987,7 @@
 		(instances
 			(project "link-wago"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR123")
+					(reference "#PWR0123")
 					(unit 1)
 				)
 			)
@@ -6276,7 +5995,7 @@
 	)
 	(symbol
 		(lib_id "V2_Connector_WAGO:2601-1101")
-		(at 35.56 153.67 0)
+		(at 34.29 157.48 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6286,7 +6005,7 @@
 		(dnp no)
 		(uuid "4ae79b7c-ee12-42b5-9c61-0d30587fb6a5")
 		(property "Reference" "J101"
-			(at 36.83 153.6699 0)
+			(at 35.56 157.4799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6297,7 +6016,7 @@
 			)
 		)
 		(property "Value" "WAGO 2601-1101"
-			(at 45.72 156.718 0)
+			(at 51.308 157.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6307,7 +6026,7 @@
 			)
 		)
 		(property "Footprint" "V2_Connector_WAGO:2601-1101"
-			(at 35.306 156.21 0)
+			(at 34.036 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6318,7 +6037,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 35.56 157.48 0)
+			(at 34.29 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6329,7 +6048,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 35.56 153.67 0)
+			(at 34.29 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6340,7 +6059,7 @@
 			)
 		)
 		(property "Manufacturer" "WAGO"
-			(at 35.56 165.1 0)
+			(at 34.29 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6351,7 +6070,7 @@
 			)
 		)
 		(property "Product" "2601-1101"
-			(at 35.56 168.148 0)
+			(at 34.29 171.958 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6362,7 +6081,7 @@
 			)
 		)
 		(property "Id" "WAGO:${SYMBOL_NAME}"
-			(at 35.56 162.56 0)
+			(at 34.29 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6373,7 +6092,7 @@
 			)
 		)
 		(property "Rating" "17.5A"
-			(at 35.56 172.72 0)
+			(at 34.29 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6494,7 +6213,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "528b5159-9137-4e02-8539-6818fd5e2035")
-		(property "Reference" "#PWR118"
+		(property "Reference" "#PWR0118"
 			(at 135.89 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -6555,7 +6274,7 @@
 		(instances
 			(project "link-wago"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR118")
+					(reference "#PWR0118")
 					(unit 1)
 				)
 			)
@@ -6590,6 +6309,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(color 255 92 187 1)
 				)
 			)
 		)
@@ -6640,7 +6360,7 @@
 	)
 	(symbol
 		(lib_id "V2_Connector_WAGO:2065")
-		(at 137.16 187.96 0)
+		(at 135.89 187.96 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6650,7 +6370,7 @@
 		(dnp no)
 		(uuid "59229aee-d785-4427-a2d2-99323f910720")
 		(property "Reference" "J110"
-			(at 140.335 187.96 0)
+			(at 139.065 187.96 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6660,7 +6380,7 @@
 			)
 		)
 		(property "Value" "WAGO 2065-100"
-			(at 146.05 191.008 0)
+			(at 150.876 187.96 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6670,7 +6390,7 @@
 			)
 		)
 		(property "Footprint" "V2_Connector_WAGO:2065-100"
-			(at 137.16 191.77 0)
+			(at 135.89 191.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6681,7 +6401,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 137.16 191.77 0)
+			(at 135.89 191.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6692,7 +6412,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 137.16 187.96 0)
+			(at 135.89 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6703,7 +6423,7 @@
 			)
 		)
 		(property "Manufacturer" "WAGO"
-			(at 137.16 201.168 0)
+			(at 135.89 201.168 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6714,7 +6434,7 @@
 			)
 		)
 		(property "Product" "2065-100/998-403"
-			(at 137.16 204.47 0)
+			(at 135.89 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6725,7 +6445,7 @@
 			)
 		)
 		(property "Id" "WAGO:${SYMBOL_NAME}"
-			(at 137.16 195.58 0)
+			(at 135.89 195.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6736,7 +6456,7 @@
 			)
 		)
 		(property "Rating" "9A"
-			(at 137.16 205.74 0)
+			(at 135.89 205.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7004,7 +6724,7 @@
 	)
 	(symbol
 		(lib_id "V2_Capacitor:1608_0u1")
-		(at 95.25 157.48 0)
+		(at 93.98 161.29 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7014,7 +6734,7 @@
 		(dnp no)
 		(uuid "65298d35-9787-43b4-a842-021b3924efcc")
 		(property "Reference" "C101"
-			(at 97.79 156.21 0)
+			(at 96.52 160.02 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7025,7 +6745,7 @@
 			)
 		)
 		(property "Value" "0u1"
-			(at 98.298 159.004 0)
+			(at 97.028 162.814 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7036,7 +6756,7 @@
 			)
 		)
 		(property "Footprint" "V2_Capacitor_SMD:C_1608"
-			(at 95.25 174.498 0)
+			(at 93.98 178.308 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7047,7 +6767,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 95.25 157.48 0)
+			(at 93.98 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7058,7 +6778,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 95.25 170.942 0)
+			(at 93.98 174.752 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7069,7 +6789,7 @@
 			)
 		)
 		(property "Mouser" "810-CGA3E2X7R1H104MA"
-			(at 95.25 174.752 0)
+			(at 93.98 178.562 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7080,7 +6800,7 @@
 			)
 		)
 		(property "Manufacturer" "TDK"
-			(at 95.25 172.72 0)
+			(at 93.98 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7091,7 +6811,7 @@
 			)
 		)
 		(property "Product" "CGA3E2X7R1H104M080AA"
-			(at 95.25 175.26 0)
+			(at 93.98 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7102,7 +6822,7 @@
 			)
 		)
 		(property "Rating" "50V"
-			(at 95.25 180.34 0)
+			(at 93.98 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7113,7 +6833,7 @@
 			)
 		)
 		(property "Id" "Capacitor:${SYMBOL_NAME}"
-			(at 95.25 172.72 0)
+			(at 93.98 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7133,85 +6853,6 @@
 			(project "link-wago"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
 					(reference "C101")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "V2_power:+VBUS")
-		(at 227.33 29.21 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board no)
-		(in_pos_files no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "69d2a2fc-ac1b-4dd8-86b0-d7576809246f")
-		(property "Reference" "#PWR125"
-			(at 223.52 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+VBUS"
-			(at 231.14 29.2099 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 227.33 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 227.33 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "USB Power Delivery"
-			(at 211.836 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "014bf02c-1d0e-4c98-9267-439f088b753e")
-		)
-		(instances
-			(project "link-wago"
-				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR125")
 					(unit 1)
 				)
 			)
@@ -7721,7 +7362,7 @@
 	)
 	(symbol
 		(lib_id "V2_Connector_WAGO:2601-1101")
-		(at 35.56 161.29 0)
+		(at 34.29 161.29 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7731,7 +7372,7 @@
 		(dnp no)
 		(uuid "8973d91d-6718-4770-a6d3-8f5da6c98a8c")
 		(property "Reference" "J102"
-			(at 36.83 161.2899 0)
+			(at 35.56 161.2899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7742,7 +7383,7 @@
 			)
 		)
 		(property "Value" "WAGO 2601-1101"
-			(at 45.72 164.084 0)
+			(at 51.054 161.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7752,7 +7393,7 @@
 			)
 		)
 		(property "Footprint" "V2_Connector_WAGO:2601-1101"
-			(at 35.306 163.83 0)
+			(at 34.036 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7763,7 +7404,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 35.56 165.1 0)
+			(at 34.29 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7774,7 +7415,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 35.56 161.29 0)
+			(at 34.29 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7785,7 +7426,7 @@
 			)
 		)
 		(property "Manufacturer" "WAGO"
-			(at 35.56 172.72 0)
+			(at 34.29 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7796,7 +7437,7 @@
 			)
 		)
 		(property "Product" "2601-1101"
-			(at 35.56 175.768 0)
+			(at 34.29 175.768 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7807,7 +7448,7 @@
 			)
 		)
 		(property "Id" "WAGO:${SYMBOL_NAME}"
-			(at 35.56 170.18 0)
+			(at 34.29 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7818,7 +7459,7 @@
 			)
 		)
 		(property "Rating" "17.5A"
-			(at 35.56 180.34 0)
+			(at 34.29 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7851,7 +7492,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "90e39936-56e3-49e8-b35b-db9cb5ef193b")
-		(property "Reference" "#FLG102"
+		(property "Reference" "#FLG0102"
 			(at 58.42 26.035 0)
 			(hide yes)
 			(show_name no)
@@ -7911,7 +7552,7 @@
 		(instances
 			(project "link-wago"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#FLG102")
+					(reference "#FLG0102")
 					(unit 1)
 				)
 			)
@@ -7919,7 +7560,7 @@
 	)
 	(symbol
 		(lib_id "V2_power:+28V")
-		(at 132.08 153.67 90)
+		(at 130.81 157.48 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim yes)
@@ -7929,7 +7570,7 @@
 		(dnp no)
 		(uuid "91445946-1eb7-473b-bb14-54b5d3b14338")
 		(property "Reference" "#PWR119"
-			(at 135.89 153.67 0)
+			(at 134.62 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7940,17 +7581,18 @@
 			)
 		)
 		(property "Value" "+28V"
-			(at 125.73 153.67 90)
+			(at 124.46 157.48 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(color 255 92 187 1)
 				)
 			)
 		)
 		(property "Footprint" ""
-			(at 132.08 153.67 0)
+			(at 130.81 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7961,7 +7603,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 132.08 153.67 0)
+			(at 130.81 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7972,7 +7614,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 146.812 153.67 0)
+			(at 145.542 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8081,7 +7723,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9a5ec720-c0a5-4c74-b0a6-32f36d238364")
-		(property "Reference" "#PWR105"
+		(property "Reference" "#PWR0105"
 			(at 71.12 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -8142,7 +7784,7 @@
 		(instances
 			(project "link-wago"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR105")
+					(reference "#PWR0105")
 					(unit 1)
 				)
 			)
@@ -8150,7 +7792,7 @@
 	)
 	(symbol
 		(lib_id "V2_power:+28V")
-		(at 96.52 185.42 90)
+		(at 77.47 185.42 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim yes)
@@ -8160,7 +7802,7 @@
 		(dnp no)
 		(uuid "a230c320-dbce-46b2-a1d1-08b3366b4a28")
 		(property "Reference" "#PWR112"
-			(at 100.33 185.42 0)
+			(at 81.28 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8171,17 +7813,18 @@
 			)
 		)
 		(property "Value" "+28V"
-			(at 89.662 185.42 90)
+			(at 70.612 185.42 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(color 255 92 187 1)
 				)
 			)
 		)
 		(property "Footprint" ""
-			(at 96.52 185.42 0)
+			(at 77.47 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8192,7 +7835,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 185.42 0)
+			(at 77.47 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8203,7 +7846,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 111.252 185.42 0)
+			(at 92.202 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8227,7 +7870,7 @@
 	)
 	(symbol
 		(lib_id "V2_power:+28V")
-		(at 31.75 144.78 270)
+		(at 39.37 146.05 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim yes)
@@ -8235,10 +7878,9 @@
 		(on_board no)
 		(in_pos_files no)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a54dabbf-3659-4fec-ab6a-ad439de4113b")
 		(property "Reference" "#PWR103"
-			(at 27.94 144.78 0)
+			(at 35.56 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8249,18 +7891,18 @@
 			)
 		)
 		(property "Value" "+28V"
-			(at 35.56 144.7799 90)
+			(at 45.974 146.0499 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(color 255 92 187 1)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 31.75 144.78 0)
+			(at 39.37 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8271,7 +7913,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 31.75 144.78 0)
+			(at 39.37 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8282,7 +7924,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 17.018 144.78 0)
+			(at 24.638 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8306,7 +7948,7 @@
 	)
 	(symbol
 		(lib_id "V2_Connector_WAGO:2065")
-		(at 137.16 180.34 0)
+		(at 135.89 184.15 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8316,7 +7958,7 @@
 		(dnp no)
 		(uuid "ab5a52bc-5588-408f-bf77-150d2edf9ad4")
 		(property "Reference" "J109"
-			(at 140.335 180.34 0)
+			(at 139.065 184.15 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8326,7 +7968,7 @@
 			)
 		)
 		(property "Value" "WAGO 2065-100"
-			(at 146.05 183.388 0)
+			(at 150.876 184.15 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8336,7 +7978,7 @@
 			)
 		)
 		(property "Footprint" "V2_Connector_WAGO:2065-100"
-			(at 137.16 184.15 0)
+			(at 135.89 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8347,7 +7989,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 137.16 184.15 0)
+			(at 135.89 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8358,7 +8000,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 137.16 180.34 0)
+			(at 135.89 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8369,7 +8011,7 @@
 			)
 		)
 		(property "Manufacturer" "WAGO"
-			(at 137.16 193.548 0)
+			(at 135.89 197.358 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8380,7 +8022,7 @@
 			)
 		)
 		(property "Product" "2065-100/998-403"
-			(at 137.16 196.85 0)
+			(at 135.89 200.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8391,7 +8033,7 @@
 			)
 		)
 		(property "Id" "WAGO:${SYMBOL_NAME}"
-			(at 137.16 187.96 0)
+			(at 135.89 191.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8402,7 +8044,7 @@
 			)
 		)
 		(property "Rating" "9A"
-			(at 137.16 198.12 0)
+			(at 135.89 201.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8435,7 +8077,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ac967660-8d4f-4d6d-89ee-0e54dc4d747b")
-		(property "Reference" "#FLG104"
+		(property "Reference" "#FLG0103"
 			(at 227.33 32.385 0)
 			(hide yes)
 			(show_name no)
@@ -8495,7 +8137,7 @@
 		(instances
 			(project "link-wago"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#FLG104")
+					(reference "#FLG0103")
 					(unit 1)
 				)
 			)
@@ -8503,7 +8145,7 @@
 	)
 	(symbol
 		(lib_id "V2_Connector_WAGO:2065")
-		(at 137.16 161.29 0)
+		(at 135.89 161.29 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8513,7 +8155,7 @@
 		(dnp no)
 		(uuid "b1237348-27fa-47bd-a870-e9fd4fd976c4")
 		(property "Reference" "J108"
-			(at 140.335 161.29 0)
+			(at 139.065 161.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8523,7 +8165,7 @@
 			)
 		)
 		(property "Value" "WAGO 2065-100"
-			(at 146.304 164.338 0)
+			(at 151.13 161.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8533,7 +8175,7 @@
 			)
 		)
 		(property "Footprint" "V2_Connector_WAGO:2065-100"
-			(at 137.16 165.1 0)
+			(at 135.89 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8544,7 +8186,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 137.16 165.1 0)
+			(at 135.89 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8555,7 +8197,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 137.16 161.29 0)
+			(at 135.89 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8566,7 +8208,7 @@
 			)
 		)
 		(property "Manufacturer" "WAGO"
-			(at 137.16 174.498 0)
+			(at 135.89 174.498 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8577,7 +8219,7 @@
 			)
 		)
 		(property "Product" "2065-100/998-403"
-			(at 137.16 177.8 0)
+			(at 135.89 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8588,7 +8230,7 @@
 			)
 		)
 		(property "Id" "WAGO:${SYMBOL_NAME}"
-			(at 137.16 168.91 0)
+			(at 135.89 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8599,7 +8241,7 @@
 			)
 		)
 		(property "Rating" "9A"
-			(at 137.16 179.07 0)
+			(at 135.89 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8790,7 +8432,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b68315cb-2780-4373-9245-ed190ca01b93")
-		(property "Reference" "#PWR124"
+		(property "Reference" "#PWR0124"
 			(at 224.79 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -8851,7 +8493,7 @@
 		(instances
 			(project "link-wago"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR124")
+					(reference "#PWR0124")
 					(unit 1)
 				)
 			)
@@ -8859,7 +8501,7 @@
 	)
 	(symbol
 		(lib_id "V2_power:GND")
-		(at 132.08 161.29 270)
+		(at 130.81 161.29 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8868,8 +8510,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b74eaa1d-e401-491b-921d-5e6173cb381f")
-		(property "Reference" "#PWR120"
-			(at 125.73 161.29 0)
+		(property "Reference" "#PWR0120"
+			(at 124.46 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8880,7 +8522,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 128.016 161.29 0)
+			(at 126.746 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8891,7 +8533,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 132.08 161.29 0)
+			(at 130.81 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8902,7 +8544,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 132.08 161.29 0)
+			(at 130.81 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8913,7 +8555,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 121.666 161.036 0)
+			(at 120.396 161.036 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8929,7 +8571,7 @@
 		(instances
 			(project "link-wago"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR120")
+					(reference "#PWR0120")
 					(unit 1)
 				)
 			)
@@ -9023,7 +8665,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c485025b-4ea3-4264-948f-376940111ac6")
-		(property "Reference" "#PWR117"
+		(property "Reference" "#PWR0117"
 			(at 135.89 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -9084,7 +8726,7 @@
 		(instances
 			(project "link-wago"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR117")
+					(reference "#PWR0117")
 					(unit 1)
 				)
 			)
@@ -9092,7 +8734,7 @@
 	)
 	(symbol
 		(lib_id "V2_power:+5V")
-		(at 132.08 180.34 90)
+		(at 130.81 184.15 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9102,7 +8744,7 @@
 		(dnp no)
 		(uuid "c596b77f-3e85-4075-8fba-b23e2132521d")
 		(property "Reference" "#PWR121"
-			(at 135.89 180.34 0)
+			(at 134.62 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9113,17 +8755,18 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 125.73 180.34 90)
+			(at 124.46 184.15 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(color 255 92 187 1)
 				)
 			)
 		)
 		(property "Footprint" ""
-			(at 132.08 180.34 0)
+			(at 130.81 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9134,7 +8777,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 132.08 180.34 0)
+			(at 130.81 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9145,7 +8788,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 146.558 180.34 0)
+			(at 145.288 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9266,7 +8909,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d522f5b4-330e-4884-ac32-b93397a0270c")
-		(property "Reference" "#FLG105"
+		(property "Reference" "#FLG0104"
 			(at 227.33 37.465 0)
 			(hide yes)
 			(show_name no)
@@ -9326,7 +8969,7 @@
 		(instances
 			(project "link-wago"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#FLG105")
+					(reference "#FLG0104")
 					(unit 1)
 				)
 			)
@@ -9334,7 +8977,7 @@
 	)
 	(symbol
 		(lib_id "V2_power:PWR_FLAG")
-		(at 31.75 144.78 0)
+		(at 39.37 146.05 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9343,8 +8986,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d5f32978-c184-493b-b9aa-7eb455de601e")
-		(property "Reference" "#FLG101"
-			(at 31.75 142.875 0)
+		(property "Reference" "#FLG0101"
+			(at 39.37 144.145 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9355,7 +8998,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 22.606 144.78 0)
+			(at 30.226 146.05 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9365,7 +9008,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 31.75 144.78 0)
+			(at 39.37 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9376,7 +9019,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 31.75 144.78 0)
+			(at 39.37 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9387,7 +9030,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 31.75 162.052 0)
+			(at 39.37 163.322 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9403,7 +9046,7 @@
 		(instances
 			(project "link-wago"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#FLG101")
+					(reference "#FLG0101")
 					(unit 1)
 				)
 			)
@@ -9486,7 +9129,7 @@
 	)
 	(symbol
 		(lib_id "V2_power:+28V")
-		(at 30.48 153.67 90)
+		(at 29.21 157.48 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim yes)
@@ -9496,7 +9139,7 @@
 		(dnp no)
 		(uuid "d8749acd-d492-41a3-9ed1-612505ed5b5a")
 		(property "Reference" "#PWR101"
-			(at 34.29 153.67 0)
+			(at 33.02 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9507,17 +9150,18 @@
 			)
 		)
 		(property "Value" "+28V"
-			(at 24.13 153.67 90)
+			(at 22.86 157.48 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(color 255 92 187 1)
 				)
 			)
 		)
 		(property "Footprint" ""
-			(at 30.48 153.67 0)
+			(at 29.21 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9528,7 +9172,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 30.48 153.67 0)
+			(at 29.21 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9539,7 +9183,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 45.212 153.67 0)
+			(at 43.942 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9563,7 +9207,7 @@
 	)
 	(symbol
 		(lib_id "V2_Connector_WAGO:2065")
-		(at 137.16 153.67 0)
+		(at 135.89 157.48 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9573,7 +9217,7 @@
 		(dnp no)
 		(uuid "dc756eaf-03bd-4d2b-909b-98cc2e7767c6")
 		(property "Reference" "J107"
-			(at 140.335 153.67 0)
+			(at 139.065 157.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9583,7 +9227,7 @@
 			)
 		)
 		(property "Value" "WAGO 2065-100"
-			(at 146.304 156.718 0)
+			(at 151.13 157.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9593,7 +9237,7 @@
 			)
 		)
 		(property "Footprint" "V2_Connector_WAGO:2065-100"
-			(at 137.16 157.48 0)
+			(at 135.89 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9604,7 +9248,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 137.16 157.48 0)
+			(at 135.89 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9615,7 +9259,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 137.16 153.67 0)
+			(at 135.89 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9626,7 +9270,7 @@
 			)
 		)
 		(property "Manufacturer" "WAGO"
-			(at 137.16 166.878 0)
+			(at 135.89 170.688 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9637,7 +9281,7 @@
 			)
 		)
 		(property "Product" "2065-100/998-403"
-			(at 137.16 170.18 0)
+			(at 135.89 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9648,7 +9292,7 @@
 			)
 		)
 		(property "Id" "WAGO:${SYMBOL_NAME}"
-			(at 137.16 161.29 0)
+			(at 135.89 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9659,7 +9303,7 @@
 			)
 		)
 		(property "Rating" "9A"
-			(at 137.16 171.45 0)
+			(at 135.89 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9693,7 +9337,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e49f331f-4d70-43d6-a5a6-c57c951b156d")
-		(property "Reference" "#PWR126"
+		(property "Reference" "#PWR0125"
 			(at 233.68 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -9754,7 +9398,7 @@
 		(instances
 			(project "link-wago"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR126")
+					(reference "#PWR0125")
 					(unit 1)
 				)
 			)
@@ -9927,7 +9571,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e8610785-775d-44d8-a5ca-c67c9827dc3c")
-		(property "Reference" "#PWR107"
+		(property "Reference" "#PWR0107"
 			(at 71.12 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -9988,7 +9632,7 @@
 		(instances
 			(project "link-wago"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR107")
+					(reference "#PWR0107")
 					(unit 1)
 				)
 			)
@@ -10084,7 +9728,7 @@
 	)
 	(symbol
 		(lib_id "V2_power:GND")
-		(at 30.48 161.29 270)
+		(at 29.21 161.29 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10093,8 +9737,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ede6db82-7171-4017-82e4-b07abf1d5db9")
-		(property "Reference" "#PWR102"
-			(at 24.13 161.29 0)
+		(property "Reference" "#PWR0102"
+			(at 22.86 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10105,7 +9749,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 26.416 161.29 0)
+			(at 25.146 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10116,7 +9760,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 30.48 161.29 0)
+			(at 29.21 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10127,7 +9771,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 30.48 161.29 0)
+			(at 29.21 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10138,7 +9782,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 20.066 161.036 0)
+			(at 18.796 161.036 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10154,7 +9798,7 @@
 		(instances
 			(project "link-wago"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR102")
+					(reference "#PWR0102")
 					(unit 1)
 				)
 			)
@@ -10162,7 +9806,7 @@
 	)
 	(symbol
 		(lib_id "V2_power:GND")
-		(at 132.08 187.96 270)
+		(at 130.81 187.96 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10171,8 +9815,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f1271624-be15-4632-8d0a-41415805c5d5")
-		(property "Reference" "#PWR122"
-			(at 125.73 187.96 0)
+		(property "Reference" "#PWR0122"
+			(at 124.46 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10183,7 +9827,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 128.016 187.96 0)
+			(at 126.746 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10194,7 +9838,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 132.08 187.96 0)
+			(at 130.81 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10205,7 +9849,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 132.08 187.96 0)
+			(at 130.81 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10216,7 +9860,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 121.666 187.706 0)
+			(at 120.396 187.706 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10232,7 +9876,7 @@
 		(instances
 			(project "link-wago"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR122")
+					(reference "#PWR0122")
 					(unit 1)
 				)
 			)
@@ -10343,6 +9987,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(color 255 92 187 1)
 				)
 			)
 		)
@@ -10401,7 +10046,6 @@
 		(on_board no)
 		(in_pos_files no)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f6e9b757-0609-44c9-9707-4ce75b2d73c9")
 		(property "Reference" "#PWR108"
 			(at 52.07 90.17 0)
@@ -10415,14 +10059,14 @@
 			)
 		)
 		(property "Value" "+VLINK"
-			(at 68.58 90.1699 90)
+			(at 73.66 90.1699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(color 255 92 187 1)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -10635,7 +10279,7 @@
 		)
 	)
 	(sheet
-		(at 96.52 182.88)
+		(at 77.47 182.88)
 		(size 16.51 5.08)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10651,7 +10295,7 @@
 		)
 		(uuid "24a9dc0c-cb3c-464a-a734-f09bf949d71a")
 		(property "Sheetname" "Power +5V"
-			(at 96.52 182.1684 0)
+			(at 77.47 182.1684 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10662,7 +10306,7 @@
 			)
 		)
 		(property "Sheetfile" "PowerSupply.kicad_sch"
-			(at 96.52 188.5446 0)
+			(at 77.47 188.5446 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10674,7 +10318,7 @@
 			)
 		)
 		(pin "Input" input
-			(at 96.52 185.42 180)
+			(at 77.47 185.42 180)
 			(uuid "11da30d3-b3aa-4b8a-b22b-61442e3bd0c3")
 			(effects
 				(font

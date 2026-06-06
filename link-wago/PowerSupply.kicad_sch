@@ -2080,7 +2080,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "375e8848-8eea-41f8-a7f3-9a19bee252db")
-		(property "Reference" "#PWR506"
+		(property "Reference" "#PWR0506"
 			(at 185.42 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -2141,7 +2141,7 @@
 		(instances
 			(project "link-wago"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/24a9dc0c-cb3c-464a-a734-f09bf949d71a"
-					(reference "#PWR506")
+					(reference "#PWR0506")
 					(unit 1)
 				)
 			)
@@ -2158,7 +2158,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "478902d6-4aff-4fcb-a385-fca8f35709c1")
-		(property "Reference" "#PWR508"
+		(property "Reference" "#PWR0508"
 			(at 195.58 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -2219,7 +2219,7 @@
 		(instances
 			(project "link-wago"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/24a9dc0c-cb3c-464a-a734-f09bf949d71a"
-					(reference "#PWR508")
+					(reference "#PWR0508")
 					(unit 1)
 				)
 			)
@@ -2254,6 +2254,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(color 255 92 187 1)
 				)
 			)
 		)
@@ -2313,7 +2314,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "531fc383-fb58-423a-a382-5ec2d1a20e95")
-		(property "Reference" "#PWR501"
+		(property "Reference" "#PWR0501"
 			(at 97.79 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -2374,7 +2375,7 @@
 		(instances
 			(project "link-wago"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/24a9dc0c-cb3c-464a-a734-f09bf949d71a"
-					(reference "#PWR501")
+					(reference "#PWR0501")
 					(unit 1)
 				)
 			)
@@ -2391,7 +2392,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5c63cc8b-cfef-42fe-ba54-7d6431ef620a")
-		(property "Reference" "#PWR502"
+		(property "Reference" "#PWR0502"
 			(at 109.22 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -2452,7 +2453,7 @@
 		(instances
 			(project "link-wago"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/24a9dc0c-cb3c-464a-a734-f09bf949d71a"
-					(reference "#PWR502")
+					(reference "#PWR0502")
 					(unit 1)
 				)
 			)
@@ -2741,7 +2742,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "77fc86a4-b71b-42cd-a914-f7257b900b65")
-		(property "Reference" "#PWR503"
+		(property "Reference" "#PWR0503"
 			(at 118.11 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -2802,7 +2803,7 @@
 		(instances
 			(project "link-wago"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/24a9dc0c-cb3c-464a-a734-f09bf949d71a"
-					(reference "#PWR503")
+					(reference "#PWR0503")
 					(unit 1)
 				)
 			)
@@ -2819,7 +2820,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b70ec11c-33cd-448a-81a6-e35714977a9a")
-		(property "Reference" "#PWR505"
+		(property "Reference" "#PWR0505"
 			(at 148.59 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -2880,7 +2881,7 @@
 		(instances
 			(project "link-wago"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/24a9dc0c-cb3c-464a-a734-f09bf949d71a"
-					(reference "#PWR505")
+					(reference "#PWR0505")
 					(unit 1)
 				)
 			)
@@ -3033,7 +3034,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fe1dba76-7fb0-4d96-a35e-1572a4609843")
-		(property "Reference" "#PWR504"
+		(property "Reference" "#PWR0504"
 			(at 129.54 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -3094,7 +3095,7 @@
 		(instances
 			(project "link-wago"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/24a9dc0c-cb3c-464a-a734-f09bf949d71a"
-					(reference "#PWR504")
+					(reference "#PWR0504")
 					(unit 1)
 				)
 			)
