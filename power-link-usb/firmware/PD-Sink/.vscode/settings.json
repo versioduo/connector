@@ -1,0 +1,7 @@
+{
+    "modustoolbox.toolsPath": "/Users/kay/Applications/ModusToolbox/tools_3.9",
+    "cortex-debug.openocdPath": "/Applications/ModusToolboxProgtools-1.9/openocd/bin/openocd",
+    "cortex-debug.gccPath": "/Users/kay/Applications/mtb-gcc-arm-eabi/14.2.1/gcc/bin",
+    "C_Cpp.intelliSenseEngine": "disabled",
+    "clangd.detectExtensionConflicts": false
+}

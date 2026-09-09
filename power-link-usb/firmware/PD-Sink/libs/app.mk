@@ -3,10 +3,10 @@
 # Any edits to this file will be lost the next time the library manager is run or
 # the next time 'make getlibs' is run.
 #
-modlibs library-manager qspi-configurator config device-configurator seglcd-configurator bsp-assistant config_usbdev usbdev-configurator smartio-configurator dfuh-tool config_ezpd ez-pd-configurator capsense-configurator capsense-tuner :
+modlibs library-manager qspi-configurator config device-configurator seglcd-configurator bsp-assistant config_usbdev usbdev-configurator smartio-configurator dfuh-tool config_ezpd ez-pd-configurator edge-protect-configurator :
 	make -C PD-Sink $@
 
-config_bt bt-configurator config_lin lin-configurator :
+config_bt bt-configurator secure-policy-configurator :
 	$(error $@ configurator cannot be executed at the application level. Run this command from the desired project directory.)
 
-.PHONY: modlibs library-manager qspi-configurator config device-configurator seglcd-configurator bsp-assistant config_bt bt-configurator config_usbdev usbdev-configurator smartio-configurator dfuh-tool config_ezpd ez-pd-configurator config_lin lin-configurator capsense-configurator capsense-tuner
+.PHONY: modlibs library-manager qspi-configurator config device-configurator seglcd-configurator bsp-assistant config_bt bt-configurator config_usbdev usbdev-configurator smartio-configurator dfuh-tool config_ezpd ez-pd-configurator secure-policy-configurator edge-protect-configurator

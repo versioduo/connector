@@ -2,15 +2,15 @@
  * File Name: cycfg_system.h
  *
  * Description:
- * System configuration
+ * Clock configuration
  * This file was automatically generated and should not be modified.
- * Configurator Backend 3.70.0
- * device-db 4.34.0.9502
- * mtb-pdl-cat2 2.19.1.17368
+ * Configurator Backend 3.90.0
+ * device-db 4.40.0.11123
+ * mtb-pdl-cat2 2.21.0.17950
  *
  *******************************************************************************
- * Copyright 2026 Cypress Semiconductor Corporation (an Infineon company) or
- * an affiliate of Cypress Semiconductor Corporation.
+ * Copyright 2026, Infineon Technologies AG, or an affiliate of Infineon
+ * Technologies AG. All rights reserved.
  * SPDX-License-Identifier: Apache-2.0
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -37,7 +37,6 @@
 extern "C" {
 #endif /* defined(__cplusplus) */
 
-#define cpuss_0_dap_0_ENABLED 1U
 #define srss_0_clock_0_ENABLED 1U
 #define CY_CFG_SYSCLK_ECO_CFG_ERROR 1
 #define CY_CFG_SYSCLK_ECO_EN_ERROR 2
@@ -46,14 +45,6 @@ extern "C" {
 #define CY_CFG_SYSCLK_PLL_EN_ERROR 5
 #define CY_CFG_SYSCLK_HF_SRC_ERROR 6
 #define CY_CFG_SYSCLK_LF_SRC_ERROR 7
-#define srss_0_power_0_ENABLED 1U
-#define CY_CFG_PWR_MODE_ACTIVE 0x04UL
-#define CY_CFG_PWR_MODE_SLEEP 0x08UL
-#define CY_CFG_PWR_MODE_DEEPSLEEP 0x10UL
-#define CY_CFG_PWR_SYS_IDLE_MODE CY_CFG_PWR_MODE_DEEPSLEEP
-#define CY_CFG_PWR_DEEPSLEEP_LATENCY 0UL
-#define CY_CFG_PWR_VDDA_MV 3300
-#define CY_CFG_PWR_VDDD_MV 3300
 #define srss_0_clock_0_ilo_0_ENABLED 1U
 #define srss_0_clock_0_imo_0_ENABLED 1U
 #define CY_CFG_SYSCLK_IMO_FREQ_HZ 48000000UL
@@ -63,6 +54,15 @@ extern "C" {
 #define srss_0_clock_0_lfclk_0_ENABLED 1U
 #define CY_CFG_SYSCLK_LFCLK_FREQ_HZ 40000
 #define srss_0_clock_0_sysclk_0_ENABLED 1U
+#define cpuss_0_dap_0_ENABLED 1U
+#define srss_0_power_0_ENABLED 1U
+#define CY_CFG_PWR_MODE_ACTIVE 0x04UL
+#define CY_CFG_PWR_MODE_SLEEP 0x08UL
+#define CY_CFG_PWR_MODE_DEEPSLEEP 0x10UL
+#define CY_CFG_PWR_SYS_IDLE_MODE CY_CFG_PWR_MODE_DEEPSLEEP
+#define CY_CFG_PWR_DEEPSLEEP_LATENCY 0UL
+#define CY_CFG_PWR_VDDA_MV 3300
+#define CY_CFG_PWR_VDDD_MV 3300
 
 __WEAK void cycfg_ClockStartupError(uint32_t error, cy_en_sysclk_status_t status);
 void init_cycfg_system(void);

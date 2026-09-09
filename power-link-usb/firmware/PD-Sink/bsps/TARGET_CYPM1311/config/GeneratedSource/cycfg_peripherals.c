@@ -2,15 +2,15 @@
  * File Name: cycfg_peripherals.c
  *
  * Description:
- * Peripheral Hardware Block configuration
+ * Clock configuration
  * This file was automatically generated and should not be modified.
- * Configurator Backend 3.70.0
- * device-db 4.34.0.9502
- * mtb-pdl-cat2 2.19.1.17368
+ * Configurator Backend 3.90.0
+ * device-db 4.40.0.11123
+ * mtb-pdl-cat2 2.21.0.17950
  *
  *******************************************************************************
- * Copyright 2026 Cypress Semiconductor Corporation (an Infineon company) or
- * an affiliate of Cypress Semiconductor Corporation.
+ * Copyright 2026, Infineon Technologies AG, or an affiliate of Infineon
+ * Technologies AG. All rights reserved.
  * SPDX-License-Identifier: Apache-2.0
  *
  * Licensed under the Apache License, Version 2.0 (the "License");

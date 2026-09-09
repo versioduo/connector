@@ -1,0 +1,37 @@
+{
+    "version": 4,
+    "env": {
+        "mtbCompilerArgs": [
+            "-c","-mcpu=cortex-m0plus","--specs=nano.specs","-Og","-mthumb","-ffunction-sections","-fdata-sections","-ffat-lto-objects","-g","-Wall","-pipe"
+        ],
+        "mtbDefaultIncludePath": [
+            ".","bsps/TARGET_CYPM1311","bsps","bsps/TARGET_CYPM1311/config/GeneratedSource","bsps/TARGET_CYPM1311/config","../mtb_shared/pdstack/release-v4.0.0","../mtb_shared/pdutils/release-v1.30.0","../mtb_shared/pmg-app-common/release-v2.0.0","../mtb_shared/pmg-app-common/release-v2.0.0/system","../mtb_shared/cmsis/release-v5.8.2/Core/Include","../mtb_shared/cmsis/release-v5.8.2/Core","../mtb_shared/cmsis/release-v5.8.2","../mtb_shared/core-lib/release-v1.6.0/include","../mtb_shared/core-lib/release-v1.6.0","../mtb_shared/mtb-pdl-cat2/release-v2.19.1/devices/include","../mtb_shared/mtb-pdl-cat2/release-v2.19.1/devices","../mtb_shared/mtb-pdl-cat2/release-v2.19.1","../mtb_shared/mtb-pdl-cat2/release-v2.19.1/devices/include/ip","../mtb_shared/mtb-pdl-cat2/release-v2.19.1/drivers/include","../mtb_shared/mtb-pdl-cat2/release-v2.19.1/drivers"
+        ],
+        "mtbDefaultDefines": [
+            "APPLE_SINK_DISABLE=0","BATTERY_CHARGING_ENABLE=0","COMPONENT_CAT2","COMPONENT_CCG","COMPONENT_CM0P","COMPONENT_CM0P_0","COMPONENT_CYPM1311","COMPONENT_Debug","COMPONENT_GCC_ARM","COMPONENT_MW_CMSIS","COMPONENT_MW_CORE_LIB","COMPONENT_MW_CORE_MAKE","COMPONENT_MW_MTB_PDL_CAT2","COMPONENT_MW_PDSTACK","COMPONENT_MW_PDUTILS","COMPONENT_MW_PMG_APP_COMMON","COMPONENT_MW_RECIPE_MAKE_CAT2","COMPONENT_PMG1S3","COMPONENT_PMG1_PD3_SNK_EPR","COMPONENT_SOFTFP","CORE_NAME_CM0P_0=1","CYPM1311_48LQXI","CY_APPNAME_PD_Sink","CY_APP_POWER_ROLE_PREFERENCE_ENABLE=0","CY_APP_ROLE_PREFERENCE_ENABLE=0","CY_PD_EPR_AVS_ENABLE=1","CY_PD_EPR_ENABLE=1","CY_PD_REV3_ENABLE=1","CY_PD_SINK_ONLY=1","CY_SUPPORTS_DEVICE_VALIDATION","CY_TARGET_BOARD=CYPM1311","DEBUG","LEGACY_PD_PARALLEL_OPER=1","MINOR_SVDM_VER_SUPPORT=1","QC_AFC_CHARGING_DISABLED=0","QC_AFC_SNK_EN=1","SYS_DEEPSLEEP_ENABLE=1","TARGET_CYPM1311","VBUS_OVP_ENABLE=1","VBUS_UVP_ENABLE=0"
+        ]
+    },
+    "configurations": [
+        {
+            "name": "MTB",
+            "compilerPath": "/Users/kay/Applications/mtb-gcc-arm-eabi/14.2.1/gcc/bin/arm-none-eabi-gcc",
+            "compilerArgs": [
+                "${mtbCompilerArgs}"
+            ],
+            "compileCommands": "${workspaceFolder}/build/compile_commands.json",
+            "intelliSenseMode": "gcc-arm",
+            "cStandard": "c99",
+            "cppStandard": "c++11",
+            "includePath": [
+                "${mtbDefaultIncludePath}"
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            },
+            "defines": [
+                "${mtbDefaultDefines}"
+            ]
+        }
+    ]
+}
