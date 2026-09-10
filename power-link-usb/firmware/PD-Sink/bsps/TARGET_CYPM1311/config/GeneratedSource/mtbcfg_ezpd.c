@@ -67,11 +67,11 @@ const cy_stc_pdstack_port_cfg_t mtb_usbpd_port0_pdstack_config =
     .frsConfig = 0, /* FRS configuration */
     .srcPdoCount = 0x00, /* Source PDO count */
     .defSrcPdoMask = 0x00, /* Default Source PDO mask */
-    .snkPdoCount = 0x02, /* Sink PDO count */
-    .defSnkPdoMask = 0x03, /* Default Sink PDO mask */
+    .snkPdoCount = 0x03, /* Sink PDO count */
+    .defSnkPdoMask = 0x07, /* Default Sink PDO mask */
     .srcPdo = {0}, /* Source PDO */
-    .snkPdo = {0x0001905A,0x0002D05A}, /* Sink PDO */
-    .snkPdoMinMaxCur = {0x005A,0x005A}, /* Sink PDO min/max current */
+    .snkPdo = {0x0001905A,0x0002D05A,0x0006405A}, /* Sink PDO */
+    .snkPdoMinMaxCur = {0x005A,0x005A,0x005A}, /* Sink PDO min/max current */
     .eprSrcPdoCount = 0x00, /* EPR Source PDO count */
     .eprSrcPdoMask = 0x00, /* Default EPR Source PDO mask */
     .eprSnkPdoCount = 0x01, /* EPR Sink PDO count */
@@ -79,7 +79,7 @@ const cy_stc_pdstack_port_cfg_t mtb_usbpd_port0_pdstack_config =
     .pdRevision = 0x32100000, /* Get_Revision message response */
     .srcInfo = 0x00000000, /* Get_Source_Info message response */
     .eprSrcPdo = {0}, /* EPR Source PDO */
-    .eprSnkPdo = {0x0008C1F4}, /* EPR Sink PDO */
+    .eprSnkPdo = {0x0008C05A}, /* EPR Sink PDO */
     .eprSnkPdoMinMaxCur = {0x005A}, /* EPR Sink PDO min/max current */
 };
 #endif

@@ -75,6 +75,21 @@
                         <Param id="min_max_cur" value="900"/>
                         <Param id="min_max_power" value="4500"/>
                     </ParameterGroup>
+                    <ParameterGroup id="sink_pdo">
+                        <Param id="enable" value="true"/>
+                        <Param id="sink_pdo_type" value="0x00"/>
+                        <Param id="volt" value="20000"/>
+                        <Param id="max_volt" value="5000"/>
+                        <Param id="max_volt_pps" value="5000"/>
+                        <Param id="min_volt" value="5000"/>
+                        <Param id="min_volt_pps" value="5000"/>
+                        <Param id="op_cur" value="900"/>
+                        <Param id="op_cur_pps" value="900"/>
+                        <Param id="op_power" value="4500"/>
+                        <Param id="sink_give_back" value="false"/>
+                        <Param id="min_max_cur" value="900"/>
+                        <Param id="min_max_power" value="4500"/>
+                    </ParameterGroup>
                 </ParameterGroup>
             </ParameterGroup>
             <ParameterGroup id="epr">
@@ -99,7 +114,7 @@
                         <Param id="volt" value="28000"/>
                         <Param id="max_volt_pps" value="15000"/>
                         <Param id="min_volt_pps" value="15000"/>
-                        <Param id="op_cur" value="5000"/>
+                        <Param id="op_cur" value="900"/>
                         <Param id="pdp" value="84"/>
                         <Param id="erp_sink_give_back" value="false"/>
                         <Param id="erp_min_max_cur" value="900"/>
