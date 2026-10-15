@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "V2 Power Link USB")
-		(date "2026-06-06")
-		(rev "2026-04-08")
+		(date "2026-10-15")
+		(rev "2026-10-15")
 		(company "Versio Duo")
 		(comment 1 "USB PD for V2Link / RJ45")
 	)
@@ -3378,7 +3378,7 @@
 			(color 255 255 194 1)
 		)
 		(uuid "c407889f-d00a-4a47-8608-26350f8ea54f")
-		(property "Sheetname" "PowerDelivery"
+		(property "Sheetname" "Power USB"
 			(at 88.9 95.8084 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3389,7 +3389,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "PowerDelivery.kicad_sch"
+		(property "Sheetfile" "Power-USB.kicad_sch"
 			(at 88.9 111.0746 0)
 			(hide yes)
 			(show_name no)
